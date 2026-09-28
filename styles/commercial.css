@@ -1,0 +1,1835 @@
+/* Shared commercial UI layer. It intentionally reuses the existing page and
+ * component structure, and centralizes the final visual decisions here. */
+.app-stage {
+	--tea-bg: #f5f6f4;
+	--tea-surface: #ffffff;
+	--tea-surface-subtle: #f8f9f7;
+	--tea-text: #18201b;
+	--tea-text-secondary: #566159;
+	--tea-text-muted: #7a847d;
+	--tea-primary: #245b3d;
+	--tea-primary-hover: #1d4d33;
+	--tea-primary-soft: #edf3ef;
+	--tea-accent: #b8562f;
+	--tea-border: #e2e7e3;
+	--tea-radius-sm: 13.4rpx;
+	--tea-radius-md: 20.1rpx;
+	--tea-radius-lg: 26.8rpx;
+	--tea-shadow:
+		0 1px 3.3rpx rgba(24, 32, 27, 0.04),
+		0 13.4rpx 40.2rpx rgba(24, 32, 27, 0.05);
+	min-height: 100vh;
+	padding: 0;
+	background: var(--tea-bg);
+}
+
+.phone-shell,
+.phone-shell view,
+.phone-shell text,
+.phone-shell image,
+.phone-shell button,
+.phone-shell input,
+.phone-shell textarea,
+.phone-shell scroll-view,
+.phone-shell swiper,
+.phone-shell swiper-item,
+.phone-shell navigator {
+	font-family: var(--font-family-base);
+}
+
+.phone-shell {
+	width: 100%;
+	height: 100vh;
+	min-height: 0;
+	border: 0;
+	border-radius: 0;
+	background: var(--tea-bg);
+	box-shadow: none;
+	color: var(--tea-text);
+}
+
+.phone-shell .screen {
+	background: var(--tea-bg);
+}
+
+.phone-shell text,
+.phone-shell input,
+.phone-shell textarea,
+.phone-shell button {
+	font-weight: 400;
+}
+
+.phone-shell input,
+.phone-shell textarea,
+.phone-shell button {
+	font-size: 23.4rpx;
+	line-height: 1.55;
+}
+
+.phone-shell button {
+	min-height: 73.7rpx;
+	margin: 0;
+	border-radius: var(--tea-radius-md);
+	font-weight: 500;
+}
+
+.phone-shell .muted {
+	color: var(--tea-text-muted) !important;
+}
+
+.phone-shell .price,
+.phone-shell .orange,
+.phone-shell .money,
+.phone-shell .editorial-price {
+	color: var(--tea-accent) !important;
+	font-variant-numeric: tabular-nums;
+}
+
+.phone-shell .primary-button,
+.phone-shell .buy-button,
+.phone-shell .single-action button,
+.phone-shell .invite-actions button:first-child,
+.phone-shell .submit-bar button,
+.phone-shell .cart-total button,
+.phone-shell .exchange-submit button,
+.phone-shell .service-ticket-form button,
+.phone-shell .store-service-bar button.green {
+	border: 1px solid var(--tea-primary);
+	border-radius: var(--tea-radius-md);
+	background: var(--tea-primary);
+	box-shadow: none;
+	color: #fff;
+	font-size: 26.8rpx;
+	font-weight: 600;
+}
+
+.phone-shell .outline-button,
+.phone-shell .wechat-button,
+.phone-shell .cart-button,
+.phone-shell .store-service-bar button:not(.green) {
+	border: 1px solid #b9c5bd;
+	border-radius: var(--tea-radius-md);
+	background: var(--tea-surface);
+	box-shadow: none;
+	color: var(--tea-primary);
+	font-size: 25.1rpx;
+	font-weight: 500;
+}
+
+.phone-shell [class*="-card"],
+.phone-shell .product-tile,
+.phone-shell .notification-list,
+.phone-shell .editorial-feature,
+.phone-shell .points-banner,
+.phone-shell .service-ticket-form,
+.phone-shell .service-status-card {
+	border-color: var(--tea-border);
+	border-radius: var(--tea-radius-lg);
+	box-shadow: var(--tea-shadow);
+}
+
+.phone-shell .section-head,
+.phone-shell .home-section-head {
+	margin: 40.2rpx 26.8rpx 20.1rpx;
+}
+
+.phone-shell .section-head > view > text:first-child,
+.phone-shell .home-section-head > view > text:first-child,
+.phone-shell .section-head > text:first-child {
+	color: var(--tea-text);
+	font-size: 33.5rpx;
+	font-weight: 600;
+	line-height: 1.35;
+}
+
+.phone-shell .section-head > view > text:last-child,
+.phone-shell .home-section-head > view > text:last-child {
+	color: var(--tea-text-muted);
+	font-size: 23.4rpx !important;
+	line-height: 1.5;
+}
+
+.phone-shell .section-head > text:last-child,
+.phone-shell .home-section-head > text:last-child,
+.phone-shell .message-settings,
+.phone-shell .merchant-link {
+	display: inline-flex;
+	min-height: 67rpx;
+	align-items: center;
+	justify-content: flex-end;
+	color: var(--tea-primary);
+	font-size: 23.4rpx !important;
+	font-weight: 500;
+}
+
+.phone-shell .with-tab {
+	padding-bottom: calc(160.7rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .action-pad {
+	padding-bottom: calc(160.7rpx + env(safe-area-inset-bottom));
+}
+
+/* The invite page has two stacked fixed actions. Keep its final content fully
+ * scrollable above the action area instead of inheriting the single-button pad. */
+.phone-shell .invite-screen {
+	padding-bottom: calc(40.2rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .invite-screen .invite-actions {
+	position: static;
+	display: grid;
+	height: auto;
+	margin: 20.1rpx 0 0;
+	padding: 0;
+	gap: 16.7rpx;
+	border: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+/* Home */
+.phone-shell .home-head {
+	padding: 13.4rpx 26.8rpx 26.8rpx;
+	background: var(--tea-bg);
+}
+
+.phone-shell .home-topline {
+	min-height: 73.7rpx;
+}
+
+.phone-shell .home-topline .location,
+.phone-shell .home-notices {
+	min-height: 73.7rpx;
+	font-size: 23.4rpx;
+	font-weight: 500;
+}
+
+.phone-shell .home-notices {
+	width: auto !important;
+	padding: 0 6.7rpx 0 20.1rpx;
+	gap: 10rpx;
+}
+
+.phone-shell .search-row {
+	gap: 13.4rpx;
+}
+
+.phone-shell .search-box,
+.phone-shell .chat-btn,
+.phone-shell .input-row {
+	min-height: 80.4rpx;
+	border: 1px solid var(--tea-border);
+	border-radius: var(--tea-radius-md);
+	background: var(--tea-surface);
+	box-shadow: none;
+	font-size: 23.4rpx;
+}
+
+.phone-shell .chat-btn {
+	width: 80.4rpx;
+	height: 80.4rpx;
+}
+
+.phone-shell .hero-banner {
+	height: 348.2rpx;
+	margin: 0 26.8rpx;
+	border-radius: var(--tea-radius-lg);
+	box-shadow: none;
+}
+
+.phone-shell .hero-shade {
+	background: linear-gradient(
+		90deg,
+		rgba(15, 41, 27, 0.78),
+		rgba(15, 41, 27, 0.08) 72%
+	);
+}
+
+.phone-shell .hero-copy {
+	left: 40.2rpx;
+	top: 40.2rpx;
+	gap: 13.4rpx;
+}
+
+.phone-shell .hero-kicker,
+.phone-shell .hero-sub,
+.phone-shell .hero-limit {
+	font-size: 23.4rpx !important;
+	line-height: 1.5;
+	letter-spacing: 0;
+}
+
+.phone-shell .hero-kicker {
+	margin: 0;
+	font-weight: 500;
+}
+
+.phone-shell .hero-title {
+	font-size: 46.9rpx;
+	font-weight: 600;
+	line-height: 1.18;
+	letter-spacing: 0;
+}
+
+.phone-shell .hero-sub {
+	margin: 0;
+}
+
+.phone-shell .hero-limit {
+	right: 20.1rpx;
+	top: 20.1rpx;
+	padding: 6.7rpx 13.4rpx;
+	border-radius: var(--tea-radius-sm);
+}
+
+.phone-shell .hero-cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 13.4rpx;
+	min-width: 160.7rpx;
+	min-height: 67rpx;
+	margin-top: 6.7rpx;
+	padding: 0 23.4rpx;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: var(--tea-radius-sm);
+	background: rgba(255, 255, 255, 0.14);
+	color: #ffffff;
+	font-size: 23.4rpx;
+	font-weight: 500;
+	line-height: 63.6rpx;
+	box-shadow: none;
+}
+
+.phone-shell .hero-cta::after {
+	display: none;
+}
+
+.phone-shell .hero-cta-active {
+	background: rgba(255, 255, 255, 0.24);
+}
+
+.phone-shell .home-categories {
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 26.8rpx 13.4rpx !important;
+	padding: 33.5rpx 26.8rpx 26.8rpx !important;
+}
+
+.phone-shell .home-categories .cat-photo {
+	width: 107.1rpx !important;
+	height: 107.1rpx !important;
+	margin-bottom: 13.4rpx;
+	border: 1px solid var(--tea-border);
+	box-shadow: none;
+}
+
+.phone-shell .home-categories > view > text {
+	font-size: 23.4rpx !important;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.phone-shell .home-categories > view.disabled {
+	opacity: 0.58;
+}
+
+.phone-shell .home-categories .category-status {
+	display: block;
+	margin-top: 3.3rpx;
+	color: var(--tea-text-muted);
+	font-size: 23.4rpx !important;
+	font-weight: 400;
+}
+
+.phone-shell .rating-empty {
+	color: var(--tea-text-muted);
+	font-size: 23.4rpx;
+	font-weight: 500;
+}
+
+.phone-shell .brew-guide {
+	display: block;
+	color: var(--tea-text-secondary);
+	font-size: 23.4rpx;
+	line-height: 1.65;
+}
+
+.phone-shell .product-detail-images {
+	display: flex;
+	flex-direction: column;
+	gap: 13.4rpx;
+	margin-top: 26.8rpx;
+}
+
+.phone-shell .product-detail-images image {
+	display: block;
+	width: 100%;
+	border-radius: var(--tea-radius-md);
+}
+
+.phone-shell .home-service-strip {
+	height: 73.7rpx;
+	margin: 0 26.8rpx;
+	font-size: 23.4rpx !important;
+	letter-spacing: 0;
+}
+
+.phone-shell .home-promo-pair {
+	height: auto;
+	margin: 0 26.8rpx;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 20.1rpx;
+}
+
+.phone-shell .home-promo-pair .editorial-feature {
+	min-height: 368.3rpx;
+	padding: 26.8rpx;
+	border-radius: var(--tea-radius-lg);
+	background: var(--tea-surface-subtle);
+}
+
+.phone-shell .editorial-label,
+.phone-shell .editorial-copy {
+	font-size: 23.4rpx;
+	line-height: 1.55;
+	letter-spacing: 0;
+}
+
+.phone-shell .editorial-label {
+	color: var(--tea-text-secondary);
+	font-weight: 500;
+}
+
+.phone-shell .editorial-title {
+	margin-top: 10rpx;
+	font-size: 30.1rpx;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.phone-shell .editorial-copy {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.phone-shell .editorial-price {
+	margin-top: 13.4rpx;
+	margin-bottom: 154rpx;
+	font-size: 33.5rpx;
+	font-weight: 600;
+}
+
+.phone-shell .home-promo-pair .editorial-feature > image {
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 154rpx;
+	border-radius: 0;
+	mix-blend-mode: normal;
+}
+
+.phone-shell .points-banner {
+	height: auto;
+	min-height: 214.3rpx;
+	margin: 26.8rpx;
+	padding: 33.5rpx;
+	border: 1px solid var(--tea-border);
+	background: #f0f5f1;
+	color: var(--tea-text);
+}
+
+.phone-shell .points-banner .points-eyebrow {
+	color: var(--tea-primary);
+}
+
+.phone-shell .points-banner .promo-title {
+	color: var(--tea-text);
+}
+
+.phone-shell .points-banner .promo-link {
+	color: var(--tea-primary);
+}
+
+.phone-shell .promo-title,
+.phone-shell .promo-link,
+.phone-shell .points-eyebrow {
+	font-size: 23.4rpx !important;
+	line-height: 1.55;
+}
+
+.phone-shell .promo-title {
+	font-size: 26.8rpx;
+	font-weight: 600;
+}
+
+.phone-shell .product-grid {
+	gap: 20.1rpx;
+	padding: 0 26.8rpx 53.6rpx;
+}
+
+/* Cart settlement sits above the persistent navigation, never on top of it. */
+.phone-shell .cart-screen.cart-pad {
+	padding-bottom: calc(301.3rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .cart-total {
+	bottom: calc(133.9rpx + env(safe-area-inset-bottom));
+	z-index: 30;
+}
+
+/* Lists, forms, settings and service entrances */
+.phone-shell .option-list > view,
+.phone-shell .setting-live-row,
+.phone-shell .settings-list > view,
+.phone-shell .profile-menu > view,
+.phone-shell .aftersale-entry {
+	min-height: 107.1rpx;
+	gap: 20.1rpx;
+}
+
+.phone-shell .option-list > view > text,
+.phone-shell .setting-live-row > view > text:first-child,
+.phone-shell .settings-list > view text,
+.phone-shell .profile-menu > view text,
+.phone-shell .aftersale-entry > view > view text:first-child {
+	font-size: 25.1rpx;
+	font-weight: 500;
+	line-height: 1.55;
+}
+
+.phone-shell .setting-live-row > view > text:last-child,
+.phone-shell .aftersale-entry > view > view text:last-child,
+.phone-shell .service-status-card > view:nth-child(2) text:last-child,
+.phone-shell .service-ticket-latest > text {
+	font-size: 23.4rpx;
+	line-height: 1.6;
+}
+
+.phone-shell .service-shortcuts > view {
+	min-height: 147.3rpx;
+	border-color: var(--tea-border);
+	border-radius: var(--tea-radius-md);
+	background: var(--tea-surface);
+	font-size: 23.4rpx;
+	font-weight: 500;
+}
+
+.phone-shell .service-categories {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 13.4rpx;
+}
+
+.phone-shell .service-categories > text {
+	min-height: 73.7rpx;
+	border-radius: var(--tea-radius-sm);
+	font-size: 23.4rpx;
+	font-weight: 500;
+}
+
+.phone-shell .service-ticket-form textarea,
+.phone-shell .service-ticket-form input,
+.phone-shell .password-form input {
+	font-size: 23.4rpx;
+	line-height: 1.6;
+}
+
+.phone-shell .toast {
+	font-size: 23.4rpx;
+	line-height: 1.5;
+}
+
+/* Login */
+.phone-shell .login-screen {
+	padding: 0 33.5rpx 53.6rpx;
+	background: #fffdf8;
+}
+
+.phone-shell .login-art {
+	width: calc(100% + 67rpx);
+	height: 585.9rpx;
+	margin: 0 -33.5rpx;
+}
+
+.phone-shell .login-title {
+	margin: 23.4rpx 0 46.9rpx;
+	color: #194524;
+	font-family: "STKaiti", "KaiTi", "Songti SC", serif !important;
+	font-size: 41.9rpx;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0.04em;
+}
+
+.phone-shell .login-form {
+	gap: 20.1rpx;
+}
+
+.phone-shell .auth-tabs {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	height: 73.7rpx;
+	padding: 6.7rpx;
+	border: 1px solid #e4e0d8;
+	border-radius: 18.4rpx;
+	background: #f5f3ee;
+	color: #6f746f;
+	font-size: 23.4rpx;
+	font-weight: 500;
+}
+
+.phone-shell .auth-tabs > view {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 13.4rpx;
+}
+
+.phone-shell .auth-tabs > .active {
+	background: #fff;
+	color: #1f4f2e;
+	font-weight: 600;
+	box-shadow: 0 1px 3.3rpx rgba(31, 55, 39, 0.08);
+}
+
+.phone-shell .auth-hint {
+	margin-top: -6.7rpx;
+	padding: 0 6.7rpx;
+	color: #777c77;
+	font-size: 20.1rpx;
+	line-height: 1.5;
+}
+
+.phone-shell .login-form button[disabled] {
+	opacity: 0.58;
+}
+
+.phone-shell .login-form .input-row,
+.phone-shell .login-form .primary-button,
+.phone-shell .login-form .wechat-button {
+	height: 97.1rpx;
+	min-height: 97.1rpx;
+	border-radius: 18.4rpx;
+}
+
+.phone-shell .login-form .input-row {
+	padding: 0 23.4rpx;
+	border-color: #e4e0d8;
+}
+
+.phone-shell .login-form .input-row input {
+	font-size: 25.1rpx;
+}
+
+.phone-shell .agreement {
+	flex-wrap: wrap;
+	padding: 20.1rpx 23.4rpx 0;
+	font-size: 20.1rpx;
+	line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+	.app-stage {
+		padding: 40.2rpx;
+	}
+
+	.phone-shell {
+		width: calc(100vw - 80.4rpx);
+		max-width: 1975.4rpx;
+		height: calc(100vh - 80.4rpx);
+		min-height: 1205.4rpx;
+		border: 1px solid var(--tea-border);
+		border-radius: var(--tea-radius-lg);
+		box-shadow: var(--tea-shadow);
+	}
+
+	.phone-shell .home-head,
+	.phone-shell .hero-banner,
+	.phone-shell .home-service-strip,
+	.phone-shell .home-section-head,
+	.phone-shell .home-promo-pair,
+	.phone-shell .points-banner {
+		margin-left: 53.6rpx;
+		margin-right: 53.6rpx;
+	}
+
+	.phone-shell .home-head {
+		padding-left: 53.6rpx;
+		padding-right: 53.6rpx;
+	}
+
+	.phone-shell .hero-banner {
+		height: 502.2rpx;
+	}
+
+	.phone-shell .hero-copy {
+		left: 80.4rpx;
+		top: 73.7rpx;
+	}
+
+	.phone-shell .hero-title {
+		font-size: 67rpx;
+	}
+
+	.phone-shell .home-categories {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		padding: 40.2rpx 53.6rpx 33.5rpx !important;
+	}
+
+	.phone-shell .home-promo-pair .editorial-feature {
+		min-height: 401.8rpx;
+		padding: 40.2rpx;
+	}
+
+	.phone-shell .home-promo-pair .editorial-feature > image {
+		width: 46%;
+		height: 100%;
+	}
+
+	.phone-shell .editorial-copy {
+		max-width: 48%;
+	}
+
+	.phone-shell .editorial-price {
+		margin-bottom: 0;
+	}
+
+	.phone-shell .product-grid {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+		padding-left: 53.6rpx;
+		padding-right: 53.6rpx;
+	}
+
+	.phone-shell .category-screen {
+		grid-template-columns: 267.9rpx 1fr;
+	}
+
+	.phone-shell .category-products {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		align-content: start;
+		gap: 26.8rpx;
+		padding: 26.8rpx 40.2rpx 53.6rpx;
+	}
+
+	.phone-shell .category-product {
+		margin: 0;
+	}
+
+	.phone-shell .login-art,
+	.phone-shell .login-title,
+	.phone-shell .login-form,
+	.phone-shell .agreement {
+		width: 100%;
+		max-width: 870.5rpx;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.phone-shell .login-art {
+		width: 100%;
+		max-width: 870.5rpx;
+		height: 585.9rpx;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.phone-shell .orders-list,
+	.phone-shell .settings-screen,
+	.phone-shell .addresses-screen,
+	.phone-shell .notifications-screen,
+	.phone-shell .logistics-screen {
+		width: 100%;
+		max-width: 1473.2rpx;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 380px) {
+	.phone-shell .hero-title {
+		font-size: 43.5rpx;
+	}
+
+	.phone-shell .home-promo-pair {
+		grid-template-columns: 1fr;
+	}
+
+	.phone-shell .home-promo-pair .editorial-feature {
+		min-height: 348.2rpx;
+	}
+}
+
+/* Mobile viewport and fixed-layer corrections (screenshots 2026-08-24). */
+.phone-shell .search-row .search-box {
+	flex: 1 1 auto;
+	width: 100%;
+	min-width: 0;
+}
+
+.phone-shell .filter-panel {
+	position: static;
+	margin: 20.1rpx 20.1rpx 6.7rpx;
+	padding: 26.8rpx;
+	overflow: visible;
+}
+
+.phone-shell .filter-panel > view {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 13.4rpx;
+}
+
+.phone-shell .filter-panel button {
+	height: 73.7rpx;
+	min-height: 73.7rpx;
+	padding: 0 10rpx;
+	font-size: 23.4rpx;
+	line-height: 70.3rpx;
+	white-space: nowrap;
+}
+
+.phone-shell .detail-screen {
+	padding-bottom: calc(174.1rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .detail-actions {
+	height: calc(137.3rpx + env(safe-area-inset-bottom));
+	grid-template-columns: 207.6rpx minmax(0, 1fr) minmax(0, 1fr);
+	gap: 13.4rpx;
+	padding: 16.7rpx 16.7rpx calc(16.7rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .detail-actions > view,
+.phone-shell .detail-actions > button,
+.phone-shell .detail-actions > navigator,
+.phone-shell .detail-actions button {
+	min-width: 0;
+}
+
+.phone-shell .detail-actions button {
+	height: 87.1rpx;
+	min-height: 87.1rpx;
+	padding: 0 13.4rpx;
+	line-height: 83.7rpx;
+	white-space: nowrap;
+}
+
+.phone-shell .mini-actions > view {
+	min-width: 0;
+	justify-content: center;
+}
+
+.phone-shell .mini-actions text {
+	font-size: 18.4rpx;
+	white-space: nowrap;
+}
+
+.phone-shell .store-screen {
+	bottom: 0 !important;
+	padding-bottom: calc(174.1rpx + env(safe-area-inset-bottom)) !important;
+}
+
+.phone-shell .store-service-bar {
+	height: calc(130.6rpx + env(safe-area-inset-bottom));
+	padding: 16.7rpx 20.1rpx calc(16.7rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .store-service-bar button {
+	height: 80.4rpx;
+	min-height: 80.4rpx;
+	min-width: 0;
+	white-space: nowrap;
+}
+
+.phone-shell .product-sheet {
+	display: flex;
+	max-height: 72vh;
+	padding: 33.5rpx 26.8rpx
+		calc(40.2rpx + env(safe-area-inset-bottom));
+	flex-direction: column;
+	overflow-y: auto;
+}
+
+.phone-shell .product-sheet .sheet-head {
+	flex: 0 0 auto;
+	margin-bottom: 20.1rpx;
+}
+
+.phone-shell .product-sheet .detail-list,
+.phone-shell .product-sheet .review-list,
+.phone-shell .product-sheet .spec-options {
+	flex: 0 1 auto;
+	min-height: 0;
+}
+
+.phone-shell .product-sheet > button {
+	flex: 0 0 auto;
+	height: 80.4rpx;
+	min-height: 80.4rpx;
+	margin: 33.5rpx 0 0;
+	border-radius: 20.1rpx;
+	line-height: 77rpx;
+}
+
+@media (max-width: 640px) {
+	.app-stage {
+		min-height: 100vh;
+	}
+
+	.phone-shell {
+		height: 100vh;
+		min-height: 0;
+	}
+
+	.phone-shell .detail-overlay {
+		top: calc(13.4rpx + env(safe-area-inset-top));
+	}
+
+	.phone-shell .sheet-mask {
+		position: fixed;
+		inset: 0;
+	}
+}
+
+@media (max-width: 360px) {
+	.phone-shell .detail-actions {
+		grid-template-columns: 180.8rpx minmax(0, 1fr) minmax(0, 1fr);
+		gap: 10rpx;
+		padding-right: 13.4rpx;
+		padding-left: 13.4rpx;
+	}
+
+	.phone-shell .detail-actions button {
+		font-size: 23.4rpx;
+	}
+}
+
+@media (min-width: 768px) {
+	.phone-shell .sheet-mask {
+		padding-right: 40.2rpx;
+		padding-left: 40.2rpx;
+	}
+
+	.phone-shell .action-sheet {
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 870.5rpx;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+/* 2026-08-25 订单、售后、物流和账户弹层统一收口。 */
+.phone-shell .orders-screen,
+.phone-shell .order-detail,
+.phone-shell .logistics-screen,
+.phone-shell .settings-screen {
+	background: var(--tea-canvas);
+}
+
+.phone-shell .order-card {
+	margin: 20.1rpx;
+	padding: 23.4rpx;
+	border: 1px solid var(--tea-border);
+	border-radius: var(--tea-radius-lg);
+	background: var(--tea-surface);
+	box-shadow: var(--tea-shadow-card);
+}
+
+.phone-shell .order-no,
+.phone-shell .order-summary {
+	display: flex;
+	min-width: 0;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20.1rpx;
+	font-size: 21.8rpx;
+	line-height: 1.5;
+}
+
+.phone-shell .order-no > text:first-child {
+	min-width: 0;
+	overflow: hidden;
+	color: var(--tea-text-muted);
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.phone-shell .order-product {
+	display: grid;
+	grid-template-columns: 133.9rpx minmax(0, 1fr) auto;
+	min-height: 174.1rpx;
+	padding: 20.1rpx 0;
+	align-items: center;
+	gap: 20.1rpx;
+}
+
+.phone-shell .order-product image,
+.phone-shell .order-product uni-image {
+	width: 133.9rpx;
+	height: 133.9rpx;
+	border-radius: 20.1rpx;
+	background: #f1efe8;
+}
+
+.phone-shell .order-product > view {
+	display: flex;
+	min-width: 0;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 8.4rpx;
+}
+
+.phone-shell .order-product > view > text {
+	font-size: 21.8rpx;
+	line-height: 1.45;
+}
+
+.phone-shell .order-product > view > text:first-child {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	color: var(--tea-text);
+	font-size: 25.1rpx;
+	font-weight: 600;
+}
+
+.phone-shell .order-summary {
+	min-height: 63.6rpx;
+	border-top: 1px solid var(--tea-border-soft);
+}
+
+.phone-shell .logistics-screen {
+	bottom: calc(130.6rpx + env(safe-area-inset-bottom));
+	padding: 20.1rpx 20.1rpx 40.2rpx;
+}
+
+.phone-shell .carrier {
+	display: grid;
+	grid-template-columns: 73.7rpx minmax(0, 1fr) 97.1rpx;
+	min-height: 127.2rpx;
+	margin: 0 0 20.1rpx;
+	padding: 23.4rpx;
+	align-items: center;
+	gap: 16.7rpx;
+	border-radius: var(--tea-radius-lg);
+	background: var(--tea-primary);
+	color: #fff;
+}
+
+.phone-shell .carrier-logo {
+	display: flex;
+	width: 60.3rpx;
+	height: 60.3rpx;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	border-radius: 50%;
+	font-size: 21.8rpx;
+	font-weight: 600;
+}
+
+.phone-shell .carrier > text:nth-child(2) {
+	min-width: 0;
+	overflow: hidden;
+	font-size: 25.1rpx;
+	font-weight: 600;
+	line-height: 1.45;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.phone-shell .carrier .small {
+	display: block;
+	overflow: hidden;
+	margin-top: 5rpx;
+	color: rgba(255, 255, 255, 0.78);
+	font-size: 18.4rpx;
+	font-weight: 400;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.phone-shell .carrier button {
+	width: 97.1rpx;
+	height: 60.3rpx;
+	min-height: 60.3rpx;
+	margin: 0;
+	padding: 0;
+	border: 1px solid rgba(255, 255, 255, 0.65);
+	border-radius: 16.7rpx;
+	background: transparent;
+	color: #fff;
+	font-size: 20.1rpx;
+	line-height: 56.9rpx;
+}
+
+.phone-shell .timeline {
+	margin: 0 0 20.1rpx;
+	padding: 23.4rpx 23.4rpx 10rpx;
+	border: 1px solid var(--tea-border);
+	border-radius: var(--tea-radius-lg);
+	background: var(--tea-surface);
+}
+
+.phone-shell .timeline > view {
+	display: grid;
+	grid-template-columns: 33.5rpx minmax(0, 1fr);
+	min-height: 147.3rpx;
+	padding: 0;
+	gap: 16.7rpx;
+}
+
+.phone-shell .timeline > view > view:last-child {
+	position: relative;
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto;
+	align-content: start;
+	gap: 8.4rpx 13.4rpx;
+	padding-bottom: 26.8rpx;
+}
+
+.phone-shell .timeline > view text {
+	font-size: 23.4rpx;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+.phone-shell .timeline > view .small {
+	color: var(--tea-text-muted);
+	font-size: 18.4rpx;
+	font-weight: 400;
+	white-space: nowrap;
+}
+
+.phone-shell .timeline .paragraph {
+	grid-column: 1 / -1;
+	color: var(--tea-text-muted);
+	font-size: 20.1rpx;
+	line-height: 1.6;
+}
+
+.phone-shell .timeline button {
+	grid-column: 1 / -1;
+	width: fit-content;
+	height: 53.6rpx;
+	min-height: 53.6rpx;
+	margin: 3.3rpx 0 0;
+	padding: 0 20.1rpx;
+	border-radius: 15.1rpx;
+	font-size: 20.1rpx;
+	line-height: 50.2rpx;
+}
+
+.phone-shell .aftersales {
+	margin: 0;
+	padding: 23.4rpx;
+}
+
+.phone-shell .aftersales > view:not(.section-head) {
+	display: grid;
+	grid-template-columns: 70.3rpx minmax(0, 1fr) 30.1rpx;
+	min-height: 127.2rpx;
+	padding: 16.7rpx 0;
+	align-items: center;
+	gap: 16.7rpx;
+}
+
+.phone-shell .aftersales > view > view:nth-child(2) {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	gap: 6.7rpx;
+}
+
+.phone-shell .aftersales > view > view:nth-child(2) > text:first-child {
+	font-size: 25.1rpx;
+	font-weight: 600;
+}
+
+.phone-shell .aftersales .small {
+	font-size: 20.1rpx;
+	line-height: 1.5;
+}
+
+.phone-shell .support-bar {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: minmax(0, 1fr);
+	height: calc(130.6rpx + env(safe-area-inset-bottom));
+	padding: 0 0 env(safe-area-inset-bottom) !important;
+	border-top: 1px solid var(--tea-border);
+	background: rgba(255, 255, 255, 0.98);
+}
+
+.phone-shell .support-bar > view {
+	display: flex;
+	min-width: 0;
+	min-height: 130.6rpx;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10rpx;
+	border-right: 1px solid var(--tea-border-soft);
+	color: var(--tea-primary);
+}
+
+.phone-shell .support-bar > view:last-child {
+	border-right: 0;
+}
+
+.phone-shell .support-bar text {
+	font-size: 20.1rpx;
+	font-weight: 500;
+	line-height: 1.3;
+}
+
+.phone-shell .action-sheet.settings-sheet,
+.phone-shell .action-sheet.aftersale-sheet,
+.phone-shell .action-sheet.review-submit-sheet {
+	max-height: calc(88vh - env(safe-area-inset-top));
+	overflow-y: auto;
+}
+
+.phone-shell .sheet-head {
+	display: flex;
+	min-height: 90.4rpx;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 23.4rpx;
+}
+
+.phone-shell .sheet-head > view {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	gap: 6.7rpx;
+}
+
+.phone-shell .sheet-head > view > text:first-child {
+	font-size: 31.8rpx;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.phone-shell .sheet-head > view > text:last-child {
+	color: var(--tea-text-muted);
+	font-size: 20.1rpx;
+	line-height: 1.5;
+}
+
+.phone-shell .sheet-head > text:last-child {
+	display: flex;
+	width: 60.3rpx;
+	height: 60.3rpx;
+	flex: 0 0 60.3rpx;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: #f1f2ee;
+	color: #6f776f;
+	font-size: 33.5rpx;
+	font-weight: 400;
+}
+
+.phone-shell .service-summary {
+	display: grid;
+	grid-template-columns: 107.1rpx minmax(0, 1fr);
+	min-height: 147.3rpx;
+	margin: 13.4rpx 0;
+	padding: 20.1rpx;
+	align-items: center;
+	gap: 20.1rpx;
+	border-radius: 21.8rpx;
+	background: #fafaf7;
+}
+
+.phone-shell .service-summary image,
+.phone-shell .service-summary uni-image {
+	width: 107.1rpx;
+	height: 107.1rpx;
+	border-radius: 16.7rpx;
+}
+
+.phone-shell .service-summary > view {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	gap: 10rpx;
+}
+
+.phone-shell .service-summary > view text:first-child {
+	font-size: 25.1rpx;
+	font-weight: 600;
+	line-height: 1.45;
+}
+
+.phone-shell .service-summary > view text:last-child {
+	color: var(--tea-text-muted);
+	font-size: 20.1rpx;
+	line-height: 1.5;
+}
+
+.phone-shell .reason-picker {
+	display: block;
+	width: 100%;
+}
+
+.phone-shell .form-choice {
+	display: flex;
+	width: 100%;
+	min-height: 93.8rpx;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20.1rpx;
+	border-bottom: 1px solid var(--tea-border-soft);
+	font-size: 23.4rpx;
+	line-height: 1.5;
+}
+
+.phone-shell .form-choice > text:last-child {
+	min-width: 0;
+	color: #5f6861;
+	font-size: 21.8rpx;
+	text-align: right;
+}
+
+.phone-shell .choice-arrow {
+	margin-left: 8.4rpx;
+	color: var(--tea-primary);
+	font-size: 30.1rpx;
+}
+
+.phone-shell .form-note {
+	margin: 20.1rpx 0 0;
+	padding: 16.7rpx 20.1rpx;
+	border-radius: 16.7rpx;
+	background: #f3f6f1;
+	color: var(--tea-text-muted);
+	font-size: 20.1rpx;
+	line-height: 1.6;
+}
+
+.phone-shell .profile-detail {
+	display: flex;
+	flex-direction: column;
+}
+
+.phone-shell .profile-detail > view:not(.avatar-editor) {
+	display: grid;
+	grid-template-columns: 137.3rpx minmax(0, 1fr);
+	min-height: 93.8rpx;
+	padding: 10rpx 0;
+	align-items: center;
+	gap: 16.7rpx;
+	border-bottom: 1px solid var(--tea-border-soft);
+}
+
+.phone-shell .profile-detail > view:not(.avatar-editor) > text:first-child {
+	color: var(--tea-text-muted);
+	font-size: 23.4rpx;
+}
+
+.phone-shell .profile-detail input {
+	box-sizing: border-box;
+	width: 100%;
+	height: 73.7rpx;
+	min-width: 0;
+	padding: 0 20.1rpx;
+	border: 1px solid var(--tea-border);
+	border-radius: 16.7rpx;
+	background: #fff;
+	font-size: 23.4rpx;
+	line-height: 73.7rpx;
+	text-align: left;
+}
+
+.phone-shell .settings-hint {
+	display: block;
+	margin-top: 16.7rpx;
+	padding: 16.7rpx 20.1rpx;
+	border-radius: 16.7rpx;
+	background: #f1f5ef;
+	color: var(--tea-text-muted);
+	font-size: 20.1rpx;
+	line-height: 1.6;
+}
+
+.phone-shell .address-card,
+.phone-shell .shop-card,
+.phone-shell .detail-data,
+.phone-shell .aftersale-progress,
+.phone-shell .aftersale-entry {
+	margin-right: 20.1rpx;
+	margin-left: 20.1rpx;
+	border: 1px solid var(--tea-border);
+	border-radius: var(--tea-radius-lg);
+	box-shadow: none;
+}
+
+.phone-shell .detail-data {
+	padding: 23.4rpx 26.8rpx;
+}
+
+.phone-shell .detail-data > view {
+	display: grid;
+	grid-template-columns: 144rpx minmax(0, 1fr);
+	min-height: 60.3rpx;
+	align-items: center;
+	gap: 20.1rpx;
+	font-size: 21.8rpx;
+	line-height: 1.5;
+}
+
+.phone-shell .detail-data > view > text:last-child {
+	min-width: 0;
+	text-align: right;
+	word-break: break-all;
+}
+
+.phone-shell .double-action {
+	height: calc(127.2rpx + env(safe-area-inset-bottom));
+	padding: 16.7rpx 20.1rpx calc(16.7rpx + env(safe-area-inset-bottom));
+	gap: 16.7rpx;
+}
+
+.phone-shell .double-action button {
+	height: 80.4rpx;
+	min-height: 80.4rpx;
+	margin: 0;
+	border-radius: 20.1rpx;
+	font-size: 25.1rpx;
+	font-weight: 500;
+	line-height: 77rpx;
+}
+
+.phone-shell .aftersale-progress {
+	padding: 26.8rpx;
+}
+
+.phone-shell .aftersale-progress > text {
+	font-size: 26.8rpx;
+	font-weight: 600;
+}
+
+.phone-shell .aftersale-progress > view {
+	margin-top: 16.7rpx;
+	padding: 20.1rpx;
+	border-radius: 16.7rpx;
+	background: #f5f7f3;
+	font-size: 21.8rpx;
+	line-height: 1.6;
+}
+
+@media (max-width: 360px) {
+	.phone-shell .order-product {
+		grid-template-columns: 120.5rpx minmax(0, 1fr) auto;
+		gap: 16.7rpx;
+	}
+
+	.phone-shell .order-product image,
+	.phone-shell .order-product uni-image {
+		width: 120.5rpx;
+		height: 120.5rpx;
+	}
+}
+
+/* Reference-screen corrections shared by H5 and mp-weixin. */
+.phone-shell .profile-detail > view:not(.avatar-editor) {
+	display: grid;
+	grid-template-columns: 154rpx minmax(0, 1fr);
+	min-height: 93.8rpx;
+	align-items: center;
+	gap: 20.1rpx;
+}
+
+.phone-shell .profile-detail > view:not(.avatar-editor) > text:first-child {
+	font-size: 23.4rpx;
+	line-height: 1.5;
+	white-space: nowrap;
+}
+
+.phone-shell .profile-detail input {
+	width: 100%;
+	height: 73.7rpx;
+	min-width: 0;
+	margin: 0;
+	padding: 0 20.1rpx;
+	font-size: 23.4rpx;
+	line-height: 73.7rpx;
+	text-align: right;
+}
+
+.phone-shell .service-ticket-form {
+	gap: 20.1rpx;
+	padding: 23.4rpx;
+}
+
+.phone-shell .service-ticket-form input,
+.phone-shell .service-ticket-form button {
+	height: 77rpx;
+	min-height: 77rpx;
+}
+
+.phone-shell .store-promise > view {
+	min-height: 137.3rpx;
+	padding: 20.1rpx 13.4rpx;
+	gap: 13.4rpx;
+}
+
+.phone-shell .store-promise > view > text {
+	font-size: 20.1rpx;
+	line-height: 1.45;
+}
+
+.phone-shell .mini-actions text {
+	font-size: 20.1rpx;
+	line-height: 1.35;
+}
+
+.phone-shell .order-missing-empty {
+	min-height: 703.1rpx;
+	margin: 26.8rpx 20.1rpx;
+	padding: 93.8rpx 46.9rpx;
+}
+
+.phone-shell .reward-flow > .record-empty {
+	display: flex;
+	min-height: 160.7rpx;
+	padding: 33.5rpx 20.1rpx;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: none;
+	color: #7a817b;
+	font-size: 23.4rpx;
+	line-height: 1.6;
+}
+
+.phone-shell .qr-matrix {
+	display: flex;
+	padding: 10rpx;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	border-radius: 0;
+}
+
+.phone-shell .qr-matrix-inner {
+	display: flex;
+	width: 221rpx;
+	height: 221rpx;
+	flex: 0 0 221rpx;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	background: #fff;
+}
+
+.phone-shell .qr-module {
+	display: block;
+	flex: 0 0 auto;
+	background: #fff;
+}
+
+.phone-shell .qr-module.dark {
+	background: #173f25;
+}
+
+/* Address selection and transaction-layout corrections (2026-08-25). */
+.phone-shell .addresses-screen {
+	padding: 20.1rpx 20.1rpx calc(160.7rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .address-picker-hint {
+	display: flex;
+	min-height: 110.5rpx;
+	margin-bottom: 20.1rpx;
+	padding: 20.1rpx 23.4rpx;
+	align-items: center;
+	gap: 18.4rpx;
+	border: 1px solid #dce7dc;
+	border-radius: var(--tea-radius-md);
+	background: #f0f6ef;
+	color: var(--tea-primary);
+}
+
+.phone-shell .address-picker-hint > view {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	gap: 5rpx;
+}
+
+.phone-shell .address-picker-hint > view text:first-child {
+	font-size: 25.1rpx;
+	font-weight: 600;
+}
+
+.phone-shell .address-picker-hint > view text:last-child {
+	color: var(--tea-text-muted);
+	font-size: 21.8rpx;
+	line-height: 1.5;
+}
+
+.phone-shell .address-manage {
+	margin-bottom: 20.1rpx;
+	padding: 26.8rpx;
+	border-color: var(--tea-border);
+	border-radius: var(--tea-radius-lg);
+}
+
+.phone-shell .address-manage.selected {
+	border-color: #75a07d;
+	box-shadow: 0 0 0 3.3rpx rgba(37, 91, 53, 0.08);
+}
+
+.phone-shell .address-manage > view:first-child {
+	display: flex;
+	min-height: 40.2rpx;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10rpx 15.1rpx;
+	font-size: 23.4rpx;
+	line-height: 1.5;
+}
+
+.phone-shell .address-manage .paragraph {
+	margin: 8.4rpx 0 0;
+	color: #4f5851;
+	font-size: 23.4rpx;
+	line-height: 1.55;
+}
+
+.phone-shell .selected-tag {
+	padding: 3.3rpx 10rpx;
+	border-radius: 6.7rpx;
+	background: #eaf3ea;
+	color: #215d36;
+	font-size: 18.4rpx;
+	font-weight: 600;
+}
+
+.phone-shell .address-manage > view:last-child {
+	display: flex;
+	min-height: 70.3rpx;
+	margin-top: 20.1rpx;
+	align-items: center;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	gap: 13.4rpx;
+}
+
+.phone-shell .address-manage > view:last-child button {
+	width: auto;
+	min-width: 120.5rpx;
+	height: 67rpx;
+	min-height: 67rpx;
+	margin: 0;
+	padding: 0 26.8rpx;
+	border: 1px solid #bdc8bf;
+	border-radius: 16.7rpx;
+	background: #fff;
+	color: #31523a;
+	font-size: 23.4rpx;
+	font-weight: 500;
+	line-height: 63.6rpx;
+}
+
+.phone-shell .address-manage > view:last-child .select-address {
+	border-color: var(--tea-primary);
+	background: var(--tea-primary);
+	color: #fff;
+}
+
+.phone-shell .address-form {
+	margin-bottom: 20.1rpx;
+	padding: 26.8rpx;
+	border-color: var(--tea-border);
+	border-radius: var(--tea-radius-lg);
+}
+
+.phone-shell .address-form .form-title {
+	min-height: 53.6rpx;
+	align-items: center;
+	font-size: 26.8rpx;
+	font-weight: 600;
+}
+
+.phone-shell .address-form .form-title > text {
+	display: flex;
+	width: 60.3rpx;
+	height: 60.3rpx;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: #f3f3ef;
+	color: #717871;
+	font-size: 33.5rpx;
+	font-weight: 400;
+}
+
+.phone-shell .address-form .form-label {
+	display: grid;
+	grid-template-columns: 137.3rpx minmax(0, 1fr);
+	min-height: 97.1rpx;
+	align-items: center;
+	gap: 16.7rpx;
+	font-size: 23.4rpx;
+}
+
+.phone-shell .address-form input {
+	width: 100%;
+	height: 73.7rpx;
+	min-width: 0;
+	padding: 0 20.1rpx;
+	border: 1px solid var(--tea-border);
+	border-radius: var(--tea-radius-sm);
+	font-size: 23.4rpx;
+	line-height: 73.7rpx;
+}
+
+.phone-shell .default-switch {
+	min-height: 90.4rpx;
+	font-size: 23.4rpx;
+}
+
+.phone-shell .single-action {
+	height: calc(127.2rpx + env(safe-area-inset-bottom));
+	padding: 16.7rpx 26.8rpx calc(16.7rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .confirm-screen .address-card,
+.phone-shell .exchange-screen .address-card {
+	display: grid;
+	grid-template-columns: 40.2rpx minmax(0, 1fr) auto;
+	min-height: 174.1rpx;
+	padding: 26.8rpx;
+	align-items: center;
+	gap: 16.7rpx;
+	border: 1px solid var(--tea-border);
+	background: var(--tea-surface);
+}
+
+.phone-shell .confirm-screen .address-card.empty,
+.phone-shell .exchange-screen .address-card.empty {
+	border-style: dashed;
+	border-color: #91aa96;
+	background: #f7faf5;
+}
+
+.phone-shell .address-card > view:nth-child(2) {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	gap: 6.7rpx;
+}
+
+.phone-shell .address-card > view:nth-child(2) > text {
+	font-size: 23.4rpx;
+	line-height: 1.5;
+	white-space: normal;
+	word-break: break-word;
+}
+
+.phone-shell .address-card > view:nth-child(2) > text:first-child {
+	font-size: 25.1rpx;
+}
+
+.phone-shell .address-card-action {
+	display: flex !important;
+	min-width: 70.3rpx !important;
+	align-items: flex-end !important;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1px !important;
+	color: var(--tea-primary);
+}
+
+.phone-shell .address-card-action text:first-child {
+	font-size: 20.1rpx;
+	font-weight: 500;
+}
+
+.phone-shell .address-card-action text:last-child {
+	font-size: 33.5rpx;
+	line-height: 1;
+}
+
+.phone-shell .stepper {
+	display: grid;
+	width: 167.4rpx;
+	height: 56.9rpx;
+	grid-template-columns: 53.6rpx 60.3rpx 53.6rpx;
+	align-items: stretch;
+	border: 1px solid #dcded8;
+	border-radius: 15.1rpx;
+	background: #fff;
+	overflow: hidden;
+}
+
+.phone-shell .stepper button {
+	display: flex;
+	width: 53.6rpx;
+	height: 53.6rpx;
+	min-height: 53.6rpx;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+	border: 0;
+	border-radius: 0;
+	background: #fff;
+	font-size: 28.5rpx;
+	font-weight: 400;
+	line-height: 53.6rpx;
+}
+
+.phone-shell .stepper text {
+	display: flex;
+	width: 60.3rpx;
+	height: 53.6rpx;
+	align-items: center;
+	justify-content: center;
+	border-right: 1px solid #ecebe6;
+	border-left: 1px solid #ecebe6;
+	font-size: 23.4rpx;
+	line-height: 53.6rpx;
+}
+
+.phone-shell .points-card-head,
+.phone-shell .points-card-foot {
+	font-size: 20.1rpx !important;
+	line-height: 1.5;
+}
+
+.phone-shell .exchange-screen {
+	padding-bottom: calc(174.1rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .exchange-submit {
+	height: calc(133.9rpx + env(safe-area-inset-bottom));
+	padding: 16.7rpx 20.1rpx calc(16.7rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .action-sheet {
+	padding: 33.5rpx 26.8rpx
+		calc(40.2rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .action-sheet > button {
+	width: 100%;
+	height: 80.4rpx;
+	min-height: 80.4rpx;
+	margin: 30.1rpx 0 0;
+	border-radius: var(--tea-radius-md);
+	line-height: 77rpx;
+}
+
+@media (max-width: 360px) {
+	.phone-shell .address-manage > view:last-child button {
+		min-width: 110.5rpx;
+		padding: 0 18.4rpx;
+	}
+}

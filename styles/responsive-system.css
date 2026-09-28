@@ -1,0 +1,438 @@
+/* Cross-device rules shared by all 01–48 storefront pages. */
+page,
+.app-stage,
+.phone-shell {
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.phone-shell view,
+.phone-shell text,
+.phone-shell image,
+.phone-shell scroll-view,
+.phone-shell input,
+.phone-shell textarea,
+.phone-shell button {
+	box-sizing: border-box;
+}
+
+.phone-shell view,
+.phone-shell text {
+	min-width: 0;
+}
+
+.phone-shell image {
+	display: block;
+	max-width: 100%;
+	flex-shrink: 0;
+}
+
+.phone-shell scroll-view,
+.phone-shell swiper,
+.phone-shell swiper-item {
+	width: 100%;
+	min-width: 0;
+	max-width: 100%;
+}
+
+/* Every page shell owns exactly one viewport. A direct child scroll-view must
+ * consume only the space left after the custom navigation and any normal-flow
+ * bottom bar. `height: 0` is required by the WeChat scroll-view implementation;
+ * relying on 100vh here clips content on physical devices. */
+.phone-shell > .shell-scroll-viewport {
+	flex: 1 1 0%;
+	height: 0;
+	min-height: 0;
+}
+
+/* Bottom navigation and action rows are direct flex siblings of the scrolling
+ * content. They already consume their real height, including the device safe
+ * area, so the scroll content must not reserve either height a second time. */
+.phone-shell > .shell-scroll--with-bottom-nav,
+.phone-shell > .shell-scroll--with-action {
+	padding-bottom: 24rpx;
+}
+
+.phone-shell button,
+.phone-shell input,
+.phone-shell textarea {
+	max-width: 100%;
+}
+
+.phone-shell .catalog-category-layout,
+.phone-shell .catalog-category-main,
+.phone-shell .catalog-category-grid,
+.phone-shell .catalog-topic-story,
+.phone-shell .catalog-cart-list,
+.phone-shell .catalog-benefits {
+	min-width: 0;
+	max-width: 100%;
+}
+
+.phone-shell .catalog-category-grid > view,
+.phone-shell .catalog-topic-story > view,
+.phone-shell .catalog-cart-list > view > view,
+.phone-shell .catalog-benefits > view > text {
+	min-width: 0;
+}
+
+.phone-shell .address-card {
+	display: grid;
+	grid-template-columns: 40rpx minmax(0, 1fr) 96rpx;
+	align-items: center;
+	column-gap: 18rpx;
+}
+
+.phone-shell .address-card > view:nth-child(2) {
+	min-width: 0;
+	overflow-wrap: break-word;
+}
+
+.phone-shell .address-card-action {
+	display: flex;
+	width: 96rpx;
+	min-width: 96rpx;
+	height: 64rpx;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 6rpx;
+	border-radius: 32rpx;
+	background: #fff;
+	box-shadow: 0 8rpx 24rpx rgba(31, 77, 53, 0.06);
+	white-space: nowrap;
+}
+
+.phone-shell .address-card-action text:first-child,
+.phone-shell .address-card-action text:last-child {
+	font-size: 22rpx;
+	line-height: 1;
+}
+
+.phone-shell .confirm-screen {
+	padding-bottom: 24rpx;
+}
+
+.phone-shell .confirm-screen .submit-bar {
+	display: grid;
+	width: 100%;
+	height: auto;
+	min-height: calc(var(--fixed-action-height) + env(safe-area-inset-bottom));
+	grid-template-columns: minmax(0, 0.95fr) minmax(300rpx, 1.2fr);
+	align-items: center;
+	gap: var(--fixed-action-gap);
+	padding: 14rpx 20rpx calc(14rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .confirm-screen .submit-bar > text {
+	min-width: 0;
+	font-size: 22rpx;
+	line-height: 1.35;
+	white-space: normal;
+}
+
+.phone-shell .confirm-screen .submit-bar button {
+	width: 100%;
+	min-width: 0;
+	height: 76rpx;
+	min-height: 76rpx;
+	padding: 0 20rpx;
+}
+
+.phone-shell .settings-preference-card {
+	padding: 24rpx 26rpx 8rpx;
+	border-radius: 24rpx;
+}
+
+.phone-shell .settings-card-title {
+	display: grid;
+	grid-template-columns: 40rpx minmax(0, 1fr);
+	align-items: start;
+	gap: 18rpx;
+}
+
+.phone-shell .settings-card-title > view {
+	min-width: 0;
+}
+
+.phone-shell .settings-card-title > view > text {
+	display: block;
+	overflow-wrap: break-word;
+}
+
+.phone-shell .setting-live-row {
+	display: grid;
+	min-height: 104rpx;
+	grid-template-columns: minmax(0, 1fr) auto;
+	align-items: center;
+	gap: 20rpx;
+}
+
+.phone-shell .setting-live-row > view {
+	min-width: 0;
+}
+
+.phone-shell .setting-live-row switch {
+	flex: 0 0 auto;
+	transform: none;
+	transform-origin: center;
+}
+
+.phone-shell .bottom-nav {
+	height: calc(112rpx + var(--bottom-safe-space));
+	min-height: calc(112rpx + var(--bottom-safe-space));
+	padding: 8rpx 20rpx calc(8rpx + var(--bottom-safe-space));
+}
+
+/* Bottom navigation and action bars are flex rows in the page shell. They no
+ * longer float over scroll content, so the safe area is owned by the bar once. */
+.phone-shell > .bottom-nav,
+.phone-shell > .double-action,
+.phone-shell > .single-action,
+.phone-shell > .detail-actions,
+.phone-shell > .cart-total,
+.phone-shell > .support-bar,
+.phone-shell > .exchange-submit,
+.phone-shell > .withdraw-fixed,
+.phone-shell > .lifecycle-submit,
+.phone-shell > .payment-failure-actions,
+.phone-shell > .catalog-cart-total,
+.phone-shell > .logout,
+.phone-shell > .invite-actions,
+.phone-shell > .store-service-bar {
+	position: relative;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	flex: 0 0 auto;
+}
+
+.phone-shell .with-tab,
+.phone-shell .action-pad {
+	padding-bottom: 24rpx;
+}
+
+/* These catalog pages already render BottomNav/action rows as sibling flex
+ * items. Their historical fixed-bar padding created the large blank block seen
+ * above the system gesture area. */
+.phone-shell .catalog-page--tab,
+.phone-shell .catalog-page--cart {
+	padding-bottom: 24rpx;
+}
+
+/* Exchange detail owns a normal-flow action row below the scroll-view. */
+.phone-shell .phase-points-scroll {
+	padding-bottom: 32rpx;
+}
+
+.phone-shell .account-scroll,
+.phone-shell .account-scroll.with-tab,
+.phone-shell .account-detail-scroll,
+.phone-shell .history-account-scroll {
+	/* WeChat scroll-view must receive a bounded flex height. `auto` lets the
+	 * inner content size escape the viewport and is the source of the large
+	 * grey/white clipped area seen on physical devices. */
+	height: 0;
+	min-height: 0;
+	flex: 1 1 0%;
+}
+
+.phone-shell .science-scroll,
+.phone-shell .partner-scroll,
+.phone-shell .catalog-page,
+.phone-shell .phase-points-scroll,
+.phone-shell .lifecycle-screen {
+	min-height: 0;
+}
+
+.phone-shell .bottom-nav .nav-item {
+	min-width: 0;
+	min-height: 88rpx;
+	flex: 1 1 20%;
+	font-size: 22rpx;
+}
+
+.phone-shell .bottom-nav .nav-item > text {
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* Long runtime messages stay above the fixed tab bar and wrap on narrow
+ * physical devices instead of covering or overflowing page content. */
+.phone-shell .toast {
+	left: 50%;
+	right: auto;
+	bottom: calc(132rpx + env(safe-area-inset-bottom));
+	z-index: 70;
+	width: auto;
+	max-width: calc(100% - 48rpx);
+	transform: translateX(-50%);
+	text-align: center;
+	white-space: normal;
+	word-break: break-all;
+	overflow-wrap: anywhere;
+}
+
+.phone-shell .catalog-product-grid,
+.phone-shell .history-card-grid,
+.phone-shell .recommend-row {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.phone-shell .catalog-product-card,
+.phone-shell .product-tile,
+.phone-shell .checkout-item,
+.phone-shell .order-product {
+	min-width: 0;
+}
+
+.phone-shell .catalog-product-card > view > text:first-child,
+.phone-shell .product-name {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow-wrap: break-word;
+}
+
+.phone-shell .double-action,
+.phone-shell .single-action,
+.phone-shell .detail-actions,
+.phone-shell .cart-total,
+.phone-shell .submit-bar,
+.phone-shell .support-bar,
+.phone-shell .exchange-submit,
+.phone-shell .withdraw-fixed {
+	padding-bottom: calc(14rpx + env(safe-area-inset-bottom));
+}
+
+.phone-shell .order-summary__amount,
+.phone-shell .order-inline-money,
+.phone-shell .partner-inline-money,
+.phone-shell .option-help--money,
+.phone-shell .reward-money-row,
+.phone-shell .withdrawal-money {
+	display: flex;
+	min-width: 0;
+	align-items: baseline;
+	gap: 8rpx;
+	flex-wrap: wrap;
+}
+
+.phone-shell .catalog-collection__metrics {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	align-items: stretch;
+	gap: 0;
+}
+
+.phone-shell .catalog-collection__metric {
+	display: flex;
+	min-width: 0;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-right: 1px solid rgba(224, 194, 115, 0.35);
+	text-align: center;
+}
+
+.phone-shell .catalog-collection__metric:last-child {
+	border-right: 0;
+}
+
+.phone-shell .catalog-metric-value {
+	max-width: 100%;
+	font-family: var(--money-font-family);
+	font-size: 30rpx;
+	font-weight: var(--money-font-weight);
+	font-variant-numeric: tabular-nums;
+	line-height: 1.15;
+	white-space: nowrap;
+}
+
+.phone-shell .catalog-metric-note {
+	margin-top: 6rpx;
+	font-family: var(--font-family-base);
+	font-size: 18rpx;
+	line-height: 1.2;
+	white-space: nowrap;
+}
+
+@media (max-width: 360px) {
+	.phone-shell .catalog-category-layout {
+		grid-template-columns: 132rpx minmax(0, 1fr);
+	}
+
+	.phone-shell .catalog-category-main {
+		padding-right: 14rpx;
+		padding-left: 14rpx;
+	}
+
+	.phone-shell .catalog-category-grid {
+		gap: 12rpx;
+	}
+
+	.phone-shell .catalog-topic-story {
+		grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+	}
+
+	.phone-shell .confirm-screen .submit-bar {
+		grid-template-columns: minmax(0, 0.9fr) minmax(270rpx, 1.1fr);
+		gap: 12rpx;
+		padding-right: 16rpx;
+		padding-left: 16rpx;
+	}
+
+	.phone-shell .address-card {
+		grid-template-columns: 36rpx minmax(0, 1fr) 88rpx;
+		column-gap: 12rpx;
+	}
+}
+
+.phone-shell .phone-security-row,
+.phone-shell .change-phone-code {
+	display: flex;
+	align-items: center;
+	gap: 16rpx;
+	min-width: 0;
+}
+
+.phone-shell .phone-security-row > text,
+.phone-shell .change-phone-code > input {
+	flex: 1 1 auto;
+	min-width: 0;
+}
+
+.phone-shell .phone-security-row button,
+.phone-shell .change-phone-code button {
+	flex: 0 0 auto;
+	width: auto;
+	min-width: 176rpx;
+	height: 72rpx;
+	line-height: 72rpx;
+	margin: 0;
+	padding: 0 24rpx;
+	font-size: 24rpx;
+}
+
+/* Mobile H5 follows the dynamic visual viewport when the browser chrome opens
+ * or closes. Older engines retain the existing 100vh fallback. */
+/* #ifdef H5 */
+@supports (height: 100dvh) {
+	@media (max-width: 640px) {
+		.app-stage,
+		.phone-shell {
+			height: 100dvh;
+			min-height: 0;
+		}
+
+		.phone-shell {
+			max-height: none;
+		}
+	}
+}
+/* #endif */

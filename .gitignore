@@ -1,0 +1,42 @@
+# Node/UniApp generated dependencies and builds
+node_modules/
+dist/
+unpackage/
+.pnpm-store/
+.cache/
+coverage/
+test-results/
+playwright-report/
+
+# IDE / OS
+.idea/
+.vscode/
+.hbuilderx/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+project.private.config.json
+**/*secret*
+**/*password*
+**/*credential*
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
+id_ed25519*
+.npmrc
+.netrc

@@ -1,0 +1,662 @@
+.account-shell {
+	background: #f8f5ed;
+	color: #16261f;
+	overflow: hidden;
+}
+.account-scroll {
+	height: calc(100vh - 170rpx);
+	padding: 24rpx;
+	background: #f8f5ed;
+}
+.account-scroll.with-tab {
+	height: calc(100vh - 276rpx);
+	padding-bottom: 160rpx;
+}
+.account-detail-scroll {
+	height: calc(100vh - 226rpx);
+}
+.account-state,
+.account-empty-card {
+	min-height: 280rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 22rpx;
+	color: #778078;
+	text-align: center;
+}
+.account-state button,
+.account-empty-card button {
+	height: 76rpx;
+	line-height: 76rpx;
+	padding: 0 38rpx;
+	border-radius: 12rpx;
+	background: #07543b;
+	color: #fff;
+	font-size: 25rpx;
+}
+.account-hero {
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(135deg, #064331, #076047);
+	color: #fff;
+	border-radius: 22rpx;
+	padding: 35rpx 32rpx 30rpx;
+	box-shadow: 0 12rpx 30rpx rgba(3, 56, 39, 0.15);
+}
+.account-hero:after {
+	content: "";
+	position: absolute;
+	width: 250rpx;
+	height: 250rpx;
+	border: 1rpx solid rgba(217, 183, 101, 0.25);
+	border-radius: 50%;
+	right: -70rpx;
+	top: -70rpx;
+}
+.account-hero > text:first-child {
+	font-size: 24rpx;
+	opacity: 0.88;
+}
+.account-hero .account-main {
+	display: block;
+	color: #f2cf75;
+	font:
+		56rpx/1.3 Georgia,
+		serif;
+	margin: 8rpx 0 20rpx;
+}
+.account-hero > view {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.account-hero > view > view {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-right: 1rpx solid rgba(255, 255, 255, 0.25);
+	gap: 5rpx;
+}
+.account-hero > view > view:last-child {
+	border: 0;
+}
+.account-hero > view text:first-child {
+	font:
+		700 31rpx Georgia,
+		serif;
+	color: #f4d778;
+}
+.account-hero > view text:last-child {
+	font-size: 21rpx;
+}
+.account-title,
+.account-section-head > text:first-child {
+	font-family: SimSun, STSong, serif;
+	font-size: 34rpx;
+}
+.account-title {
+	display: block;
+	margin: 30rpx 6rpx 15rpx;
+}
+.account-section-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 29rpx 6rpx 15rpx;
+}
+.account-section-head > text:last-child {
+	font-size: 22rpx;
+	color: #7a776e;
+}
+.account-menu,
+.account-rules,
+.account-list {
+	background: #fff;
+	border: 1rpx solid #e4dbc9;
+	border-radius: 20rpx;
+	overflow: hidden;
+}
+.account-menu > view,
+.account-rules > view,
+.account-list > view {
+	min-height: 92rpx;
+	display: flex;
+	align-items: center;
+	padding: 18rpx 24rpx;
+	border-bottom: 1rpx solid #e8e1d5;
+	gap: 20rpx;
+}
+.account-menu > view:last-child,
+.account-rules > view:last-child,
+.account-list > view:last-child {
+	border: 0;
+}
+.account-menu > view > text:nth-child(2) {
+	flex: 1;
+	font-size: 25rpx;
+}
+.account-menu > view > text:last-child {
+	font-size: 21rpx;
+	color: #938e84;
+}
+.account-rules > view > view,
+.account-list > view > view {
+	display: flex;
+	flex: 1;
+	min-width: 0;
+	flex-direction: column;
+	gap: 5rpx;
+}
+.account-rules > view > view text:first-child,
+.account-list > view > view text:first-child {
+	font-weight: 700;
+	font-size: 25rpx;
+}
+.account-rules > view > view text:last-child,
+.account-list > view > view text:last-child {
+	color: #8a8981;
+	font-size: 20rpx;
+}
+.account-rules > view > text:last-child {
+	font:
+		700 27rpx Georgia,
+		serif;
+	color: #b85723;
+}
+.account-list > view > view:last-child {
+	flex: 0 0 auto;
+	text-align: right;
+	align-items: flex-end;
+}
+.account-list > view > view:last-child text:first-child {
+	font:
+		700 25rpx Georgia,
+		serif;
+	color: #ad4b20;
+}
+.account-list > view > view:last-child text:last-child {
+	color: #267450;
+	font-size: 19rpx;
+}
+.account-list .negative {
+	color: #888;
+}
+.account-empty {
+	padding: 65rpx !important;
+	justify-content: center;
+	color: #89867d;
+}
+.account-tabs {
+	height: 94rpx;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background: #fff;
+	border-bottom: 1rpx solid #e4dccd;
+	padding: 0 30rpx;
+}
+.account-tabs text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 25rpx;
+	position: relative;
+}
+.account-tabs text.active {
+	color: #07543b;
+	font-weight: 700;
+}
+.account-tabs text.active:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 86rpx;
+	height: 4rpx;
+	background: #07543b;
+	border-radius: 4rpx;
+}
+.account-primary,
+.withdraw-fixed {
+	background: #07543b;
+	color: #fff;
+	height: 78rpx;
+	line-height: 78rpx;
+	border-radius: 12rpx;
+	font-size: 26rpx;
+	font-weight: 700;
+	margin: 26rpx 0;
+}
+.account-dark-card {
+	min-height: 310rpx;
+	border-radius: 20rpx;
+	background:
+		linear-gradient(rgba(4, 56, 40, 0.87), rgba(4, 56, 40, 0.94)),
+		url("/static/images/longjing-dark-v2.webp") center/cover;
+	color: #fff;
+	padding: 44rpx 36rpx;
+	display: flex;
+	flex-direction: column;
+	gap: 18rpx;
+}
+/* #ifdef MP-WEIXIN */
+.account-dark-card {
+	background:
+		linear-gradient(rgba(4, 56, 40, 0.87), rgba(4, 56, 40, 0.94)),
+		url("https://chaye.okam.top/static/images/longjing-dark-v2.png")
+			center/cover;
+}
+/* #endif */
+.account-dark-card text:first-child {
+	font:
+		38rpx SimSun,
+		STSong,
+		serif;
+	letter-spacing: 5rpx;
+}
+.account-dark-card text:last-child {
+	font-size: 21rpx;
+	line-height: 1.8;
+}
+.account-collection {
+	margin-top: 30rpx;
+	border: 1rpx solid #d9c390;
+	border-radius: 20rpx;
+	overflow: hidden;
+	position: relative;
+	min-height: 500rpx;
+	background: #eee3d0;
+}
+.account-collection image {
+	width: 100%;
+	height: 500rpx;
+}
+.account-collection > view {
+	position: absolute;
+	inset: auto 0 0;
+	background: rgba(3, 55, 38, 0.86);
+	padding: 25rpx;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+.account-collection > view text:first-child {
+	font:
+		34rpx SimSun,
+		STSong,
+		serif;
+}
+.account-collection > view text:last-child {
+	font-size: 20rpx;
+	margin-top: 8rpx;
+	color: #ecd28f;
+}
+.withdraw-scroll {
+	height: calc(100vh - 250rpx);
+	padding-bottom: 120rpx;
+}
+.withdraw-fixed {
+	position: absolute;
+	left: 24rpx;
+	right: 24rpx;
+	bottom: 24rpx;
+	margin: 0;
+	z-index: 3;
+}
+.withdraw-fixed[disabled] {
+	opacity: 0.45;
+}
+.withdraw-art {
+	height: 690rpx;
+	position: relative;
+	border-radius: 22rpx;
+	overflow: hidden;
+	margin-top: 30rpx;
+}
+.withdraw-art image {
+	width: 100%;
+	height: 100%;
+}
+.withdraw-art:after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(
+		90deg,
+		rgba(3, 48, 35, 0.85),
+		rgba(3, 48, 35, 0.08)
+	);
+}
+.withdraw-art > view {
+	position: absolute;
+	z-index: 1;
+	top: 50rpx;
+	left: 38rpx;
+	right: 38rpx;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 14rpx;
+}
+.withdraw-art > view text:first-child {
+	letter-spacing: 4rpx;
+	color: #e9c979;
+}
+.withdraw-art > view text:nth-child(2) {
+	font:
+		42rpx SimSun,
+		STSong,
+		serif;
+}
+.withdraw-art > view text:last-child {
+	font-size: 21rpx;
+	line-height: 1.7;
+}
+.withdraw-sheet input,
+.withdraw-picker {
+	height: 88rpx;
+	border: 1rpx solid #ded2bd;
+	border-radius: 14rpx;
+	margin: 16rpx 0;
+	padding: 0 22rpx;
+	background: #fff;
+}
+.withdraw-picker {
+	line-height: 88rpx;
+}
+.withdraw-max {
+	background: #faf7f0;
+	border-radius: 16rpx;
+	padding: 25rpx;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.withdraw-max text:last-child {
+	font:
+		700 43rpx Georgia,
+		serif;
+	color: #bd9550;
+}
+.account-note {
+	font-size: 20rpx;
+	color: #848179;
+	line-height: 1.6;
+}
+.real-coupon {
+	display: grid;
+	grid-template-columns: 190rpx 1fr;
+	border: 1rpx solid #e2d6c2;
+	background: #fff;
+	border-radius: 20rpx;
+	overflow: hidden;
+	margin-bottom: 20rpx;
+	min-height: 180rpx;
+}
+.real-coupon > view:first-child {
+	background: #07543b;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.real-coupon.orange > view:first-child {
+	background: #df9f3b;
+}
+.real-coupon.disabled {
+	filter: grayscale(0.65);
+	opacity: 0.75;
+}
+.real-coupon > view:first-child text:first-child {
+	font:
+		700 52rpx Georgia,
+		serif;
+}
+.real-coupon > view:first-child text:last-child {
+	font-size: 21rpx;
+}
+.real-coupon > view:last-child {
+	padding: 24rpx;
+	display: flex;
+	flex-direction: column;
+	gap: 11rpx;
+}
+.real-coupon > view:last-child > text:first-child {
+	font:
+		700 27rpx SimSun,
+		STSong,
+		serif;
+}
+.real-coupon > view:last-child > text:nth-child(2) {
+	font-size: 20rpx;
+	color: #888;
+}
+.real-coupon button {
+	margin: 4rpx 0 0;
+	height: 56rpx;
+	line-height: 56rpx;
+	background: #07543b;
+	color: #fff;
+	font-size: 21rpx;
+}
+.coupon-description {
+	display: block;
+	font-size: 20rpx;
+	line-height: 1.8;
+	color: #777;
+	margin: 22rpx 5rpx 35rpx;
+}
+.coupon-collection {
+	min-height: 720rpx;
+}
+.coupon-collection image {
+	height: 720rpx;
+}
+.mine-account-scroll {
+	padding-top: 22rpx;
+}
+.mine-login-card,
+.mine-profile-card {
+	display: flex;
+	align-items: center;
+	gap: 24rpx;
+	padding: 30rpx;
+	background: #07543b;
+	color: #fff;
+	border-radius: 20rpx;
+	margin-bottom: 20rpx;
+}
+.mine-login-card > view,
+.mine-profile-card > view {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 8rpx;
+}
+.mine-login-card > view text:first-child,
+.mine-profile-card > view text:first-child {
+	font:
+		700 31rpx SimSun,
+		STSong,
+		serif;
+}
+.mine-login-card > view text:last-child,
+.mine-profile-card > view text:last-child {
+	font-size: 20rpx;
+	opacity: 0.85;
+}
+.mine-profile-card image {
+	width: 96rpx;
+	height: 96rpx;
+	border-radius: 50%;
+	border: 5rpx solid #f6f1e5;
+}
+.mine-profile-card button {
+	border: 1rpx solid #fff;
+	border-radius: 30rpx;
+	color: #fff;
+	background: transparent;
+	font-size: 19rpx;
+	padding: 0 20rpx;
+	height: 58rpx;
+	line-height: 56rpx;
+}
+.mine-order-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	background: #fff;
+	border: 1rpx solid #e4dbc9;
+	border-radius: 20rpx;
+	padding: 24rpx 10rpx;
+	margin-bottom: 25rpx;
+}
+.mine-order-grid > view {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 9rpx;
+	font-size: 20rpx;
+}
+.mine-order-grid > view > text:last-child:not(:nth-child(2)) {
+	position: absolute;
+	top: -10rpx;
+	right: 14rpx;
+	border-radius: 20rpx;
+	background: #b54d25;
+	color: #fff;
+	min-width: 30rpx;
+	text-align: center;
+	padding: 2rpx 7rpx;
+}
+.mine-account-menu {
+	margin-bottom: 28rpx;
+}
+.mine-collection {
+	min-height: 650rpx;
+}
+.mine-collection image {
+	height: 650rpx;
+}
+.history-card-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 18rpx;
+}
+.history-card-grid > view {
+	background: #fff;
+	border: 1rpx solid #e0d5c0;
+	border-radius: 18rpx;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.history-card-grid image {
+	width: 100%;
+	height: 210rpx;
+}
+.history-card-grid > view > text {
+	padding: 8rpx 16rpx 0;
+	font-family: SimSun, STSong, serif;
+	font-size: 24rpx;
+}
+.history-card-grid > view > text:nth-child(3) {
+	font:
+		700 25rpx Georgia,
+		serif;
+	color: #ad4b20;
+}
+.history-actions {
+	display: flex;
+	padding: 8rpx;
+	gap: 8rpx;
+}
+.history-actions button {
+	flex: 1;
+	height: 48rpx;
+	line-height: 48rpx;
+	font-size: 18rpx;
+	border: 1rpx solid #07543b;
+	color: #07543b;
+	background: #fff;
+}
+.history-list image {
+	width: 82rpx;
+	height: 82rpx;
+	border-radius: 12rpx;
+}
+.history-account-scroll {
+	height: calc(100vh - 226rpx);
+}
+.login-collection-art {
+	height: 560rpx;
+	margin: 42rpx 0 10rpx;
+	border-radius: 20rpx;
+	overflow: hidden;
+	position: relative;
+	background: #0b3f30;
+}
+.login-collection-art image {
+	width: 100%;
+	height: 100%;
+}
+.login-collection-art:after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(
+		180deg,
+		rgba(3, 45, 32, 0.12),
+		rgba(3, 45, 32, 0.82)
+	);
+}
+.login-collection-art > view {
+	position: absolute;
+	z-index: 1;
+	left: 34rpx;
+	right: 34rpx;
+	bottom: 34rpx;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 9rpx;
+}
+.login-collection-art > view text:first-child {
+	font:
+		22rpx Georgia,
+		serif;
+	letter-spacing: 3rpx;
+	color: #e8cc84;
+}
+.login-collection-art > view text:nth-child(2) {
+	font:
+		38rpx SimSun,
+		STSong,
+		serif;
+	letter-spacing: 4rpx;
+}
+.login-collection-art > view text:last-child {
+	font-size: 20rpx;
+	opacity: 0.84;
+}
+@media (max-width: 360px) {
+	.account-scroll {
+		padding: 18rpx;
+	}
+	.account-hero {
+		padding: 27rpx 22rpx;
+	}
+	.account-hero .account-main {
+		font-size: 48rpx;
+	}
+	.account-menu > view,
+	.account-list > view {
+		padding: 15rpx 18rpx;
+	}
+	.real-coupon {
+		grid-template-columns: 145rpx 1fr;
+	}
+	.history-card-grid image {
+		height: 170rpx;
+	}
+}

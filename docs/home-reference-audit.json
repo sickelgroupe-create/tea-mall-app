@@ -1,0 +1,370 @@
+{
+  "status": "PASS",
+  "widths": [
+    320,
+    360,
+    375,
+    390,
+    414,
+    430,
+    448
+  ],
+  "layout": [
+    {
+      "width": 320,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "whiteCardCount": 0,
+      "entryCount": 4,
+      "correctVerticalOrder": true,
+      "entriesInsideImage": true,
+      "copyClearOfEntries": true,
+      "labels": [
+        {
+          "text": "成为合伙人",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "茶叶科普",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "留言板",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "售卖栏",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        }
+      ],
+      "imagesLoaded": true
+    },
+    {
+      "width": 360,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "whiteCardCount": 0,
+      "entryCount": 4,
+      "correctVerticalOrder": true,
+      "entriesInsideImage": true,
+      "copyClearOfEntries": true,
+      "labels": [
+        {
+          "text": "成为合伙人",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "茶叶科普",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "留言板",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "售卖栏",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        }
+      ],
+      "imagesLoaded": true
+    },
+    {
+      "width": 375,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "whiteCardCount": 0,
+      "entryCount": 4,
+      "correctVerticalOrder": true,
+      "entriesInsideImage": true,
+      "copyClearOfEntries": true,
+      "labels": [
+        {
+          "text": "成为合伙人",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "茶叶科普",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "留言板",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "售卖栏",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        }
+      ],
+      "imagesLoaded": true
+    },
+    {
+      "width": 390,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "whiteCardCount": 0,
+      "entryCount": 4,
+      "correctVerticalOrder": true,
+      "entriesInsideImage": true,
+      "copyClearOfEntries": true,
+      "labels": [
+        {
+          "text": "成为合伙人",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "茶叶科普",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "留言板",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "售卖栏",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        }
+      ],
+      "imagesLoaded": true
+    },
+    {
+      "width": 414,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "whiteCardCount": 0,
+      "entryCount": 4,
+      "correctVerticalOrder": true,
+      "entriesInsideImage": true,
+      "copyClearOfEntries": true,
+      "labels": [
+        {
+          "text": "成为合伙人",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "茶叶科普",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "留言板",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "售卖栏",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        }
+      ],
+      "imagesLoaded": true
+    },
+    {
+      "width": 430,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "whiteCardCount": 0,
+      "entryCount": 4,
+      "correctVerticalOrder": true,
+      "entriesInsideImage": true,
+      "copyClearOfEntries": true,
+      "labels": [
+        {
+          "text": "成为合伙人",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "茶叶科普",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "留言板",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "售卖栏",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        }
+      ],
+      "imagesLoaded": true
+    },
+    {
+      "width": 448,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "whiteCardCount": 0,
+      "entryCount": 4,
+      "correctVerticalOrder": true,
+      "entriesInsideImage": true,
+      "copyClearOfEntries": true,
+      "labels": [
+        {
+          "text": "成为合伙人",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "茶叶科普",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "留言板",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        },
+        {
+          "text": "售卖栏",
+          "writingMode": "horizontal-tb",
+          "whiteSpace": "nowrap",
+          "overflowX": 0,
+          "overflowY": 0
+        }
+      ],
+      "imagesLoaded": true
+    }
+  ],
+  "categoryLayout": [
+    {
+      "width": 320,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "imageLoaded": true,
+      "imageCoversCard": true,
+      "metricsInsideCard": true
+    },
+    {
+      "width": 360,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "imageLoaded": true,
+      "imageCoversCard": true,
+      "metricsInsideCard": true
+    },
+    {
+      "width": 375,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "imageLoaded": true,
+      "imageCoversCard": true,
+      "metricsInsideCard": true
+    },
+    {
+      "width": 390,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "imageLoaded": true,
+      "imageCoversCard": true,
+      "metricsInsideCard": true
+    },
+    {
+      "width": 414,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "imageLoaded": true,
+      "imageCoversCard": true,
+      "metricsInsideCard": true
+    },
+    {
+      "width": 430,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "imageLoaded": true,
+      "imageCoversCard": true,
+      "metricsInsideCard": true
+    },
+    {
+      "width": 448,
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "imageLoaded": true,
+      "imageCoversCard": true,
+      "metricsInsideCard": true
+    }
+  ],
+  "routes": {
+    "topImage": "#/pages/exchange-center/exchange-center",
+    "成为合伙人": "#/pages/partner-intro/partner-intro",
+    "茶叶科普": "#/pages/tea-science/tea-science",
+    "留言板": "#/pages/community/community",
+    "售卖栏": "#/pages/category/category",
+    "pointsSummary": "#/pages/points-center/points-center",
+    "inviteSummary": "#/pages/invite-rewards/invite-rewards"
+  },
+  "errors": [],
+  "exchangeCopy": "SHOPPING POINTS\n购物积分\n购买商品获得积分\n0\n当前可用积分\n待生效积分\n0\n可兑换奖品\n0 件\n积分明细\n›\n进入积分商城\nINVITE REWARDS\n邀请奖励\n0\n有效邀请好友\n当前阶梯进度\n0 人\n可领取奖励\n0 档\n邀请链接/小程序码\n›\n进入邀请奖励\n兑换说明\n购物积分与邀请奖励独立核算，分别进入对应页面查看明细、规则与领取状态。"
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "本地隔离库与真实管理后台构建",
+  "checks": [
+    {
+      "name": "客服工单内编辑、二次确认、Java落库、刷新回显、商城接口同步",
+      "status": "PASS",
+      "route": "/mall/ticket"
+    }
+  ]
+}

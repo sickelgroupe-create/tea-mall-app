@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-09-02T18:10:18.802Z",
+  "environment": {
+    "apiBase": "http://127.0.0.1:18083/mall",
+    "isolatedLocalOnly": true,
+    "productionConnected": false,
+    "account": "139****7907"
+  },
+  "sourceGuards": {
+    "guestPrivateCallsGuarded": true,
+    "privateCallsSequential": true,
+    "staleStorageKeysCleared": [
+      "teaSession",
+      "teaMallSessionToken",
+      "teaCartCount",
+      "teaSelectedAddress",
+      "teaNickname"
+    ],
+    "publicBootstrapRetriesAfterStaleToken": true
+  },
+  "guest": {
+    "status": "passed",
+    "authenticated": false,
+    "requestedEndpoints": [
+      "GET /bootstrap",
+      "GET /support/documents"
+    ],
+    "privateEndpointsRequested": [],
+    "publicDocumentsLoaded": 5
+  },
+  "staleToken": {
+    "status": "passed",
+    "oldTokenRejected": true,
+    "rejectionCode": 401,
+    "authenticationStorageClearedByClient": true,
+    "publicBootstrapRecovered": true,
+    "recoveredProductCount": 8
+  },
+  "normalLogin": {
+    "status": "passed",
+    "authenticated": true,
+    "preferencesLoaded": true,
+    "couponRecordsLoaded": 0,
+    "logoutRevokedOldToken": true,
+    "oldPrivateRequestCode": 401
+  },
+  "secretsRecorded": false
+}

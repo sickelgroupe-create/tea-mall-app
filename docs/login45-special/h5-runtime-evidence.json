@@ -1,0 +1,196 @@
+{
+  "captureUrl": "http://127.0.0.1:5173/#/pages/login/login?visualAudit=1&auditWidth=448",
+  "layout": {
+    ".login-hero": {
+      "x": 0,
+      "y": 322.5,
+      "width": 448,
+      "height": 266.4,
+      "borderRadius": "0px",
+      "fontSize": "14.9932px",
+      "lineHeight": "22.4897px"
+    },
+    ".login-hero-copy": {
+      "x": 31,
+      "y": 357.2,
+      "width": 401,
+      "height": 63.2,
+      "borderRadius": "0px",
+      "fontSize": "14.9932px",
+      "lineHeight": "22.4897px"
+    },
+    ".login-card": {
+      "x": 17.9,
+      "y": 560.3,
+      "width": 412.2,
+      "height": 397.8,
+      "borderRadius": "14.336px",
+      "fontSize": "14.9932px",
+      "lineHeight": "22.4897px"
+    },
+    ".auth-tabs": {
+      "x": 39.2,
+      "y": 581,
+      "width": 369.6,
+      "height": 33.4,
+      "borderRadius": "0px",
+      "fontSize": "14.9333px",
+      "lineHeight": "22.4px"
+    },
+    ".login-fields .input-row:nth-child(1)": {
+      "x": 39.2,
+      "y": 631.1,
+      "width": 369.6,
+      "height": 53.2,
+      "borderRadius": "8.36267px",
+      "fontSize": "13.9776px",
+      "lineHeight": "20.9664px"
+    },
+    ".login-fields .input-row:nth-child(2)": {
+      "x": 39.2,
+      "y": 695,
+      "width": 369.6,
+      "height": 53.2,
+      "borderRadius": "8.36267px",
+      "fontSize": "13.9776px",
+      "lineHeight": "20.9664px"
+    },
+    ".login-submit": {
+      "x": 39.2,
+      "y": 789.4,
+      "width": 369.6,
+      "height": 45.4,
+      "borderRadius": "7.168px",
+      "fontSize": "16.7253px",
+      "lineHeight": "20.0704px"
+    },
+    ".login-wechat": {
+      "x": 39.2,
+      "y": 844.9,
+      "width": 369.6,
+      "height": 45.4,
+      "borderRadius": "7.168px",
+      "fontSize": "16.7253px",
+      "lineHeight": "20.0704px"
+    },
+    ".agreement": {
+      "x": 39.2,
+      "y": 904,
+      "width": 369.6,
+      "height": 15.6,
+      "borderRadius": "0px",
+      "fontSize": "10.752px",
+      "lineHeight": "15.5904px"
+    },
+    ".member-ritual": {
+      "x": 17.9,
+      "y": 978.4,
+      "width": 412.2,
+      "height": 334.5,
+      "borderRadius": "14.336px",
+      "fontSize": "14.9932px",
+      "lineHeight": "22.4897px"
+    },
+    ".member-benefits": {
+      "x": 41,
+      "y": 1106,
+      "width": 366,
+      "height": 100.9,
+      "borderRadius": "0px",
+      "fontSize": "14.9932px",
+      "lineHeight": "22.4897px"
+    },
+    ".bottom-nav": {
+      "x": 0,
+      "y": 1094.5,
+      "width": 448,
+      "height": 72,
+      "borderRadius": "0px",
+      "fontSize": "14.9932px",
+      "lineHeight": "21.9819px"
+    }
+  },
+  "consoleMessages": [
+    {
+      "type": "warning",
+      "text": "商城公共数据加载失败 Error: 请求失败（200）\n    at success (http://127.0.0.1:5173/assets/mall-page.CtA-norP.js:1:229599)\n    at http://127.0.0.1:5173/assets/index-ChnC04um.js:25:50068\n    at Object.callback (http://127.0.0.1:5173/assets/index-ChnC04um.js:25:50767)\n    at bd (http://127.0.0.1:5173/assets/index-ChnC04um.js:25:50232)\n    at http://127.0.0.1:5173/assets/index-ChnC04um.js:25:52617\n    at resolve (http://127.0.0.1:5173/assets/index-ChnC04um.js:25:52649)\n    at t.onload (http://127.0.0.1:5173/assets/index-ChnC04um.js:25:177257)",
+      "location": {
+        "url": "http://127.0.0.1:5173/assets/mall-page.CtA-norP.js",
+        "line": 0,
+        "column": 261469,
+        "lineNumber": 0,
+        "columnNumber": 261469
+      }
+    },
+    {
+      "type": "verbose",
+      "text": "[DOM] Password field is not contained in a form: (More info: https://www.chromium.org/developers/design-documents/create-amazing-password-forms) %o",
+      "location": {
+        "url": "http://127.0.0.1:5173/#/pages/login/login?visualAudit=1&auditWidth=448",
+        "line": 0,
+        "column": 0,
+        "lineNumber": 0,
+        "columnNumber": 0
+      }
+    }
+  ],
+  "requests": [
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/uni.6d6ee712.css"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/index-C7X-XFDe.css"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/index-ChnC04um.js"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/mall-page-C3GAq_X3.css"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/pages-login-login.D8-pHS-d.js"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/BottomNav-BdZ0NkTS.css"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/login-jyAjNqpt.css"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/BottomNav.KTZeZgeJ.js"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/mall-page.CtA-norP.js"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/login-art-v2-DhJgdSdD.webp"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/longjing-dark-v2-DJX00D1G.webp"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/api/mall/bootstrap"
+    },
+    {
+      "status": 200,
+      "url": "http://127.0.0.1:5173/assets/favicon-CbBnswAH.ico"
+    }
+  ],
+  "failedRequests": []
+}

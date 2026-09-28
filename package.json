@@ -1,0 +1,43 @@
+{
+  "name": "tea-distribution-mall",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"pages/**/*.vue\" \"components/**/*.vue\" \"shared/**/*.js\" \"styles/**/*.css\" \"App.vue\" \"pages.json\"",
+    "dev:h5": "cross-env UNI_INPUT_DIR=. uni",
+    "build:h5": "cross-env UNI_INPUT_DIR=. uni build && node scripts/copy-h5-static.cjs",
+    "dev:mp-weixin": "cross-env UNI_INPUT_DIR=. uni -p mp-weixin",
+    "build:mp-weixin": "cross-env UNI_INPUT_DIR=. uni build -p mp-weixin && node scripts/prepare-mp-upload.cjs",
+    "pack:mp-weixin": "node scripts/prepare-mp-upload.cjs",
+    "repair:mp-dev": "node scripts/repair-mp-dev.cjs",
+		"verify:mp-auth": "node scripts/verify-mp-auth.cjs",
+		"audit:controls": "node scripts/audit-controls-routes.cjs",
+		"verify:production-build": "node scripts/verify-production-build.cjs",
+		"verify:exchange-integration": "node scripts/verify-exchange-integration.cjs",
+		"verify:commerce-lifecycle": "node scripts/verify-commerce-lifecycle.cjs",
+		"verify:platform-flows": "node scripts/verify-platform-flows.cjs",
+		"audit:responsive-live": "node scripts/audit-responsive-live.mjs",
+		"audit:home-reference": "node scripts/audit-home-reference.mjs",
+		"normalize:rpx": "node scripts/normalize-design-units.cjs"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-5020420260813003",
+    "@dcloudio/uni-components": "3.0.0-5020420260813003",
+    "@dcloudio/uni-h5": "3.0.0-5020420260813003",
+    "@dcloudio/uni-mp-weixin": "3.0.0-5020420260813003",
+    "qrcode": "^1.5.4",
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.1.9"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.8",
+    "@dcloudio/uni-cli-shared": "3.0.0-5020420260813003",
+    "@dcloudio/uni-stacktracey": "3.0.0-5020420260813003",
+    "@dcloudio/vite-plugin-uni": "3.0.0-5020420260813003",
+    "@vue/runtime-core": "^3.4.21",
+    "cross-env": "^7.0.3",
+    "prettier": "^3.3.3",
+    "rollup": "4.14.3",
+    "vite": "5.2.8"
+  }
+}

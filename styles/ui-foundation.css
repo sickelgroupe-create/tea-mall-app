@@ -1,0 +1,44 @@
+/* Public UI foundation. Legacy page selectors intentionally stay untouched. */
+page,
+body {
+	background: var(--color-background);
+	color: var(--color-text-primary);
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-body);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-body);
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+.ui-page,
+.ui-page view,
+.ui-page text,
+.ui-page image,
+.ui-page input,
+.ui-page textarea,
+.ui-page button,
+.ui-page scroll-view {
+	box-sizing: border-box;
+	font-family: var(--font-family-base);
+}
+
+.ui-page button::after,
+.ui-button::after,
+.ui-icon-button::after {
+	border: 0;
+}
+
+.ui-visually-hidden {
+	position: fixed;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+	clip-path: inset(50%);
+}
+
+.ui-numeric {
+	font-variant-numeric: tabular-nums;
+}

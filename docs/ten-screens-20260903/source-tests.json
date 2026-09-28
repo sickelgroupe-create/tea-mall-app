@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "name": "UTF-8: ASCII/中文/emoji/孤立代理项，不依赖 TextEncoder",
+      "status": "PASS"
+    },
+    {
+      "name": "移除 TextEncoder 后真实 qrcode 库仍可生成相同字节二维码",
+      "status": "PASS"
+    },
+    {
+      "name": "合伙人中文字段校验，保留地址最小长度",
+      "status": "PASS"
+    },
+    {
+      "name": "全部注册页面：只有直接纵向滚动区使用 viewport flex 标记",
+      "status": "PASS"
+    },
+    {
+      "name": "科普首次加载后商城 bootstrap 覆盖商品 categories 不影响科普分类",
+      "status": "PASS"
+    },
+    {
+      "name": "科普分类快速切换忽略迟到请求",
+      "status": "PASS"
+    },
+    {
+      "name": "未申请显示立即申请，不改变其他状态",
+      "status": "PASS"
+    },
+    {
+      "name": "客服电话按钮调用拨号API，号码为空或读取中不可拨号",
+      "status": "PASS"
+    }
+  ],
+  "registeredPages": 58,
+  "verticalPageScrollers": 61,
+  "horizontalOrOtherScrollers": 2,
+  "scope": "源代码与隔离单元测试，不是真机视觉验收"
+}

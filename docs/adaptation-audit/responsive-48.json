@@ -1,0 +1,3105 @@
+{
+  "environment": {
+    "site": "http://127.0.0.1:18084",
+    "api": "http://127.0.0.1:18083/mall",
+    "database": "chaye_commercial_rc_v1",
+    "productionConnected": false
+  },
+  "widths": [
+    320,
+    360,
+    375,
+    390,
+    414,
+    430,
+    448
+  ],
+  "routes": 48,
+  "checks": [
+    {
+      "width": 320,
+      "route": "pages/index/index",
+      "actualHash": "#/pages/index/index",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/home-topic/home-topic",
+      "actualHash": "#/pages/home-topic/home-topic",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/login/login",
+      "actualHash": "#/pages/login/login",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/category/category",
+      "actualHash": "#/pages/category/category",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/search/search",
+      "actualHash": "#/pages/search/search",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/product-list/product-list",
+      "actualHash": "#/pages/product-list/product-list",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/product-detail/product-detail",
+      "actualHash": "#/pages/product-detail/product-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/store/store",
+      "actualHash": "#/pages/store/store",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/notifications/notifications",
+      "actualHash": "#/pages/notifications/notifications",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/cart/cart",
+      "actualHash": "#/pages/cart/cart",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/confirm/confirm",
+      "actualHash": "#/pages/confirm/confirm",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/pay-success/pay-success",
+      "actualHash": "#/pages/pay-success/pay-success",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/orders/orders",
+      "actualHash": "#/pages/orders/orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/order-detail/order-detail",
+      "actualHash": "#/pages/order-detail/order-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/logistics/logistics",
+      "actualHash": "#/pages/logistics/logistics",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/points-center/points-center",
+      "actualHash": "#/pages/points-center/points-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/points-detail/points-detail",
+      "actualHash": "#/pages/points-detail/points-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/points-mall/points-mall",
+      "actualHash": "#/pages/points-mall/points-mall",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/exchange-detail/exchange-detail",
+      "actualHash": "#/pages/exchange-detail/exchange-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/tier-rewards/tier-rewards",
+      "actualHash": "#/pages/tier-rewards/tier-rewards",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/tier-reward-detail/tier-reward-detail",
+      "actualHash": "#/pages/tier-reward-detail/tier-reward-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/my-exchanges/my-exchanges",
+      "actualHash": "#/pages/my-exchanges/my-exchanges",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/points-reward-details/points-reward-details",
+      "actualHash": "#/pages/points-reward-details/points-reward-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/mine/mine",
+      "actualHash": "#/pages/mine/mine",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/addresses/addresses",
+      "actualHash": "#/pages/addresses/addresses",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/favorites/favorites",
+      "actualHash": "#/pages/favorites/favorites",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/settings/settings",
+      "actualHash": "#/pages/settings/settings",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/invite/invite",
+      "actualHash": "#/pages/invite/invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/tea-friends/tea-friends",
+      "actualHash": "#/pages/tea-friends/tea-friends",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/tea-friend-detail/tea-friend-detail",
+      "actualHash": "#/pages/tea-friend-detail/tea-friend-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/tea-friend-orders/tea-friend-orders",
+      "actualHash": "#/pages/tea-friend-orders/tea-friend-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/invite-gift/invite-gift",
+      "actualHash": "#/pages/invite-gift/invite-gift",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/one-click-invite/one-click-invite",
+      "actualHash": "#/pages/one-click-invite/one-click-invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/share/share",
+      "actualHash": "#/pages/share/share",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/invite-records/invite-records",
+      "actualHash": "#/pages/invite-records/invite-records",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/commission-center/commission-center",
+      "actualHash": "#/pages/commission-center/commission-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/commission-details/commission-details",
+      "actualHash": "#/pages/commission-details/commission-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/withdraw/withdraw",
+      "actualHash": "#/pages/withdraw/withdraw",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/history/history",
+      "actualHash": "#/pages/history/history",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/coupons/coupons",
+      "actualHash": "#/pages/coupons/coupons",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/partner-intro/partner-intro",
+      "actualHash": "#/pages/partner-intro/partner-intro",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/partner-apply/partner-apply",
+      "actualHash": "#/pages/partner-apply/partner-apply",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/partner-status/partner-status",
+      "actualHash": "#/pages/partner-status/partner-status",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/partner-workbench/partner-workbench",
+      "actualHash": "#/pages/partner-workbench/partner-workbench",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/partner-customers/partner-customers",
+      "actualHash": "#/pages/partner-customers/partner-customers",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/partner-customer-orders/partner-customer-orders",
+      "actualHash": "#/pages/partner-customer-orders/partner-customer-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/tea-sales/tea-sales",
+      "actualHash": "#/pages/tea-sales/tea-sales",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 320,
+      "route": "pages/community/community",
+      "actualHash": "#/pages/community/community",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/index/index",
+      "actualHash": "#/pages/index/index",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/home-topic/home-topic",
+      "actualHash": "#/pages/home-topic/home-topic",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/login/login",
+      "actualHash": "#/pages/login/login",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/category/category",
+      "actualHash": "#/pages/category/category",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/search/search",
+      "actualHash": "#/pages/search/search",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/product-list/product-list",
+      "actualHash": "#/pages/product-list/product-list",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/product-detail/product-detail",
+      "actualHash": "#/pages/product-detail/product-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/store/store",
+      "actualHash": "#/pages/store/store",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/notifications/notifications",
+      "actualHash": "#/pages/notifications/notifications",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/cart/cart",
+      "actualHash": "#/pages/cart/cart",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/confirm/confirm",
+      "actualHash": "#/pages/confirm/confirm",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/pay-success/pay-success",
+      "actualHash": "#/pages/pay-success/pay-success",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/orders/orders",
+      "actualHash": "#/pages/orders/orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/order-detail/order-detail",
+      "actualHash": "#/pages/order-detail/order-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/logistics/logistics",
+      "actualHash": "#/pages/logistics/logistics",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/points-center/points-center",
+      "actualHash": "#/pages/points-center/points-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/points-detail/points-detail",
+      "actualHash": "#/pages/points-detail/points-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/points-mall/points-mall",
+      "actualHash": "#/pages/points-mall/points-mall",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/exchange-detail/exchange-detail",
+      "actualHash": "#/pages/exchange-detail/exchange-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/tier-rewards/tier-rewards",
+      "actualHash": "#/pages/tier-rewards/tier-rewards",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/tier-reward-detail/tier-reward-detail",
+      "actualHash": "#/pages/tier-reward-detail/tier-reward-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/my-exchanges/my-exchanges",
+      "actualHash": "#/pages/my-exchanges/my-exchanges",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/points-reward-details/points-reward-details",
+      "actualHash": "#/pages/points-reward-details/points-reward-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/mine/mine",
+      "actualHash": "#/pages/mine/mine",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/addresses/addresses",
+      "actualHash": "#/pages/addresses/addresses",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/favorites/favorites",
+      "actualHash": "#/pages/favorites/favorites",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/settings/settings",
+      "actualHash": "#/pages/settings/settings",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/invite/invite",
+      "actualHash": "#/pages/invite/invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/tea-friends/tea-friends",
+      "actualHash": "#/pages/tea-friends/tea-friends",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/tea-friend-detail/tea-friend-detail",
+      "actualHash": "#/pages/tea-friend-detail/tea-friend-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/tea-friend-orders/tea-friend-orders",
+      "actualHash": "#/pages/tea-friend-orders/tea-friend-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/invite-gift/invite-gift",
+      "actualHash": "#/pages/invite-gift/invite-gift",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/one-click-invite/one-click-invite",
+      "actualHash": "#/pages/one-click-invite/one-click-invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/share/share",
+      "actualHash": "#/pages/share/share",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/invite-records/invite-records",
+      "actualHash": "#/pages/invite-records/invite-records",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/commission-center/commission-center",
+      "actualHash": "#/pages/commission-center/commission-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/commission-details/commission-details",
+      "actualHash": "#/pages/commission-details/commission-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/withdraw/withdraw",
+      "actualHash": "#/pages/withdraw/withdraw",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/history/history",
+      "actualHash": "#/pages/history/history",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/coupons/coupons",
+      "actualHash": "#/pages/coupons/coupons",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/partner-intro/partner-intro",
+      "actualHash": "#/pages/partner-intro/partner-intro",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/partner-apply/partner-apply",
+      "actualHash": "#/pages/partner-apply/partner-apply",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/partner-status/partner-status",
+      "actualHash": "#/pages/partner-status/partner-status",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/partner-workbench/partner-workbench",
+      "actualHash": "#/pages/partner-workbench/partner-workbench",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/partner-customers/partner-customers",
+      "actualHash": "#/pages/partner-customers/partner-customers",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/partner-customer-orders/partner-customer-orders",
+      "actualHash": "#/pages/partner-customer-orders/partner-customer-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/tea-sales/tea-sales",
+      "actualHash": "#/pages/tea-sales/tea-sales",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 360,
+      "route": "pages/community/community",
+      "actualHash": "#/pages/community/community",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/index/index",
+      "actualHash": "#/pages/index/index",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/home-topic/home-topic",
+      "actualHash": "#/pages/home-topic/home-topic",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/login/login",
+      "actualHash": "#/pages/login/login",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/category/category",
+      "actualHash": "#/pages/category/category",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/search/search",
+      "actualHash": "#/pages/search/search",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/product-list/product-list",
+      "actualHash": "#/pages/product-list/product-list",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/product-detail/product-detail",
+      "actualHash": "#/pages/product-detail/product-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/store/store",
+      "actualHash": "#/pages/store/store",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/notifications/notifications",
+      "actualHash": "#/pages/notifications/notifications",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/cart/cart",
+      "actualHash": "#/pages/cart/cart",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/confirm/confirm",
+      "actualHash": "#/pages/confirm/confirm",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/pay-success/pay-success",
+      "actualHash": "#/pages/pay-success/pay-success",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/orders/orders",
+      "actualHash": "#/pages/orders/orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/order-detail/order-detail",
+      "actualHash": "#/pages/order-detail/order-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/logistics/logistics",
+      "actualHash": "#/pages/logistics/logistics",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/points-center/points-center",
+      "actualHash": "#/pages/points-center/points-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/points-detail/points-detail",
+      "actualHash": "#/pages/points-detail/points-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/points-mall/points-mall",
+      "actualHash": "#/pages/points-mall/points-mall",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/exchange-detail/exchange-detail",
+      "actualHash": "#/pages/exchange-detail/exchange-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/tier-rewards/tier-rewards",
+      "actualHash": "#/pages/tier-rewards/tier-rewards",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/tier-reward-detail/tier-reward-detail",
+      "actualHash": "#/pages/tier-reward-detail/tier-reward-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/my-exchanges/my-exchanges",
+      "actualHash": "#/pages/my-exchanges/my-exchanges",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/points-reward-details/points-reward-details",
+      "actualHash": "#/pages/points-reward-details/points-reward-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/mine/mine",
+      "actualHash": "#/pages/mine/mine",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/addresses/addresses",
+      "actualHash": "#/pages/addresses/addresses",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/favorites/favorites",
+      "actualHash": "#/pages/favorites/favorites",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/settings/settings",
+      "actualHash": "#/pages/settings/settings",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/invite/invite",
+      "actualHash": "#/pages/invite/invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/tea-friends/tea-friends",
+      "actualHash": "#/pages/tea-friends/tea-friends",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/tea-friend-detail/tea-friend-detail",
+      "actualHash": "#/pages/tea-friend-detail/tea-friend-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/tea-friend-orders/tea-friend-orders",
+      "actualHash": "#/pages/tea-friend-orders/tea-friend-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/invite-gift/invite-gift",
+      "actualHash": "#/pages/invite-gift/invite-gift",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/one-click-invite/one-click-invite",
+      "actualHash": "#/pages/one-click-invite/one-click-invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/share/share",
+      "actualHash": "#/pages/share/share",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/invite-records/invite-records",
+      "actualHash": "#/pages/invite-records/invite-records",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/commission-center/commission-center",
+      "actualHash": "#/pages/commission-center/commission-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/commission-details/commission-details",
+      "actualHash": "#/pages/commission-details/commission-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/withdraw/withdraw",
+      "actualHash": "#/pages/withdraw/withdraw",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/history/history",
+      "actualHash": "#/pages/history/history",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/coupons/coupons",
+      "actualHash": "#/pages/coupons/coupons",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/partner-intro/partner-intro",
+      "actualHash": "#/pages/partner-intro/partner-intro",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/partner-apply/partner-apply",
+      "actualHash": "#/pages/partner-apply/partner-apply",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/partner-status/partner-status",
+      "actualHash": "#/pages/partner-status/partner-status",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/partner-workbench/partner-workbench",
+      "actualHash": "#/pages/partner-workbench/partner-workbench",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/partner-customers/partner-customers",
+      "actualHash": "#/pages/partner-customers/partner-customers",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/partner-customer-orders/partner-customer-orders",
+      "actualHash": "#/pages/partner-customer-orders/partner-customer-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/tea-sales/tea-sales",
+      "actualHash": "#/pages/tea-sales/tea-sales",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 375,
+      "route": "pages/community/community",
+      "actualHash": "#/pages/community/community",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/index/index",
+      "actualHash": "#/pages/index/index",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/home-topic/home-topic",
+      "actualHash": "#/pages/home-topic/home-topic",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/login/login",
+      "actualHash": "#/pages/login/login",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/category/category",
+      "actualHash": "#/pages/category/category",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/search/search",
+      "actualHash": "#/pages/search/search",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/product-list/product-list",
+      "actualHash": "#/pages/product-list/product-list",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/product-detail/product-detail",
+      "actualHash": "#/pages/product-detail/product-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/store/store",
+      "actualHash": "#/pages/store/store",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/notifications/notifications",
+      "actualHash": "#/pages/notifications/notifications",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/cart/cart",
+      "actualHash": "#/pages/cart/cart",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/confirm/confirm",
+      "actualHash": "#/pages/confirm/confirm",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/pay-success/pay-success",
+      "actualHash": "#/pages/pay-success/pay-success",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/orders/orders",
+      "actualHash": "#/pages/orders/orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/order-detail/order-detail",
+      "actualHash": "#/pages/order-detail/order-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/logistics/logistics",
+      "actualHash": "#/pages/logistics/logistics",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/points-center/points-center",
+      "actualHash": "#/pages/points-center/points-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/points-detail/points-detail",
+      "actualHash": "#/pages/points-detail/points-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/points-mall/points-mall",
+      "actualHash": "#/pages/points-mall/points-mall",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/exchange-detail/exchange-detail",
+      "actualHash": "#/pages/exchange-detail/exchange-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/tier-rewards/tier-rewards",
+      "actualHash": "#/pages/tier-rewards/tier-rewards",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/tier-reward-detail/tier-reward-detail",
+      "actualHash": "#/pages/tier-reward-detail/tier-reward-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/my-exchanges/my-exchanges",
+      "actualHash": "#/pages/my-exchanges/my-exchanges",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/points-reward-details/points-reward-details",
+      "actualHash": "#/pages/points-reward-details/points-reward-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/mine/mine",
+      "actualHash": "#/pages/mine/mine",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/addresses/addresses",
+      "actualHash": "#/pages/addresses/addresses",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/favorites/favorites",
+      "actualHash": "#/pages/favorites/favorites",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/settings/settings",
+      "actualHash": "#/pages/settings/settings",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/invite/invite",
+      "actualHash": "#/pages/invite/invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/tea-friends/tea-friends",
+      "actualHash": "#/pages/tea-friends/tea-friends",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/tea-friend-detail/tea-friend-detail",
+      "actualHash": "#/pages/tea-friend-detail/tea-friend-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/tea-friend-orders/tea-friend-orders",
+      "actualHash": "#/pages/tea-friend-orders/tea-friend-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/invite-gift/invite-gift",
+      "actualHash": "#/pages/invite-gift/invite-gift",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/one-click-invite/one-click-invite",
+      "actualHash": "#/pages/one-click-invite/one-click-invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/share/share",
+      "actualHash": "#/pages/share/share",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/invite-records/invite-records",
+      "actualHash": "#/pages/invite-records/invite-records",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/commission-center/commission-center",
+      "actualHash": "#/pages/commission-center/commission-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/commission-details/commission-details",
+      "actualHash": "#/pages/commission-details/commission-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/withdraw/withdraw",
+      "actualHash": "#/pages/withdraw/withdraw",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/history/history",
+      "actualHash": "#/pages/history/history",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/coupons/coupons",
+      "actualHash": "#/pages/coupons/coupons",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/partner-intro/partner-intro",
+      "actualHash": "#/pages/partner-intro/partner-intro",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/partner-apply/partner-apply",
+      "actualHash": "#/pages/partner-apply/partner-apply",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/partner-status/partner-status",
+      "actualHash": "#/pages/partner-status/partner-status",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/partner-workbench/partner-workbench",
+      "actualHash": "#/pages/partner-workbench/partner-workbench",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/partner-customers/partner-customers",
+      "actualHash": "#/pages/partner-customers/partner-customers",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/partner-customer-orders/partner-customer-orders",
+      "actualHash": "#/pages/partner-customer-orders/partner-customer-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/tea-sales/tea-sales",
+      "actualHash": "#/pages/tea-sales/tea-sales",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 390,
+      "route": "pages/community/community",
+      "actualHash": "#/pages/community/community",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/index/index",
+      "actualHash": "#/pages/index/index",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/home-topic/home-topic",
+      "actualHash": "#/pages/home-topic/home-topic",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/login/login",
+      "actualHash": "#/pages/login/login",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/category/category",
+      "actualHash": "#/pages/category/category",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/search/search",
+      "actualHash": "#/pages/search/search",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/product-list/product-list",
+      "actualHash": "#/pages/product-list/product-list",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/product-detail/product-detail",
+      "actualHash": "#/pages/product-detail/product-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/store/store",
+      "actualHash": "#/pages/store/store",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/notifications/notifications",
+      "actualHash": "#/pages/notifications/notifications",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/cart/cart",
+      "actualHash": "#/pages/cart/cart",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/confirm/confirm",
+      "actualHash": "#/pages/confirm/confirm",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/pay-success/pay-success",
+      "actualHash": "#/pages/pay-success/pay-success",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/orders/orders",
+      "actualHash": "#/pages/orders/orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/order-detail/order-detail",
+      "actualHash": "#/pages/order-detail/order-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/logistics/logistics",
+      "actualHash": "#/pages/logistics/logistics",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/points-center/points-center",
+      "actualHash": "#/pages/points-center/points-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/points-detail/points-detail",
+      "actualHash": "#/pages/points-detail/points-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/points-mall/points-mall",
+      "actualHash": "#/pages/points-mall/points-mall",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/exchange-detail/exchange-detail",
+      "actualHash": "#/pages/exchange-detail/exchange-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/tier-rewards/tier-rewards",
+      "actualHash": "#/pages/tier-rewards/tier-rewards",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/tier-reward-detail/tier-reward-detail",
+      "actualHash": "#/pages/tier-reward-detail/tier-reward-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/my-exchanges/my-exchanges",
+      "actualHash": "#/pages/my-exchanges/my-exchanges",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/points-reward-details/points-reward-details",
+      "actualHash": "#/pages/points-reward-details/points-reward-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/mine/mine",
+      "actualHash": "#/pages/mine/mine",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/addresses/addresses",
+      "actualHash": "#/pages/addresses/addresses",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/favorites/favorites",
+      "actualHash": "#/pages/favorites/favorites",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/settings/settings",
+      "actualHash": "#/pages/settings/settings",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/invite/invite",
+      "actualHash": "#/pages/invite/invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/tea-friends/tea-friends",
+      "actualHash": "#/pages/tea-friends/tea-friends",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/tea-friend-detail/tea-friend-detail",
+      "actualHash": "#/pages/tea-friend-detail/tea-friend-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/tea-friend-orders/tea-friend-orders",
+      "actualHash": "#/pages/tea-friend-orders/tea-friend-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/invite-gift/invite-gift",
+      "actualHash": "#/pages/invite-gift/invite-gift",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/one-click-invite/one-click-invite",
+      "actualHash": "#/pages/one-click-invite/one-click-invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/share/share",
+      "actualHash": "#/pages/share/share",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/invite-records/invite-records",
+      "actualHash": "#/pages/invite-records/invite-records",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/commission-center/commission-center",
+      "actualHash": "#/pages/commission-center/commission-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/commission-details/commission-details",
+      "actualHash": "#/pages/commission-details/commission-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/withdraw/withdraw",
+      "actualHash": "#/pages/withdraw/withdraw",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/history/history",
+      "actualHash": "#/pages/history/history",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/coupons/coupons",
+      "actualHash": "#/pages/coupons/coupons",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/partner-intro/partner-intro",
+      "actualHash": "#/pages/partner-intro/partner-intro",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/partner-apply/partner-apply",
+      "actualHash": "#/pages/partner-apply/partner-apply",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/partner-status/partner-status",
+      "actualHash": "#/pages/partner-status/partner-status",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/partner-workbench/partner-workbench",
+      "actualHash": "#/pages/partner-workbench/partner-workbench",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/partner-customers/partner-customers",
+      "actualHash": "#/pages/partner-customers/partner-customers",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/partner-customer-orders/partner-customer-orders",
+      "actualHash": "#/pages/partner-customer-orders/partner-customer-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/tea-sales/tea-sales",
+      "actualHash": "#/pages/tea-sales/tea-sales",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 414,
+      "route": "pages/community/community",
+      "actualHash": "#/pages/community/community",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/index/index",
+      "actualHash": "#/pages/index/index",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/home-topic/home-topic",
+      "actualHash": "#/pages/home-topic/home-topic",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/login/login",
+      "actualHash": "#/pages/login/login",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/category/category",
+      "actualHash": "#/pages/category/category",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/search/search",
+      "actualHash": "#/pages/search/search",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/product-list/product-list",
+      "actualHash": "#/pages/product-list/product-list",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/product-detail/product-detail",
+      "actualHash": "#/pages/product-detail/product-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/store/store",
+      "actualHash": "#/pages/store/store",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/notifications/notifications",
+      "actualHash": "#/pages/notifications/notifications",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/cart/cart",
+      "actualHash": "#/pages/cart/cart",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/confirm/confirm",
+      "actualHash": "#/pages/confirm/confirm",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/pay-success/pay-success",
+      "actualHash": "#/pages/pay-success/pay-success",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/orders/orders",
+      "actualHash": "#/pages/orders/orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/order-detail/order-detail",
+      "actualHash": "#/pages/order-detail/order-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/logistics/logistics",
+      "actualHash": "#/pages/logistics/logistics",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/points-center/points-center",
+      "actualHash": "#/pages/points-center/points-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/points-detail/points-detail",
+      "actualHash": "#/pages/points-detail/points-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/points-mall/points-mall",
+      "actualHash": "#/pages/points-mall/points-mall",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/exchange-detail/exchange-detail",
+      "actualHash": "#/pages/exchange-detail/exchange-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/tier-rewards/tier-rewards",
+      "actualHash": "#/pages/tier-rewards/tier-rewards",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/tier-reward-detail/tier-reward-detail",
+      "actualHash": "#/pages/tier-reward-detail/tier-reward-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/my-exchanges/my-exchanges",
+      "actualHash": "#/pages/my-exchanges/my-exchanges",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/points-reward-details/points-reward-details",
+      "actualHash": "#/pages/points-reward-details/points-reward-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/mine/mine",
+      "actualHash": "#/pages/mine/mine",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/addresses/addresses",
+      "actualHash": "#/pages/addresses/addresses",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/favorites/favorites",
+      "actualHash": "#/pages/favorites/favorites",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/settings/settings",
+      "actualHash": "#/pages/settings/settings",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/invite/invite",
+      "actualHash": "#/pages/invite/invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/tea-friends/tea-friends",
+      "actualHash": "#/pages/tea-friends/tea-friends",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/tea-friend-detail/tea-friend-detail",
+      "actualHash": "#/pages/tea-friend-detail/tea-friend-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/tea-friend-orders/tea-friend-orders",
+      "actualHash": "#/pages/tea-friend-orders/tea-friend-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/invite-gift/invite-gift",
+      "actualHash": "#/pages/invite-gift/invite-gift",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/one-click-invite/one-click-invite",
+      "actualHash": "#/pages/one-click-invite/one-click-invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/share/share",
+      "actualHash": "#/pages/share/share",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/invite-records/invite-records",
+      "actualHash": "#/pages/invite-records/invite-records",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/commission-center/commission-center",
+      "actualHash": "#/pages/commission-center/commission-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/commission-details/commission-details",
+      "actualHash": "#/pages/commission-details/commission-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/withdraw/withdraw",
+      "actualHash": "#/pages/withdraw/withdraw",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/history/history",
+      "actualHash": "#/pages/history/history",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/coupons/coupons",
+      "actualHash": "#/pages/coupons/coupons",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/partner-intro/partner-intro",
+      "actualHash": "#/pages/partner-intro/partner-intro",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/partner-apply/partner-apply",
+      "actualHash": "#/pages/partner-apply/partner-apply",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/partner-status/partner-status",
+      "actualHash": "#/pages/partner-status/partner-status",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/partner-workbench/partner-workbench",
+      "actualHash": "#/pages/partner-workbench/partner-workbench",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/partner-customers/partner-customers",
+      "actualHash": "#/pages/partner-customers/partner-customers",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/partner-customer-orders/partner-customer-orders",
+      "actualHash": "#/pages/partner-customer-orders/partner-customer-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/tea-sales/tea-sales",
+      "actualHash": "#/pages/tea-sales/tea-sales",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 430,
+      "route": "pages/community/community",
+      "actualHash": "#/pages/community/community",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/index/index",
+      "actualHash": "#/pages/index/index",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/home-topic/home-topic",
+      "actualHash": "#/pages/home-topic/home-topic",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/login/login",
+      "actualHash": "#/pages/login/login",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/category/category",
+      "actualHash": "#/pages/category/category",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/search/search",
+      "actualHash": "#/pages/search/search",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/product-list/product-list",
+      "actualHash": "#/pages/product-list/product-list",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/product-detail/product-detail",
+      "actualHash": "#/pages/product-detail/product-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/store/store",
+      "actualHash": "#/pages/store/store",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/notifications/notifications",
+      "actualHash": "#/pages/notifications/notifications",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/cart/cart",
+      "actualHash": "#/pages/cart/cart",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/confirm/confirm",
+      "actualHash": "#/pages/confirm/confirm",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/pay-success/pay-success",
+      "actualHash": "#/pages/pay-success/pay-success",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/orders/orders",
+      "actualHash": "#/pages/orders/orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/order-detail/order-detail",
+      "actualHash": "#/pages/order-detail/order-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/logistics/logistics",
+      "actualHash": "#/pages/logistics/logistics",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/points-center/points-center",
+      "actualHash": "#/pages/points-center/points-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/points-detail/points-detail",
+      "actualHash": "#/pages/points-detail/points-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/points-mall/points-mall",
+      "actualHash": "#/pages/points-mall/points-mall",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/exchange-detail/exchange-detail",
+      "actualHash": "#/pages/exchange-detail/exchange-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/tier-rewards/tier-rewards",
+      "actualHash": "#/pages/tier-rewards/tier-rewards",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/tier-reward-detail/tier-reward-detail",
+      "actualHash": "#/pages/tier-reward-detail/tier-reward-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/my-exchanges/my-exchanges",
+      "actualHash": "#/pages/my-exchanges/my-exchanges",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/points-reward-details/points-reward-details",
+      "actualHash": "#/pages/points-reward-details/points-reward-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/mine/mine",
+      "actualHash": "#/pages/mine/mine",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/addresses/addresses",
+      "actualHash": "#/pages/addresses/addresses",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/favorites/favorites",
+      "actualHash": "#/pages/favorites/favorites",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/settings/settings",
+      "actualHash": "#/pages/settings/settings",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/invite/invite",
+      "actualHash": "#/pages/invite/invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/tea-friends/tea-friends",
+      "actualHash": "#/pages/tea-friends/tea-friends",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/tea-friend-detail/tea-friend-detail",
+      "actualHash": "#/pages/tea-friend-detail/tea-friend-detail",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/tea-friend-orders/tea-friend-orders",
+      "actualHash": "#/pages/tea-friend-orders/tea-friend-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/invite-gift/invite-gift",
+      "actualHash": "#/pages/invite-gift/invite-gift",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/one-click-invite/one-click-invite",
+      "actualHash": "#/pages/one-click-invite/one-click-invite",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/share/share",
+      "actualHash": "#/pages/share/share",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/invite-records/invite-records",
+      "actualHash": "#/pages/invite-records/invite-records",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/commission-center/commission-center",
+      "actualHash": "#/pages/commission-center/commission-center",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/commission-details/commission-details",
+      "actualHash": "#/pages/commission-details/commission-details",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/withdraw/withdraw",
+      "actualHash": "#/pages/withdraw/withdraw",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/history/history",
+      "actualHash": "#/pages/history/history",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/coupons/coupons",
+      "actualHash": "#/pages/coupons/coupons",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/partner-intro/partner-intro",
+      "actualHash": "#/pages/partner-intro/partner-intro",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/partner-apply/partner-apply",
+      "actualHash": "#/pages/partner-apply/partner-apply",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/partner-status/partner-status",
+      "actualHash": "#/pages/partner-status/partner-status",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/partner-workbench/partner-workbench",
+      "actualHash": "#/pages/partner-workbench/partner-workbench",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/partner-customers/partner-customers",
+      "actualHash": "#/pages/partner-customers/partner-customers",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/partner-customer-orders/partner-customer-orders",
+      "actualHash": "#/pages/partner-customer-orders/partner-customer-orders",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/tea-sales/tea-sales",
+      "actualHash": "#/pages/tea-sales/tea-sales",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    },
+    {
+      "width": 448,
+      "route": "pages/community/community",
+      "actualHash": "#/pages/community/community",
+      "documentOverflow": 0,
+      "shellOverflow": 0,
+      "clippedButtons": [],
+      "fixedOutsideShell": []
+    }
+  ],
+  "consoleErrors": [],
+  "requestFailures": [],
+  "resource404": [],
+  "httpErrors": [],
+  "horizontalOverflows": [],
+  "controlClipping": [],
+  "testFixtureSubstitutions": [
+    {
+      "width": 320,
+      "route": "pages/home-topic/home-topic",
+      "from": "http://127.0.0.1:18084/static/images/custom-preserve.webp",
+      "to": "http://127.0.0.1:18084/static/images/longjing-hero-v2.webp",
+      "reason": "isolated migration-preservation sentinel"
+    },
+    {
+      "width": 360,
+      "route": "pages/index/index",
+      "from": "http://127.0.0.1:18084/static/images/custom-preserve.webp",
+      "to": "http://127.0.0.1:18084/static/images/longjing-hero-v2.webp",
+      "reason": "isolated migration-preservation sentinel"
+    },
+    {
+      "width": 375,
+      "route": "pages/index/index",
+      "from": "http://127.0.0.1:18084/static/images/custom-preserve.webp",
+      "to": "http://127.0.0.1:18084/static/images/longjing-hero-v2.webp",
+      "reason": "isolated migration-preservation sentinel"
+    },
+    {
+      "width": 390,
+      "route": "pages/index/index",
+      "from": "http://127.0.0.1:18084/static/images/custom-preserve.webp",
+      "to": "http://127.0.0.1:18084/static/images/longjing-hero-v2.webp",
+      "reason": "isolated migration-preservation sentinel"
+    },
+    {
+      "width": 414,
+      "route": "pages/index/index",
+      "from": "http://127.0.0.1:18084/static/images/custom-preserve.webp",
+      "to": "http://127.0.0.1:18084/static/images/longjing-hero-v2.webp",
+      "reason": "isolated migration-preservation sentinel"
+    },
+    {
+      "width": 430,
+      "route": "pages/index/index",
+      "from": "http://127.0.0.1:18084/static/images/custom-preserve.webp",
+      "to": "http://127.0.0.1:18084/static/images/longjing-hero-v2.webp",
+      "reason": "isolated migration-preservation sentinel"
+    },
+    {
+      "width": 448,
+      "route": "pages/index/index",
+      "from": "http://127.0.0.1:18084/static/images/custom-preserve.webp",
+      "to": "http://127.0.0.1:18084/static/images/longjing-hero-v2.webp",
+      "reason": "isolated migration-preservation sentinel"
+    }
+  ],
+  "cleanup": {
+    "customerRowsCreatedAfterBaseline": 0
+  },
+  "status": "PASS"
+}

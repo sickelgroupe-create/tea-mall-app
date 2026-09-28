@@ -1,0 +1,286 @@
+{
+  "environment": {
+    "backend": "http://127.0.0.1:19083",
+    "site": "http://127.0.0.1:19084",
+    "productionWrites": false
+  },
+  "api": [
+    {
+      "name": "匿名写入客服电话被拒绝",
+      "status": "PASS"
+    },
+    {
+      "name": "后台保存后商城公开接口读取数据库最新号码",
+      "status": "PASS"
+    },
+    {
+      "name": "非法号码拒绝且原值不变、清空真实保存",
+      "status": "PASS"
+    },
+    {
+      "name": "隔离库真实验证码注册并签发会话",
+      "status": "PASS"
+    }
+  ],
+  "h5": [],
+  "mp": [
+    {
+      "route": "category",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 657
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null
+      },
+      "scrollHeight": 882,
+      "scrollTop": 237,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "product-list",
+      "scroll": {
+        "left": 0,
+        "top": 135,
+        "width": 390,
+        "height": 617
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null
+      },
+      "scrollHeight": 1195,
+      "scrollTop": 602,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "one-click-invite",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 657
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null
+      },
+      "scrollHeight": 1423,
+      "scrollTop": 790,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "invite-records",
+      "scroll": {
+        "left": 0,
+        "top": 140,
+        "width": 390,
+        "height": 612
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null
+      },
+      "scrollHeight": 815,
+      "scrollTop": 227,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "tea-science",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 749
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [
+          "全部",
+          "红茶科普",
+          "绿茶科普",
+          "白茶科普"
+        ],
+        "error": "",
+        "selectedReward": null
+      },
+      "scrollHeight": 727,
+      "scrollTop": 0,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "partner-status",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 749
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null
+      },
+      "scrollHeight": 745,
+      "scrollTop": 12,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "partner-apply",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 749
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null
+      },
+      "scrollHeight": 1047,
+      "scrollTop": 314,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "share",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 749
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null
+      },
+      "scrollHeight": 1063,
+      "scrollTop": 338,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "exchange-detail",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 646
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": 21
+      },
+      "scrollHeight": 962,
+      "scrollTop": 344,
+      "confirmDialog": {
+        "left": 12,
+        "top": 637,
+        "width": 366,
+        "height": 173
+      },
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "settings",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 649
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null
+      },
+      "scrollHeight": 947,
+      "scrollTop": 315,
+      "failures": [],
+      "status": "MEASURED"
+    }
+  ],
+  "errors": [],
+  "mpDevice": {
+    "brand": "devtools",
+    "model": "iPhone 12/13 (Pro)",
+    "system": "iOS 10.0.1",
+    "platform": "devtools",
+    "benchmarkLevel": -1,
+    "pixelRatio": 3,
+    "screenWidth": 390,
+    "screenHeight": 844,
+    "windowWidth": 390,
+    "windowHeight": 844,
+    "statusBarHeight": 47,
+    "safeArea": {
+      "top": 47,
+      "left": 0,
+      "right": 390,
+      "bottom": 810,
+      "width": 390,
+      "height": 763
+    },
+    "language": "zh_CN",
+    "version": "8.0.5",
+    "fontSizeSetting": 16,
+    "SDKVersion": "3.16.2",
+    "host": {
+      "env": "WeChat"
+    },
+    "enableDebug": false,
+    "mode": "default",
+    "deviceOrientation": "portrait",
+    "bluetoothEnabled": true,
+    "locationEnabled": true,
+    "wifiEnabled": true,
+    "albumAuthorized": true,
+    "cameraAuthorized": true,
+    "locationAuthorized": true,
+    "microphoneAuthorized": true,
+    "notificationAuthorized": true,
+    "notificationAlertAuthorized": true,
+    "notificationBadgeAuthorized": true,
+    "notificationSoundAuthorized": true,
+    "phoneCalendarAuthorized": true,
+    "bluetoothAuthorized": true,
+    "locationReducedAccuracy": true,
+    "devicePixelRatio": 3
+  }
+}

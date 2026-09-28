@@ -1,0 +1,405 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "茶叶商城"
+			}
+		},
+		{
+			"path": "pages/home-topic/home-topic",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "首页专题"
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/product-list/product-list",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "西湖龙井"
+			}
+		},
+		{
+			"path": "pages/product-detail/product-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "商品详情"
+			}
+		},
+		{
+			"path": "pages/store/store",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "品牌店铺"
+			}
+		},
+		{
+			"path": "pages/notifications/notifications",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/confirm/confirm",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/pay-success/pay-success",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "下单成功"
+			}
+		},
+		{
+			"path": "pages/pay-failure/pay-failure",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "支付未完成"
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/order-detail/order-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/logistics/logistics",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "物流与售后"
+			}
+		},
+		{
+			"path": "pages/cancel-order/cancel-order",
+			"style": { "navigationStyle": "custom", "navigationBarTitleText": "取消订单" }
+		},
+		{
+			"path": "pages/aftersale-apply/aftersale-apply",
+			"style": { "navigationStyle": "custom", "navigationBarTitleText": "申请售后" }
+		},
+		{
+			"path": "pages/aftersale-detail/aftersale-detail",
+			"style": { "navigationStyle": "custom", "navigationBarTitleText": "售后详情" }
+		},
+		{
+			"path": "pages/return-logistics/return-logistics",
+			"style": { "navigationStyle": "custom", "navigationBarTitleText": "填写退货物流" }
+		},
+		{
+			"path": "pages/points-center/points-center",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "积分中心"
+			}
+		},
+		{
+			"path": "pages/exchange-center/exchange-center",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "兑换中心"
+			}
+		},
+		{
+			"path": "pages/points-detail/points-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "积分明细"
+			}
+		},
+		{
+			"path": "pages/points-mall/points-mall",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "积分商城"
+			}
+		},
+		{
+			"path": "pages/exchange-detail/exchange-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "兑换详情"
+			}
+		},
+		{
+			"path": "pages/tier-rewards/tier-rewards",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "阶梯奖励"
+			}
+		},
+		{
+			"path": "pages/tier-reward-detail/tier-reward-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "阶梯兑换详情"
+			}
+		},
+		{
+			"path": "pages/my-exchanges/my-exchanges",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的兑换"
+			}
+		},
+		{
+			"path": "pages/points-reward-details/points-reward-details",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "奖励明细"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/addresses/addresses",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/favorites/favorites",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的收藏"
+			}
+		},
+		{
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "设置与客服"
+			}
+		},
+		{
+			"path": "pages/service-ticket-detail/service-ticket-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "客服工单详情"
+			}
+		},
+		{
+			"path": "pages/invite/invite",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "邀请好友"
+			}
+		},
+		{
+			"path": "pages/invite-rewards/invite-rewards",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "邀请奖励"
+			}
+		},
+		{
+			"path": "pages/tea-friends/tea-friends",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的茶友"
+			}
+		},
+		{
+			"path": "pages/tea-friend-detail/tea-friend-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "茶友详情"
+			}
+		},
+		{
+			"path": "pages/tea-friend-orders/tea-friend-orders",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "购买记录"
+			}
+		},
+		{
+			"path": "pages/invite-gift/invite-gift",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "邀请礼包"
+			}
+		},
+		{
+			"path": "pages/one-click-invite/one-click-invite",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "一键邀请"
+			}
+		},
+		{
+			"path": "pages/share/share",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "分享方式"
+			}
+		},
+		{
+			"path": "pages/invite-records/invite-records",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "邀请记录"
+			}
+		},
+		{
+			"path": "pages/reward-detail/reward-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "奖励明细"
+			}
+		},
+		{
+			"path": "pages/commission-center/commission-center",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的收入"
+			}
+		},
+		{
+			"path": "pages/commission-details/commission-details",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "佣金与提现明细"
+			}
+		},
+		{
+			"path": "pages/withdraw/withdraw",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "申请提现"
+			}
+		},
+		{
+			"path": "pages/history/history",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "浏览记录"
+			}
+		},
+		{
+			"path": "pages/coupons/coupons",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "优惠券"
+			}
+		},
+		{
+			"path": "pages/partner-intro/partner-intro",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "合伙人介绍"
+			}
+		},
+		{
+			"path": "pages/partner-apply/partner-apply",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "申请合伙人"
+			}
+		},
+		{
+			"path": "pages/partner-status/partner-status",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "审核状态"
+			}
+		},
+		{
+			"path": "pages/partner-workbench/partner-workbench",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "合伙人工作台"
+			}
+		},
+		{
+			"path": "pages/partner-customers/partner-customers",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的客户"
+			}
+		},
+		{
+			"path": "pages/partner-customer-orders/partner-customer-orders",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "客户购买记录"
+			}
+		},
+		{
+			"path": "pages/tea-sales/tea-sales",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "茶叶销售"
+			}
+		},
+		{
+			"path": "pages/tea-science/tea-science",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "茶叶科普"
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "留言板"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "茶叶商城",
+		"navigationBarBackgroundColor": "#F7F4ED",
+		"backgroundColor": "#F7F4ED"
+	},
+	"uniIdRouter": {}
+}

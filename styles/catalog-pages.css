@@ -1,0 +1,1242 @@
+/* 01–08 catalog pages. Dimensions are derived from the 448×1489 source designs;
+   fluid width and safe-area spacing keep the same hierarchy on 320–448 px screens. */
+.catalog-stage--audit {
+	width: var(--catalog-audit-width);
+	height: 2492.7rpx;
+	min-height: 2492.7rpx;
+	padding: 0;
+	align-items: flex-start;
+	justify-content: flex-start;
+	overflow: hidden;
+	background: #fbf9f2;
+	margin-top: calc(-1 * var(--catalog-audit-offset));
+}
+.catalog-stage--audit .phone-shell {
+	width: var(--catalog-audit-width);
+	height: 2492.7rpx;
+	min-height: 2492.7rpx;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+.catalog-shell {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	background: #fbf9f2;
+	color: #10251c;
+	font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+.catalog-shell .status-bar {
+	height: 67rpx;
+	min-height: 67rpx;
+}
+.catalog-shell .top-bar {
+	background: #fffdf8;
+	border-color: #e7dfd0;
+}
+.catalog-shell .top-bar .top-title,
+.catalog-brand-bar,
+.catalog-section-title > text:first-child,
+.catalog-subheading,
+.catalog-detail-copy > text:first-child,
+.catalog-cart-heading {
+	font-family: SimSun, STSong, "Songti SC", serif;
+	letter-spacing: 0.08em;
+}
+.catalog-shell .top-bar .top-title {
+	font-size: 31.8rpx;
+	font-weight: 400;
+	line-height: 1.4;
+}
+.catalog-brand-bar {
+	display: flex;
+	height: 93.8rpx;
+	flex: 0 0 93.8rpx;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #e7dfd0;
+	background: #fffdf8;
+	font-size: 31.8rpx;
+}
+.catalog-page {
+	flex: 1;
+	min-height: 0;
+	background: #fbf9f2;
+}
+.catalog-page--tab {
+	padding: 23.4rpx 23.4rpx calc(130.6rpx + env(safe-area-inset-bottom));
+}
+.catalog-page--detail {
+	/* 操作栏是 scroll-view 的同级 flex 项，已天然占位；这里不再重复
+	 * 预留操作栏和安全区高度，避免规格区后出现大块空白。 */
+	padding-bottom: 0;
+}
+.catalog-state {
+	display: flex;
+	min-height: 401.8rpx;
+	padding: 53.6rpx 33.5rpx;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20.1rpx;
+	color: #7c7b72;
+	text-align: center;
+}
+.catalog-state button,
+.catalog-inline-empty button {
+	width: auto;
+	min-width: 187.5rpx;
+	height: 67rpx;
+	min-height: 67rpx;
+	padding: 0 30.1rpx;
+	border: 1px solid #0b5a40;
+	border-radius: 13.4rpx;
+	background: #fff;
+	color: #0b5a40;
+	font-size: 21.8rpx;
+}
+.catalog-state--error {
+	color: #8d4630;
+}
+.catalog-home-hero {
+	position: relative;
+	height: 56vw;
+	min-height: 360rpx;
+	max-height: 460rpx;
+	overflow: hidden;
+	border-radius: 21.8rpx;
+	background: #d6d9cd;
+}
+.catalog-home-hero__swiper,
+.catalog-home-hero__swiper swiper-item,
+.catalog-home-hero__swiper image {
+	width: 100%;
+	height: 100%;
+}
+.catalog-home-hero__swiper image {
+	filter: none;
+}
+.catalog-home-hero__shade {
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(
+		120deg,
+		rgba(13, 43, 30, 0.5),
+		rgba(13, 43, 30, 0.02) 72%
+	);
+}
+.catalog-home-hero__copy {
+	position: absolute;
+	left: 40.2rpx;
+	top: 70.3rpx;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+}
+.catalog-home-hero__copy text:first-child {
+	margin-bottom: 6.7rpx;
+	font-size: 21.8rpx;
+}
+.catalog-home-hero__copy text:nth-child(2),
+.catalog-home-hero__copy text:nth-child(3) {
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 53.6rpx;
+	line-height: 1.25;
+	letter-spacing: 0.06em;
+}
+.catalog-home-hero__copy text:last-child {
+	margin-top: 20.1rpx;
+	font-size: 21.8rpx;
+}
+.catalog-section-title {
+	display: flex;
+	height: 80.4rpx;
+	align-items: center;
+	justify-content: space-between;
+}
+.catalog-section-title > text:first-child {
+	font-size: 33.5rpx;
+}
+.catalog-section-title > text:last-child {
+	color: #77766f;
+	font-size: 20.1rpx;
+	letter-spacing: 0;
+}
+.catalog-product-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 20.1rpx;
+}
+.catalog-product-card {
+	min-width: 0;
+	overflow: hidden;
+	border: 1px solid #e5d7bd;
+	border-radius: 16.7rpx;
+	background: #fff;
+	box-shadow: 0 1px 3.3rpx rgba(62, 48, 27, 0.025);
+}
+.catalog-product-card > image,
+.catalog-product-card > .catalog-product-card__image,
+.catalog-product-card > managed-image {
+	display: block;
+	width: 100%;
+	height: 239.4rpx;
+	background: #eee7d8;
+}
+.catalog-product-card > view {
+	display: flex;
+	min-height: 120.5rpx;
+	padding: 15.1rpx 18.4rpx 11.7rpx;
+	flex-direction: column;
+	gap: 3.3rpx;
+}
+.catalog-product-card > view > text:first-child {
+	overflow: hidden;
+	color: #17251e;
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 26.8rpx;
+	line-height: 1.25;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.catalog-price {
+	color: #a84e24;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 26.8rpx;
+	font-weight: 600;
+	letter-spacing: 0.03em;
+}
+.catalog-price text {
+	font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+	font-size: 18.4rpx;
+	font-weight: 400;
+}
+.catalog-product-meta {
+	color: #99948a;
+	font-size: 18.4rpx;
+}
+.catalog-collection {
+	position: relative;
+	height: 56vw;
+	min-height: 360rpx;
+	max-height: 460rpx;
+	margin-top: 30.1rpx;
+	overflow: hidden;
+	border: 1px solid #bca76d;
+	border-radius: 21.8rpx;
+	background: #063c2b;
+	color: #fff;
+}
+.catalog-collection > image {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+}
+.catalog-collection__shade {
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(
+		90deg,
+		rgba(1, 49, 34, 0.68),
+		rgba(1, 49, 34, 0.04)
+	);
+}
+
+.home-product-empty {
+	min-height: 190rpx;
+	margin-bottom: 6rpx;
+	border: 1px solid #e5d7bd;
+	border-radius: 16.7rpx;
+	background: rgba(255, 255, 255, 0.72);
+}
+.catalog-collection__copy {
+	position: absolute;
+	left: 40.2rpx;
+	top: 46.9rpx;
+	display: flex;
+	flex-direction: column;
+	gap: 13.4rpx;
+}
+.catalog-collection__copy text:first-child {
+	color: #efd277;
+	font-size: 16.7rpx;
+	letter-spacing: 0.24em;
+}
+.catalog-collection__copy text:nth-child(2) {
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 45.2rpx;
+	letter-spacing: 0.08em;
+}
+.catalog-collection__copy text:nth-child(n + 3) {
+	font-size: 20.1rpx;
+}
+.catalog-collection__metrics {
+	position: absolute;
+	left: 33.5rpx;
+	right: 33.5rpx;
+	bottom: 30.1rpx;
+	display: grid;
+	min-height: 97.1rpx;
+	padding: 16.7rpx 6.7rpx;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	border: 1px solid rgba(217, 185, 101, 0.5);
+	border-radius: 15.1rpx;
+	background: rgba(37, 80, 61, 0.86);
+	text-align: center;
+}
+.catalog-collection__metrics > text {
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid rgba(224, 194, 115, 0.35);
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 25.1rpx;
+	font-weight: 600;
+}
+.catalog-collection__metrics > text:last-child {
+	border: 0;
+}
+.catalog-metric-note {
+	display: block;
+	margin-top: 3.3rpx;
+	font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+	font-size: 15.1rpx;
+	font-weight: 400;
+}
+.catalog-topic-hero {
+	position: relative;
+	height: 298rpx;
+	overflow: hidden;
+	border-radius: 18.4rpx;
+	background: #075b42;
+	color: #fff;
+}
+.catalog-topic-hero > image {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.24;
+}
+.catalog-topic-hero > view {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	padding: 36.8rpx 33.5rpx;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.catalog-topic-hero text:first-child {
+	font-size: 20.1rpx;
+}
+.catalog-topic-hero text:nth-child(2) {
+	margin: 8.4rpx 0 11.7rpx;
+	color: #eed27a;
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 41.9rpx;
+}
+.catalog-topic-hero text:nth-child(3) {
+	font-size: 20.1rpx;
+}
+.catalog-topic-hero button {
+	width: auto;
+	height: 67rpx;
+	min-height: 67rpx;
+	margin-top: 33.5rpx;
+	padding: 0 36.8rpx;
+	border: 0;
+	border-radius: 13.4rpx;
+	background: #fff;
+	color: #07422f;
+	font-size: 21.8rpx;
+}
+.catalog-topic-story {
+	display: grid;
+	min-height: 0;
+	margin-top: 30.1rpx;
+	grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+	overflow: hidden;
+	border: 1px solid #decda7;
+	border-radius: 20.1rpx;
+	background: #fdf9ef;
+}
+.catalog-topic-story > image {
+	width: 100%;
+	height: 100%;
+	min-height: 460rpx;
+}
+.catalog-topic-story > view {
+	display: flex;
+	padding: 60.3rpx 35.2rpx;
+	flex-direction: column;
+	gap: 21.8rpx;
+}
+.catalog-topic-story > view text:first-child {
+	color: #aa7546;
+	font-size: 15.1rpx;
+	letter-spacing: 0.25em;
+}
+.catalog-topic-story > view text:nth-child(2) {
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 41.9rpx;
+}
+.catalog-topic-story > view text:nth-child(3) {
+	margin: 6.7rpx 0 13.4rpx;
+	color: #77726a;
+	font-size: 20.1rpx;
+	line-height: 1.8;
+}
+.catalog-topic-story > view text:nth-child(n + 4) {
+	font-size: 18.4rpx;
+}
+.catalog-search-pill {
+	display: flex;
+	height: 72rpx;
+	margin: 23.4rpx;
+	flex: 0 0 72rpx;
+	padding: 0 23.4rpx;
+	align-items: center;
+	gap: 16.7rpx;
+	border: 1px solid #ded8cc;
+	border-radius: 38.5rpx;
+	background: #fff;
+	color: #999792;
+	font-size: 21.8rpx;
+}
+.catalog-search-pill--input {
+	margin-top: 23.4rpx;
+}
+.catalog-search-pill input {
+	height: 67rpx;
+	min-width: 0;
+	flex: 1;
+	color: #26352e;
+	font-size: 21.8rpx;
+}
+.catalog-category-layout {
+	display: grid;
+	height: auto;
+	min-height: 0;
+	margin: 0 23.4rpx;
+	grid-template-columns: 154rpx minmax(0, 1fr);
+	align-items: stretch;
+	overflow: hidden;
+	border: 1px solid #dfd5c3;
+	border-radius: 0 16.7rpx 16.7rpx 0;
+	background: #fff;
+}
+.catalog-category-rail {
+	height: auto;
+	background: #faf8f2;
+}
+.catalog-category-rail__item {
+	display: flex;
+	height: 92.1rpx;
+	align-items: center;
+	justify-content: center;
+	border-left: 5rpx solid transparent;
+	font-size: 23.4rpx;
+}
+.catalog-category-rail__item.active {
+	border-left-color: #07553d;
+	background: #fff;
+	color: #07553d;
+	font-weight: 600;
+}
+.catalog-category-main {
+	height: auto;
+	min-width: 0;
+	padding: 25.1rpx 20.1rpx;
+	overflow: hidden;
+}
+.catalog-subheading {
+	display: block;
+	margin: 0 0 20.1rpx;
+	font-size: 30.1rpx;
+}
+.catalog-category-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 16.7rpx;
+}
+.catalog-category-grid > view {
+	min-width: 0;
+	overflow: hidden;
+	border: 1px solid #ded2bd;
+	border-radius: 13.4rpx;
+}
+.catalog-category-grid image {
+	display: block;
+	width: 100%;
+	height: 187.5rpx;
+}
+.catalog-category-grid text {
+	display: block;
+	min-width: 0;
+	padding: 15.1rpx;
+	overflow: hidden;
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 20.1rpx;
+	line-height: 1.4;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.catalog-inline-empty {
+	display: flex;
+	min-height: 284.6rpx;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16.7rpx;
+	color: #888;
+}
+.catalog-origin-list {
+	overflow: hidden;
+	border: 1px solid #e4d9c6;
+	border-radius: 16.7rpx;
+}
+.catalog-origin-list > view {
+	display: flex;
+	height: 123.9rpx;
+	padding: 0 23.4rpx;
+	align-items: center;
+	gap: 20.1rpx;
+	border-bottom: 1px solid #eee6d9;
+}
+.catalog-origin-list > view:last-child {
+	border: 0;
+}
+.catalog-origin-list > view > text {
+	display: grid;
+	width: 56.9rpx;
+	height: 56.9rpx;
+	place-items: center;
+	border-radius: 50%;
+	background: #edf5ef;
+	color: #06563f;
+	font-size: 33.5rpx;
+}
+.catalog-origin-list > view > view {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	gap: 6.7rpx;
+}
+.catalog-origin-list > view > view text:first-child {
+	overflow: hidden;
+	font-weight: 600;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.catalog-origin-list > view > view text:last-child {
+	color: #898780;
+	font-size: 18.4rpx;
+}
+.catalog-category-collection {
+	position: relative;
+	height: auto;
+	min-height: 420rpx;
+	margin: 30.1rpx 23.4rpx calc(130.6rpx + env(safe-area-inset-bottom));
+	overflow: hidden;
+	border-radius: 20.1rpx;
+	background: linear-gradient(145deg, #003e2d, #07553d);
+	color: #fff;
+}
+.catalog-category-collection__image,
+.catalog-category-collection__shade {
+	position: absolute;
+	inset: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.catalog-category-collection__shade {
+	background: linear-gradient(
+		105deg,
+		rgba(0, 49, 35, 0.94),
+		rgba(0, 49, 35, 0.42) 62%,
+		rgba(0, 49, 35, 0.16)
+	);
+}
+.catalog-category-collection__content {
+	position: relative;
+	z-index: 1;
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 0;
+	min-height: 420rpx;
+	padding: 43.5rpx 36.8rpx;
+}
+.catalog-category-collection__content > text {
+	display: block;
+}
+.catalog-category-collection__content > text:first-child {
+	color: #edce72;
+	font-size: 16.7rpx;
+	letter-spacing: 0.2em;
+}
+.catalog-category-collection__content > text:nth-child(2) {
+	margin: 16.7rpx 0;
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 45.2rpx;
+}
+.catalog-category-collection__content > text:nth-child(3) {
+	font-size: 20.1rpx;
+	line-height: 1.7;
+}
+.catalog-category-collection__metrics {
+	display: grid;
+	margin-top: 40.2rpx;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 15.1rpx;
+}
+.catalog-category-collection__metrics > text {
+	display: flex;
+	min-width: 0;
+	min-height: 128rpx;
+	padding: 16rpx 8rpx;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8.4rpx;
+	border: 1px solid rgba(227, 193, 108, 0.35);
+	border-radius: 13.4rpx;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 23.4rpx;
+}
+.catalog-filter-row {
+	display: grid;
+	height: 63.6rpx;
+	padding: 0 23.4rpx;
+	grid-template-columns: repeat(5, 1fr);
+	align-items: center;
+}
+.catalog-filter-row text {
+	justify-self: center;
+	padding: 11.7rpx 20.1rpx;
+	border-radius: 28.5rpx;
+	color: #777;
+	font-size: 20.1rpx;
+}
+.catalog-filter-row text.active {
+	background: #e6f1ea;
+	color: #07553d;
+}
+.catalog-price-filter {
+	display: flex;
+	padding: 13.4rpx 23.4rpx;
+	gap: 13.4rpx;
+}
+.catalog-price-filter button {
+	height: 56.9rpx;
+	min-height: 56.9rpx;
+	padding: 0 23.4rpx;
+	border: 1px solid #ded8cb;
+	background: #fff;
+	color: #555;
+	font-size: 20.1rpx;
+}
+.catalog-price-filter button.active {
+	border-color: #07553d;
+	color: #07553d;
+}
+.catalog-page--search {
+	padding-top: 0;
+}
+.catalog-loading-more {
+	height: 67rpx;
+	color: #85837d;
+	font-size: 20.1rpx;
+	line-height: 67rpx;
+	text-align: center;
+}
+.catalog-collection--short {
+	height: 770.1rpx;
+}
+.catalog-list-tabs {
+	height: 78.7rpx;
+	flex: 0 0 78.7rpx;
+	border-bottom: 1px solid #dfd7ca;
+	background: #fffdf8;
+	white-space: nowrap;
+}
+.catalog-list-tabs text {
+	display: inline-flex;
+	width: 20%;
+	min-width: 107.1rpx;
+	height: 78.7rpx;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 3.3rpx solid transparent;
+	font-size: 21.8rpx;
+}
+.catalog-list-tabs text.active {
+	border-color: #07553d;
+	color: #07553d;
+	font-weight: 600;
+}
+.catalog-page--list {
+	padding-top: 23.4rpx;
+}
+.catalog-product-rows {
+	overflow: hidden;
+	border: 1px solid #e4dac7;
+	border-radius: 20.1rpx;
+	background: #fff;
+}
+.catalog-product-rows > view {
+	display: grid;
+	min-height: 217.6rpx;
+	padding: 21.8rpx;
+	grid-template-columns: 194.2rpx minmax(0, 1fr);
+	gap: 25.1rpx;
+	border-bottom: 1px solid #e9e1d4;
+}
+.catalog-product-rows > view:last-child {
+	border: 0;
+}
+.catalog-product-rows image {
+	width: 194.2rpx;
+	height: 177.5rpx;
+	border-radius: 8.4rpx;
+}
+.catalog-product-rows > view > view {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	gap: 10rpx;
+}
+.catalog-product-rows > view > view text:first-child {
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 28.5rpx;
+}
+.catalog-product-rows > view > view text:nth-child(2),
+.catalog-product-rows > view > view text:last-child {
+	color: #99968d;
+	font-size: 21.8rpx;
+}
+.catalog-topic-story--list {
+	min-height: 0;
+}
+.catalog-detail-gallery {
+	width: 100%;
+	height: 85vw;
+	max-height: 637.8rpx;
+	background: #eee8dd;
+}
+.catalog-detail-gallery image {
+	width: 100%;
+	height: 100%;
+}
+.catalog-detail-copy {
+	padding: 26.8rpx 28.5rpx 23.4rpx;
+	border-bottom: 1px solid #eee5d8;
+	background: #fff;
+}
+.catalog-detail-copy > text {
+	display: block;
+}
+.catalog-detail-copy > text:first-child {
+	font-size: 38.5rpx;
+}
+.catalog-detail-copy > .catalog-price {
+	margin-top: 11.7rpx;
+	font-size: 41.9rpx;
+}
+.catalog-detail-copy > text:nth-child(3) {
+	margin-top: 20.1rpx;
+	color: #858179;
+	font-size: 21.8rpx;
+}
+.catalog-detail-copy > view {
+	display: flex;
+	margin-top: 23.4rpx;
+	gap: 13.4rpx;
+}
+.catalog-detail-copy > view text {
+	padding: 8.4rpx 18.4rpx;
+	border: 1px solid #a9c8b5;
+	border-radius: 26.8rpx;
+	color: #07553d;
+	font-size: 21.8rpx;
+}
+.catalog-spec-section {
+	padding: 20.1rpx 26.8rpx 30.1rpx;
+	background: #fff;
+}
+.catalog-spec-section > view:first-child {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.catalog-spec-section > view:first-child text:first-child {
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 33.5rpx;
+}
+.catalog-spec-section > view:first-child text:last-child {
+	color: #888;
+	font-size: 21.8rpx;
+}
+
+.catalog-qty-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 84rpx;
+	padding: 0 28rpx;
+	border-top: 1px solid var(--color-border);
+	background: var(--color-surface);
+}
+
+.catalog-qty-row > view {
+	display: grid;
+	grid-template-columns: 56rpx 70rpx 56rpx;
+	align-items: center;
+	text-align: center;
+}
+
+.catalog-qty-row button {
+	display: flex;
+	width: 56rpx;
+	height: 56rpx;
+	min-height: 56rpx;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid var(--color-border-strong);
+	border-radius: 8rpx;
+	background: #fff;
+	font-size: 30rpx;
+	line-height: 1;
+}
+.catalog-spec-grid {
+	display: grid;
+	margin-top: 20.1rpx;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 13.4rpx;
+}
+.catalog-spec-grid button {
+	height: 70.3rpx;
+	min-height: 70.3rpx;
+	padding: 0 6.7rpx;
+	border: 1px solid #e0d5c2;
+	border-radius: 11.7rpx;
+	background: #fff;
+	font-size: 22rpx;
+	line-height: 1.15;
+}
+.catalog-spec-grid button.active {
+	border-color: #07553d;
+	color: #07553d;
+}
+.catalog-spec-grid button:disabled {
+	background: #f3f1ec;
+	color: #aaa;
+}
+.catalog-detail-collection {
+	position: relative;
+	height: auto;
+	min-height: 420rpx;
+	margin: 26.8rpx 23.4rpx 0;
+	overflow: hidden;
+	border-radius: 20.1rpx;
+}
+.catalog-detail-collection__image {
+	position: absolute;
+	inset: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0.62;
+}
+.catalog-detail-collection__shade {
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(
+		180deg,
+		rgba(1, 55, 39, 0.34),
+		rgba(1, 55, 39, 0.86)
+	);
+}
+.catalog-detail-collection > .catalog-category-collection__content {
+	position: relative;
+	z-index: 1;
+}
+.catalog-detail-info {
+	display: flex;
+	margin-top: 20.1rpx;
+	padding: 33.5rpx 28.5rpx;
+	flex-direction: column;
+	gap: 20.1rpx;
+	background: #fff;
+}
+.catalog-detail-info > text:first-child {
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 33.5rpx;
+}
+.catalog-detail-info > view {
+	display: flex;
+	justify-content: space-between;
+	color: #6f716d;
+	font-size: 23.4rpx;
+}
+.catalog-detail-info > text:last-child {
+	color: #6f716d;
+	font-size: 23.4rpx;
+	line-height: 1.8;
+}
+.catalog-detail-actions {
+	display: grid;
+	height: calc(117.2rpx + env(safe-area-inset-bottom));
+	min-height: calc(117.2rpx + env(safe-area-inset-bottom));
+	padding: 13.4rpx 23.4rpx calc(13.4rpx + env(safe-area-inset-bottom));
+	grid-template-columns: 90.4rpx 90.4rpx minmax(0, 1fr);
+	gap: 10rpx;
+	align-items: center;
+	border-top: 1px solid #e4ded3;
+	background: #fff;
+}
+.catalog-detail-actions > view {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5rpx;
+	font-size: 20.1rpx;
+}
+.catalog-detail-cart-link,
+.catalog-detail-cart-icon {
+	position: relative;
+}
+.catalog-detail-cart-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.catalog-detail-cart-badge {
+	position: absolute;
+	top: -10rpx;
+	right: -18rpx;
+	min-width: 28rpx;
+	height: 28rpx;
+	padding: 0 7rpx;
+	border-radius: 14rpx;
+	background: #c45c2f;
+	color: #fff;
+	font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+	font-size: 17rpx;
+	line-height: 28rpx;
+	text-align: center;
+}
+.catalog-detail-actions button {
+	height: 80rpx;
+	min-height: 80rpx;
+	border: 0;
+	border-radius: 13.4rpx;
+	background: #075b40;
+	color: #fff;
+	font-size: 27rpx;
+}
+.catalog-detail-actions button:disabled {
+	background: #a9b7af;
+}
+.catalog-store-head {
+	display: grid;
+	min-height: 137.3rpx;
+	padding: 26.8rpx 30.1rpx;
+	grid-template-columns: 80.4rpx minmax(0, 1fr) 147.3rpx;
+	align-items: center;
+	gap: 20.1rpx;
+	border-radius: 20.1rpx;
+	background: #075b40;
+	color: #fff;
+}
+.catalog-store-logo {
+	display: grid;
+	width: 73.7rpx;
+	height: 73.7rpx;
+	place-items: center;
+	overflow: hidden;
+	border-radius: 50%;
+	background: #fff;
+	color: #075b40;
+	font-size: 41.9rpx;
+}
+.catalog-store-logo image {
+	width: 100%;
+	height: 100%;
+}
+.catalog-store-head > view:nth-child(2) {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	gap: 8.4rpx;
+}
+.catalog-store-head > view:nth-child(2) text:first-child {
+	overflow: hidden;
+	font-size: 28.5rpx;
+	font-weight: 600;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.catalog-store-head > view:nth-child(2) text:last-child {
+	font-size: 16.7rpx;
+}
+.catalog-store-head button {
+	height: 63.6rpx;
+	min-height: 63.6rpx;
+	border: 1px solid #d8e1db;
+	background: #fff;
+	color: #075b40;
+	font-size: 21.8rpx;
+}
+.catalog-store-promises {
+	display: flex;
+	height: 63.6rpx;
+	align-items: center;
+	justify-content: space-around;
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 23.4rpx;
+}
+.catalog-section-title--story {
+	height: 80.4rpx;
+}
+.catalog-store-story {
+	display: flex;
+	min-height: 200.9rpx;
+	padding: 36.8rpx 28.5rpx;
+	flex-direction: column;
+	justify-content: center;
+	border: 1px solid #e2d8c6;
+	border-radius: 18.4rpx;
+	background: #fff;
+}
+.catalog-store-story text {
+	color: #6f716c;
+	font-size: 21.8rpx;
+	line-height: 1.8;
+}
+.catalog-collection--store {
+	height: 56vw;
+	min-height: 360rpx;
+	max-height: 460rpx;
+}
+.catalog-page--cart {
+	padding-top: 23.4rpx;
+	padding-bottom: calc(237.7rpx + env(safe-area-inset-bottom));
+}
+.catalog-cart-list {
+	overflow: hidden;
+	border: 1px solid #e2dacd;
+	border-radius: 20.1rpx;
+	background: #fff;
+}
+.catalog-cart-list > view {
+	display: grid;
+	min-height: 210.9rpx;
+	padding: 26.8rpx 21.8rpx;
+	grid-template-columns: 40.2rpx 174.1rpx minmax(0, 1fr);
+	align-items: center;
+	gap: 20.1rpx;
+	border-bottom: 1px solid #e9e1d5;
+}
+.catalog-cart-list > view:last-child {
+	border: 0;
+}
+.catalog-check {
+	display: grid;
+	width: 35.2rpx;
+	height: 35.2rpx;
+	place-items: center;
+	border: 1px solid #07553d;
+	border-radius: 50%;
+	background: #07553d;
+	color: #fff;
+	font-size: 18.4rpx;
+}
+.catalog-cart-list image {
+	width: 174.1rpx;
+	height: 154rpx;
+	border-radius: 8.4rpx;
+}
+.catalog-cart-list > view > view:last-child {
+	position: relative;
+	display: flex;
+	min-width: 0;
+	height: 154rpx;
+	flex-direction: column;
+	gap: 8.4rpx;
+}
+.catalog-cart-list > view > view:last-child > text:first-child {
+	overflow: hidden;
+	font-family: SimSun, STSong, "Songti SC", serif;
+	font-size: 26.8rpx;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.catalog-cart-list > view > view:last-child > text:nth-child(2) {
+	color: #888;
+	font-size: 16.7rpx;
+}
+.catalog-stepper {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: grid;
+	grid-template-columns: 43.5rpx 53.6rpx 43.5rpx;
+	align-items: center;
+	text-align: center;
+}
+.catalog-stepper button {
+	width: 43.5rpx;
+	height: 43.5rpx;
+	min-height: 43.5rpx;
+	padding: 0;
+	border: 1px solid #ddd3c3;
+	border-radius: 6.7rpx;
+	background: #fff;
+	font-size: 26.8rpx;
+	line-height: 40.2rpx;
+}
+.catalog-stepper button:disabled {
+	color: #bbb;
+}
+.catalog-cart-heading {
+	display: block;
+	margin: 26.8rpx 3.3rpx 15.1rpx;
+	font-size: 31.8rpx;
+}
+.catalog-benefits {
+	overflow: hidden;
+	border: 1px solid #e4dac9;
+	border-radius: 20.1rpx;
+	background: #fff;
+}
+.catalog-benefits > view {
+	display: grid;
+	height: 97.1rpx;
+	padding: 0 23.4rpx;
+	grid-template-columns: 50.2rpx minmax(0, 1fr) auto;
+	align-items: center;
+	border-bottom: 1px solid #e9e1d5;
+	font-size: 21.8rpx;
+}
+.catalog-benefits > view:last-child {
+	border: 0;
+}
+.catalog-benefits > view > text:last-child {
+	color: #85837d;
+	font-size: 18.4rpx;
+}
+.catalog-topic-story--cart {
+	min-height: 0;
+}
+.catalog-cart-total {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: calc(var(--bottom-nav-height) + env(safe-area-inset-bottom));
+	z-index: 39;
+	display: grid;
+	box-sizing: border-box;
+	height: 107.1rpx;
+	padding: 13.4rpx 23.4rpx;
+	grid-template-columns: 41.9rpx 70.3rpx minmax(0, 1fr) 210.9rpx;
+	align-items: center;
+	gap: 8.4rpx;
+	border-top: 1px solid #e3dbcf;
+	background: #fff;
+}
+.catalog-cart-total > text:nth-child(3) {
+	justify-self: end;
+	font-size: 25.1rpx;
+}
+.catalog-cart-total button {
+	height: 73.7rpx;
+	min-height: 73.7rpx;
+	border: 0;
+	background: #075b40;
+	color: #fff;
+}
+.catalog-cart-total button:disabled {
+	background: #aab6af;
+}
+@media (max-width: 375px) {
+	.catalog-page--tab {
+		padding-left: 16.7rpx;
+		padding-right: 16.7rpx;
+	}
+	.catalog-home-hero__copy {
+		left: 31.8rpx;
+		top: 56.9rpx;
+	}
+	.catalog-home-hero__copy text:nth-child(2),
+	.catalog-home-hero__copy text:nth-child(3) {
+		font-size: 45.2rpx;
+	}
+	.catalog-product-card > image,
+	.catalog-product-card > .catalog-product-card__image,
+	.catalog-product-card > managed-image {
+		height: 207.6rpx;
+	}
+	.catalog-topic-story {
+		grid-template-columns: 48% 52%;
+	}
+	.catalog-topic-story > view {
+		padding: 46.9rpx 23.4rpx;
+	}
+	.catalog-category-layout {
+		margin: 0 16.7rpx;
+		grid-template-columns: 137.3rpx minmax(0, 1fr);
+	}
+	.catalog-category-grid image {
+		height: 159rpx;
+	}
+	.catalog-product-rows > view {
+		grid-template-columns: 167.4rpx minmax(0, 1fr);
+	}
+	.catalog-product-rows image {
+		width: 167.4rpx;
+		height: 160.7rpx;
+	}
+	.catalog-spec-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.catalog-store-head {
+		padding: 23.4rpx 20.1rpx;
+		grid-template-columns: 70.3rpx minmax(0, 1fr) 120.5rpx;
+	}
+	.catalog-store-head button {
+		padding: 0 13.4rpx;
+	}
+	.catalog-cart-list > view {
+		grid-template-columns: 36.8rpx 147.3rpx minmax(0, 1fr);
+		gap: 13.4rpx;
+	}
+	.catalog-cart-list image {
+		width: 147.3rpx;
+		height: 137.3rpx;
+	}
+	.catalog-cart-list > view > view:last-child {
+		height: 137.3rpx;
+	}
+	.catalog-cart-total {
+		grid-template-columns: 38.5rpx 60.3rpx minmax(0, 1fr) 174.1rpx;
+		padding-left: 15.1rpx;
+		padding-right: 15.1rpx;
+	}
+}
+.catalog-category-page {
+	flex: 1;
+	min-height: 0;
+	padding-bottom: 24rpx;
+	background: #fbf9f2;
+}
+.catalog-category-page .catalog-category-collection {
+	margin-bottom: 23.4rpx;
+}
+.catalog-total-price {
+	color: #a84e24;
+	font-family: Georgia, "Times New Roman", serif;
+}

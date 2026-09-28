@@ -1,0 +1,211 @@
+.lifecycle-screen {
+	padding: 24rpx;
+	background: #f6f4ee;
+}
+.lifecycle-card {
+	margin-bottom: 20rpx;
+	padding: 26rpx;
+	border: 1px solid #e3ded2;
+	border-radius: 18rpx;
+	background: #fff;
+}
+.lifecycle-title {
+	display: block;
+	margin-bottom: 18rpx;
+	color: #174a31;
+	font-size: 30rpx;
+	font-weight: 600;
+}
+.lifecycle-card
+	> view:not(.lifecycle-product):not(.type-grid):not(.evidence-grid):not(
+		.qty-row
+	):not(.timeline-row) {
+	display: flex;
+	min-height: 54rpx;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20rpx;
+}
+.lifecycle-card > view > text:last-child {
+	max-width: 68%;
+	text-align: right;
+	overflow-wrap: anywhere;
+}
+.lifecycle-product {
+	display: grid !important;
+	grid-template-columns: 112rpx minmax(0, 1fr);
+	gap: 18rpx;
+	align-items: center !important;
+	padding: 16rpx 0;
+	border-top: 1px solid #eeeae1;
+}
+.lifecycle-product image {
+	width: 112rpx;
+	height: 112rpx;
+	border-radius: 12rpx;
+}
+.lifecycle-product > view {
+	display: flex;
+	min-width: 0;
+	flex-direction: column;
+	gap: 8rpx;
+}
+.lifecycle-product.selectable {
+	padding: 14rpx;
+	border: 1px solid transparent;
+	border-radius: 14rpx;
+}
+.lifecycle-product.selectable.active {
+	border-color: #205b3a;
+	background: #f1f7f2;
+}
+.radio-row,
+.picker-row {
+	display: flex;
+	min-height: 76rpx;
+	align-items: center;
+	justify-content: space-between;
+	border-top: 1px solid #eeeae1;
+}
+.lifecycle-card textarea {
+	width: 100%;
+	min-height: 190rpx;
+	margin-top: 16rpx;
+	padding: 18rpx;
+	border: 1px solid #ddd7ca;
+	border-radius: 12rpx;
+	box-sizing: border-box;
+}
+.lifecycle-card input {
+	height: 84rpx;
+	margin-bottom: 18rpx;
+	padding: 0 20rpx;
+	border: 1px solid #ddd7ca;
+	border-radius: 12rpx;
+}
+.lifecycle-note {
+	margin: 0 4rpx 20rpx;
+	color: #737a75;
+	font-size: 24rpx;
+	line-height: 1.65;
+}
+.type-grid {
+	display: grid !important;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 12rpx;
+}
+.type-grid button {
+	height: 64rpx;
+	padding: 0;
+	border: 1px solid #b8c9bd;
+	border-radius: 10rpx;
+	background: #fff;
+	color: #205b3a;
+	font-size: 24rpx;
+}
+.type-grid button.active {
+	background: #205b3a;
+	color: #fff;
+}
+.qty-row {
+	display: flex !important;
+	margin-top: 12rpx;
+	align-items: center;
+	justify-content: space-between;
+}
+.qty-row > view {
+	display: grid;
+	grid-template-columns: 58rpx 70rpx 58rpx;
+	align-items: center;
+	text-align: center;
+}
+.qty-row button {
+	height: 58rpx;
+	padding: 0;
+	line-height: 58rpx;
+}
+.evidence-grid {
+	display: grid !important;
+	margin-top: 18rpx;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 12rpx;
+}
+.evidence-grid image,
+.evidence-grid button {
+	width: 100%;
+	height: 150rpx;
+	border-radius: 10rpx;
+}
+.evidence-grid button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 1px dashed #9baa9f;
+	background: #f7faf7;
+	font-size: 34rpx;
+}
+.evidence-grid button text {
+	font-size: 22rpx;
+}
+.status-hero {
+	display: flex;
+	margin-bottom: 20rpx;
+	padding: 30rpx;
+	border-radius: 18rpx;
+	background: #174a31;
+	color: #fff;
+	flex-direction: column;
+	gap: 10rpx;
+}
+.status-hero text:first-child {
+	font-size: 34rpx;
+	font-weight: 600;
+}
+.timeline-row {
+	display: grid !important;
+	grid-template-columns: 160rpx minmax(0, 1fr);
+	gap: 8rpx 16rpx;
+	padding: 16rpx 0;
+	border-top: 1px solid #eeeae1;
+}
+.timeline-row text:last-child {
+	grid-column: 1/3;
+	color: #8b918c;
+	font-size: 22rpx;
+}
+.lifecycle-submit {
+	position: relative;
+	flex: 0 0 auto;
+	z-index: 40;
+	padding: 14rpx 24rpx calc(14rpx + env(safe-area-inset-bottom));
+	background: #fff;
+	border-top: 1px solid #e5e3dc;
+}
+.lifecycle-submit button {
+	display: flex;
+	height: 84rpx;
+	align-items: center;
+	justify-content: center;
+	border-radius: 12rpx;
+	background: #075f3e;
+	color: #fff;
+	font-size: 28rpx;
+}
+.lifecycle-submit.multi {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 14rpx;
+}
+.lifecycle-submit.multi button:first-child {
+	border: 1px solid #205b3a;
+	background: #fff;
+	color: #205b3a;
+}
+.refund-quote {
+	min-width: 0;
+	color: #9b4b2a !important;
+	font-weight: 700;
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}

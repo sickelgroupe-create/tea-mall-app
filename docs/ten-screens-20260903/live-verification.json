@@ -1,0 +1,2399 @@
+{
+  "environment": {
+    "backend": "http://127.0.0.1:19083",
+    "site": "http://127.0.0.1:19084",
+    "productionWrites": false
+  },
+  "api": [
+    {
+      "name": "匿名写入客服电话被拒绝",
+      "status": "PASS"
+    },
+    {
+      "name": "后台保存后商城公开接口读取数据库最新号码",
+      "status": "PASS"
+    },
+    {
+      "name": "非法号码拒绝且原值不变、清空真实保存",
+      "status": "PASS"
+    },
+    {
+      "name": "隔离库真实验证码注册并签发会话",
+      "status": "PASS"
+    }
+  ],
+  "h5": [
+    {
+      "width": 320,
+      "route": "category",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 320,
+        "height": 472.21875,
+        "bottom": 520.21875
+      },
+      "nav": {
+        "x": 0,
+        "y": 520.21875,
+        "width": 320,
+        "height": 47.78125,
+        "bottom": 568
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 246,
+        "height": 462,
+        "full": 708,
+        "paddingBottom": "10.24px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "route": "product-list",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 81.578125,
+        "width": 320,
+        "height": 438.640625,
+        "bottom": 520.21875
+      },
+      "nav": {
+        "x": 0,
+        "y": 520.21875,
+        "width": 320,
+        "height": 47.78125,
+        "bottom": 568
+      },
+      "tabs": {
+        "x": 0,
+        "y": 48,
+        "width": 320,
+        "height": 33.578125,
+        "bottom": 81.578125
+      },
+      "scroller": {
+        "top": 546,
+        "height": 418,
+        "full": 964,
+        "paddingBottom": "10.24px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "route": "one-click-invite",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 320,
+        "height": 472.21875,
+        "bottom": 520.21875
+      },
+      "nav": {
+        "x": 0,
+        "y": 520.21875,
+        "width": 320,
+        "height": 47.78125,
+        "bottom": 568
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 717,
+        "height": 452,
+        "full": 1169,
+        "paddingBottom": "9.984px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "route": "invite-records",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 85.15625,
+        "width": 320,
+        "height": 435.0625,
+        "bottom": 520.21875
+      },
+      "nav": {
+        "x": 0,
+        "y": 520.21875,
+        "width": 320,
+        "height": 47.78125,
+        "bottom": 568
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 256,
+        "height": 415,
+        "full": 671,
+        "paddingBottom": "9.984px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "route": "tea-science",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 320,
+        "height": 520,
+        "bottom": 568
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 0,
+        "height": 501,
+        "full": 501,
+        "paddingBottom": "9.38667px"
+      },
+      "categories": [
+        "全部",
+        "红茶科普",
+        "绿茶科普",
+        "白茶科普"
+      ],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "route": "partner-status",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 320,
+        "height": 520,
+        "bottom": 568
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 35,
+        "height": 506,
+        "full": 541,
+        "paddingBottom": "13.6533px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "route": "partner-apply",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 320,
+        "height": 520,
+        "bottom": 568
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 359,
+        "height": 506,
+        "full": 865,
+        "paddingBottom": "13.6533px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "route": "share",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 320,
+        "height": 520,
+        "bottom": 568
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 378,
+        "height": 500,
+        "full": 878,
+        "paddingBottom": "9.984px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "route": "exchange-detail",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 320,
+        "height": 462.875,
+        "bottom": 510.875
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 284,
+        "height": 439,
+        "full": 723,
+        "paddingBottom": "13.6533px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "confirmDialog": {
+        "x": 10.234375,
+        "y": 422.78125,
+        "width": 299.53125,
+        "height": 145.21875
+      },
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 320,
+      "route": "settings",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 568,
+        "bottom": 568
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 320,
+        "height": 465.734375,
+        "bottom": 513.734375
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 344,
+        "height": 451,
+        "full": 795,
+        "paddingBottom": "10.24px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "category",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 360,
+        "height": 742.25,
+        "bottom": 790.25
+      },
+      "nav": {
+        "x": 0,
+        "y": 790.25,
+        "width": 360,
+        "height": 53.75,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 65,
+        "height": 731,
+        "full": 796,
+        "paddingBottom": "11.52px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "product-list",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 85.765625,
+        "width": 360,
+        "height": 704.484375,
+        "bottom": 790.25
+      },
+      "nav": {
+        "x": 0,
+        "y": 790.25,
+        "width": 360,
+        "height": 53.75,
+        "bottom": 844
+      },
+      "tabs": {
+        "x": 0,
+        "y": 48,
+        "width": 360,
+        "height": 37.765625,
+        "bottom": 85.765625
+      },
+      "scroller": {
+        "top": 402,
+        "height": 682,
+        "full": 1084,
+        "paddingBottom": "11.52px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "one-click-invite",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 360,
+        "height": 742.25,
+        "bottom": 790.25
+      },
+      "nav": {
+        "x": 0,
+        "y": 790.25,
+        "width": 360,
+        "height": 53.75,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 595,
+        "height": 720,
+        "full": 1315,
+        "paddingBottom": "11.232px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "invite-records",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 89.796875,
+        "width": 360,
+        "height": 700.453125,
+        "bottom": 790.25
+      },
+      "nav": {
+        "x": 0,
+        "y": 790.25,
+        "width": 360,
+        "height": 53.75,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 77,
+        "height": 678,
+        "full": 755,
+        "paddingBottom": "11.232px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "tea-science",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 360,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 0,
+        "height": 775,
+        "full": 775,
+        "paddingBottom": "10.56px"
+      },
+      "categories": [
+        "全部",
+        "红茶科普",
+        "绿茶科普",
+        "白茶科普"
+      ],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "partner-status",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 360,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 11,
+        "height": 781,
+        "full": 792,
+        "paddingBottom": "15.36px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "partner-apply",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 360,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 192,
+        "height": 781,
+        "full": 973,
+        "paddingBottom": "15.36px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "share",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 360,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 214,
+        "height": 774,
+        "full": 988,
+        "paddingBottom": "11.232px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "exchange-detail",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 360,
+        "height": 731.734375,
+        "bottom": 779.734375
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 108,
+        "height": 705,
+        "full": 813,
+        "paddingBottom": "15.36px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "confirmDialog": {
+        "x": 11.515625,
+        "y": 680.640625,
+        "width": 336.96875,
+        "height": 163.359375
+      },
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "route": "settings",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 360,
+        "height": 734.953125,
+        "bottom": 782.953125
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 174,
+        "height": 719,
+        "full": 893,
+        "paddingBottom": "11.52px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "category",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 375,
+        "height": 740,
+        "bottom": 788
+      },
+      "nav": {
+        "x": 0,
+        "y": 788,
+        "width": 375,
+        "height": 56,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 103,
+        "height": 728,
+        "full": 831,
+        "paddingBottom": "12px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "product-list",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 87.34375,
+        "width": 375,
+        "height": 700.65625,
+        "bottom": 788
+      },
+      "nav": {
+        "x": 0,
+        "y": 788,
+        "width": 375,
+        "height": 56,
+        "bottom": 844
+      },
+      "tabs": {
+        "x": 0,
+        "y": 48,
+        "width": 375,
+        "height": 39.34375,
+        "bottom": 87.34375
+      },
+      "scroller": {
+        "top": 452,
+        "height": 677,
+        "full": 1129,
+        "paddingBottom": "12px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "one-click-invite",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 375,
+        "height": 740,
+        "bottom": 788
+      },
+      "nav": {
+        "x": 0,
+        "y": 788,
+        "width": 375,
+        "height": 56,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 653,
+        "height": 717,
+        "full": 1370,
+        "paddingBottom": "11.7px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "invite-records",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 91.546875,
+        "width": 375,
+        "height": 696.453125,
+        "bottom": 788
+      },
+      "nav": {
+        "x": 0,
+        "y": 788,
+        "width": 375,
+        "height": 56,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 113,
+        "height": 673,
+        "full": 786,
+        "paddingBottom": "11.7px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "tea-science",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 375,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 0,
+        "height": 774,
+        "full": 774,
+        "paddingBottom": "11px"
+      },
+      "categories": [
+        "全部",
+        "红茶科普",
+        "绿茶科普",
+        "白茶科普"
+      ],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "partner-status",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 375,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 12,
+        "height": 780,
+        "full": 792,
+        "paddingBottom": "16px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "partner-apply",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 375,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 240,
+        "height": 780,
+        "full": 1020,
+        "paddingBottom": "16px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "share",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 375,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 255,
+        "height": 773,
+        "full": 1028,
+        "paddingBottom": "11.7px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "exchange-detail",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 375,
+        "height": 729.0625,
+        "bottom": 777.0625
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 233,
+        "height": 701,
+        "full": 934,
+        "paddingBottom": "16px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "confirmDialog": {
+        "x": 12,
+        "y": 673.75,
+        "width": 351,
+        "height": 170.25
+      },
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "route": "settings",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 375,
+        "height": 732.40625,
+        "bottom": 780.40625
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 215,
+        "height": 715,
+        "full": 930,
+        "paddingBottom": "12px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "category",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 390,
+        "height": 737.765625,
+        "bottom": 785.765625
+      },
+      "nav": {
+        "x": 0,
+        "y": 785.765625,
+        "width": 390,
+        "height": 58.234375,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 168,
+        "height": 725,
+        "full": 893,
+        "paddingBottom": "12.48px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "product-list",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 88.921875,
+        "width": 390,
+        "height": 696.84375,
+        "bottom": 785.765625
+      },
+      "nav": {
+        "x": 0,
+        "y": 785.765625,
+        "width": 390,
+        "height": 58.234375,
+        "bottom": 844
+      },
+      "tabs": {
+        "x": 0,
+        "y": 48,
+        "width": 390,
+        "height": 40.921875,
+        "bottom": 88.921875
+      },
+      "scroller": {
+        "top": 556,
+        "height": 672,
+        "full": 1228,
+        "paddingBottom": "12.48px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "one-click-invite",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 390,
+        "height": 737.765625,
+        "bottom": 785.765625
+      },
+      "nav": {
+        "x": 0,
+        "y": 785.765625,
+        "width": 390,
+        "height": 58.234375,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 712,
+        "height": 713,
+        "full": 1425,
+        "paddingBottom": "12.168px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "invite-records",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 93.28125,
+        "width": 390,
+        "height": 692.484375,
+        "bottom": 785.765625
+      },
+      "nav": {
+        "x": 0,
+        "y": 785.765625,
+        "width": 390,
+        "height": 58.234375,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 149,
+        "height": 668,
+        "full": 817,
+        "paddingBottom": "12.168px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "tea-science",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 390,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 0,
+        "height": 773,
+        "full": 773,
+        "paddingBottom": "11.44px"
+      },
+      "categories": [
+        "全部",
+        "红茶科普",
+        "绿茶科普",
+        "白茶科普"
+      ],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "partner-status",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 390,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 13,
+        "height": 779,
+        "full": 792,
+        "paddingBottom": "16.64px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "partner-apply",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 390,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 282,
+        "height": 779,
+        "full": 1061,
+        "paddingBottom": "16.64px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "share",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 390,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 297,
+        "height": 772,
+        "full": 1069,
+        "paddingBottom": "12.168px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "exchange-detail",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 390,
+        "height": 726.375,
+        "bottom": 774.375
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 273,
+        "height": 698,
+        "full": 971,
+        "paddingBottom": "16.64px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "confirmDialog": {
+        "x": 12.46875,
+        "y": 667,
+        "width": 365.0625,
+        "height": 177
+      },
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "route": "settings",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 390,
+        "height": 729.859375,
+        "bottom": 777.859375
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 255,
+        "height": 712,
+        "full": 967,
+        "paddingBottom": "12.48px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "category",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 414,
+        "height": 734.1875,
+        "bottom": 782.1875
+      },
+      "nav": {
+        "x": 0,
+        "y": 782.1875,
+        "width": 414,
+        "height": 61.8125,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 227,
+        "height": 721,
+        "full": 948,
+        "paddingBottom": "13.248px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "product-list",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 91.4375,
+        "width": 414,
+        "height": 690.75,
+        "bottom": 782.1875
+      },
+      "nav": {
+        "x": 0,
+        "y": 782.1875,
+        "width": 414,
+        "height": 61.8125,
+        "bottom": 844
+      },
+      "tabs": {
+        "x": 0,
+        "y": 48,
+        "width": 414,
+        "height": 43.4375,
+        "bottom": 91.4375
+      },
+      "scroller": {
+        "top": 638,
+        "height": 665,
+        "full": 1303,
+        "paddingBottom": "13.248px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "one-click-invite",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 414,
+        "height": 734.1875,
+        "bottom": 782.1875
+      },
+      "nav": {
+        "x": 0,
+        "y": 782.1875,
+        "width": 414,
+        "height": 61.8125,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 805,
+        "height": 708,
+        "full": 1513,
+        "paddingBottom": "12.9168px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "invite-records",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 96.078125,
+        "width": 414,
+        "height": 686.109375,
+        "bottom": 782.1875
+      },
+      "nav": {
+        "x": 0,
+        "y": 782.1875,
+        "width": 414,
+        "height": 61.8125,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 207,
+        "height": 660,
+        "full": 867,
+        "paddingBottom": "12.9168px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "tea-science",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 414,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 0,
+        "height": 772,
+        "full": 772,
+        "paddingBottom": "12.144px"
+      },
+      "categories": [
+        "全部",
+        "红茶科普",
+        "绿茶科普",
+        "白茶科普"
+      ],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "partner-status",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 414,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 14,
+        "height": 778,
+        "full": 792,
+        "paddingBottom": "17.664px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "partner-apply",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 414,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 348,
+        "height": 778,
+        "full": 1126,
+        "paddingBottom": "17.664px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "share",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 414,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 369,
+        "height": 770,
+        "full": 1139,
+        "paddingBottom": "12.9168px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "exchange-detail",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 414,
+        "height": 722.09375,
+        "bottom": 770.09375
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 339,
+        "height": 692,
+        "full": 1031,
+        "paddingBottom": "17.664px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "confirmDialog": {
+        "x": 13.234375,
+        "y": 656.078125,
+        "width": 387.53125,
+        "height": 187.921875
+      },
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 414,
+      "route": "settings",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 414,
+        "height": 725.796875,
+        "bottom": 773.796875
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 319,
+        "height": 707,
+        "full": 1026,
+        "paddingBottom": "13.248px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "category",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 430,
+        "height": 731.796875,
+        "bottom": 779.796875
+      },
+      "nav": {
+        "x": 0,
+        "y": 779.796875,
+        "width": 430,
+        "height": 64.203125,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 266,
+        "height": 718,
+        "full": 984,
+        "paddingBottom": "13.76px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "product-list",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 93.109375,
+        "width": 430,
+        "height": 686.6875,
+        "bottom": 779.796875
+      },
+      "nav": {
+        "x": 0,
+        "y": 779.796875,
+        "width": 430,
+        "height": 64.203125,
+        "bottom": 844
+      },
+      "tabs": {
+        "x": 0,
+        "y": 48,
+        "width": 430,
+        "height": 45.109375,
+        "bottom": 93.109375
+      },
+      "scroller": {
+        "top": 693,
+        "height": 660,
+        "full": 1353,
+        "paddingBottom": "13.76px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "one-click-invite",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 430,
+        "height": 731.796875,
+        "bottom": 779.796875
+      },
+      "nav": {
+        "x": 0,
+        "y": 779.796875,
+        "width": 430,
+        "height": 64.203125,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 866,
+        "height": 705,
+        "full": 1571,
+        "paddingBottom": "13.416px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "invite-records",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 97.921875,
+        "width": 430,
+        "height": 681.875,
+        "bottom": 779.796875
+      },
+      "nav": {
+        "x": 0,
+        "y": 779.796875,
+        "width": 430,
+        "height": 64.203125,
+        "bottom": 844
+      },
+      "tabs": null,
+      "scroller": {
+        "top": 246,
+        "height": 655,
+        "full": 901,
+        "paddingBottom": "13.416px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "tea-science",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 430,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 0,
+        "height": 771,
+        "full": 771,
+        "paddingBottom": "12.6133px"
+      },
+      "categories": [
+        "全部",
+        "红茶科普",
+        "绿茶科普",
+        "白茶科普"
+      ],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "partner-status",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 430,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 13,
+        "height": 778,
+        "full": 791,
+        "paddingBottom": "18.3467px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "partner-apply",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 430,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 392,
+        "height": 778,
+        "full": 1170,
+        "paddingBottom": "18.3467px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "share",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 430,
+        "height": 796,
+        "bottom": 844
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 414,
+        "height": 769,
+        "full": 1183,
+        "paddingBottom": "13.416px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "exchange-detail",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 430,
+        "height": 719.234375,
+        "bottom": 767.234375
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 384,
+        "height": 687,
+        "full": 1071,
+        "paddingBottom": "18.3467px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "confirmDialog": {
+        "x": 13.75,
+        "y": 648.828125,
+        "width": 402.5,
+        "height": 195.171875
+      },
+      "failures": [],
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "route": "settings",
+      "shell": {
+        "x": 0,
+        "y": 0,
+        "width": 430,
+        "height": 844,
+        "bottom": 844
+      },
+      "scroll": {
+        "x": 0,
+        "y": 48,
+        "width": 430,
+        "height": 723.078125,
+        "bottom": 771.078125
+      },
+      "nav": null,
+      "tabs": null,
+      "scroller": {
+        "top": 361,
+        "height": 704,
+        "full": 1065,
+        "paddingBottom": "13.76px"
+      },
+      "categories": [],
+      "horizontalOverflow": false,
+      "failures": [],
+      "status": "PASS"
+    }
+  ],
+  "mp": [
+    {
+      "route": "category",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 657
+      },
+      "nav": {
+        "id": "",
+        "dataset": {},
+        "left": 0,
+        "right": 390,
+        "top": 752,
+        "bottom": 844,
+        "width": 390,
+        "height": 92
+      },
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null,
+        "qrCells": 0,
+        "supportPhone": ""
+      },
+      "scrollHeight": 882,
+      "scrollTop": 237,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "product-list",
+      "scroll": {
+        "left": 0,
+        "top": 135,
+        "width": 390,
+        "height": 617
+      },
+      "nav": {
+        "id": "",
+        "dataset": {},
+        "left": 0,
+        "right": 390,
+        "top": 752,
+        "bottom": 844,
+        "width": 390,
+        "height": 92
+      },
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null,
+        "qrCells": 0,
+        "supportPhone": ""
+      },
+      "scrollHeight": 1195,
+      "scrollTop": 602,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "one-click-invite",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 657
+      },
+      "nav": {
+        "id": "",
+        "dataset": {},
+        "left": 0,
+        "right": 390,
+        "top": 752,
+        "bottom": 844,
+        "width": 390,
+        "height": 92
+      },
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null,
+        "qrCells": 0,
+        "supportPhone": ""
+      },
+      "scrollHeight": 1423,
+      "scrollTop": 790,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "invite-records",
+      "scroll": {
+        "left": 0,
+        "top": 140,
+        "width": 390,
+        "height": 612
+      },
+      "nav": {
+        "id": "",
+        "dataset": {},
+        "left": 0,
+        "right": 390,
+        "top": 752,
+        "bottom": 844,
+        "width": 390,
+        "height": 92
+      },
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null,
+        "qrCells": 0,
+        "supportPhone": ""
+      },
+      "scrollHeight": 815,
+      "scrollTop": 227,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "tea-science",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 749
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [
+          "全部",
+          "红茶科普",
+          "绿茶科普",
+          "白茶科普"
+        ],
+        "error": "",
+        "selectedReward": null,
+        "qrCells": 0,
+        "supportPhone": ""
+      },
+      "scrollHeight": 693,
+      "scrollTop": 0,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "partner-status",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 749
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null,
+        "qrCells": 0,
+        "supportPhone": ""
+      },
+      "scrollHeight": 711,
+      "scrollTop": 12,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "partner-apply",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 749
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null,
+        "qrCells": 0,
+        "supportPhone": ""
+      },
+      "scrollHeight": 1047,
+      "scrollTop": 348,
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "share",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 749
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null,
+        "qrCells": 1369,
+        "supportPhone": ""
+      },
+      "scrollHeight": 1063,
+      "scrollTop": 372,
+      "lastCard": {
+        "id": "",
+        "dataset": {},
+        "left": 12,
+        "right": 378,
+        "top": 209.1875,
+        "bottom": 798.1875,
+        "width": 366,
+        "height": 589
+      },
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "exchange-detail",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 646
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": 21,
+        "qrCells": 0,
+        "supportPhone": ""
+      },
+      "scrollHeight": 962,
+      "scrollTop": 344,
+      "confirmDialog": {
+        "left": 12,
+        "top": 637,
+        "width": 366,
+        "height": 173
+      },
+      "failures": [],
+      "status": "MEASURED"
+    },
+    {
+      "route": "settings",
+      "scroll": {
+        "left": 0,
+        "top": 95,
+        "width": 390,
+        "height": 649
+      },
+      "nav": null,
+      "dataCheck": {
+        "products": 8,
+        "categories": [],
+        "error": "",
+        "selectedReward": null,
+        "qrCells": 0,
+        "supportPhone": "010-12345678"
+      },
+      "scrollHeight": 947,
+      "scrollTop": 315,
+      "failures": [],
+      "status": "MEASURED"
+    }
+  ],
+  "errors": [],
+  "mpDevice": {
+    "brand": "devtools",
+    "model": "iPhone 12/13 (Pro)",
+    "system": "iOS 10.0.1",
+    "platform": "devtools",
+    "benchmarkLevel": -1,
+    "pixelRatio": 3,
+    "screenWidth": 390,
+    "screenHeight": 844,
+    "windowWidth": 390,
+    "windowHeight": 844,
+    "statusBarHeight": 47,
+    "safeArea": {
+      "top": 47,
+      "left": 0,
+      "right": 390,
+      "bottom": 810,
+      "width": 390,
+      "height": 763
+    },
+    "language": "zh_CN",
+    "version": "8.0.5",
+    "fontSizeSetting": 16,
+    "SDKVersion": "3.16.2",
+    "host": {
+      "env": "WeChat"
+    },
+    "enableDebug": false,
+    "mode": "default",
+    "deviceOrientation": "portrait",
+    "bluetoothEnabled": true,
+    "locationEnabled": true,
+    "wifiEnabled": true,
+    "albumAuthorized": true,
+    "cameraAuthorized": true,
+    "locationAuthorized": true,
+    "microphoneAuthorized": true,
+    "notificationAuthorized": true,
+    "notificationAlertAuthorized": true,
+    "notificationBadgeAuthorized": true,
+    "notificationSoundAuthorized": true,
+    "phoneCalendarAuthorized": true,
+    "bluetoothAuthorized": true,
+    "locationReducedAccuracy": true,
+    "devicePixelRatio": 3
+  }
+}

@@ -1,0 +1,372 @@
+/*
+ * Cross-platform interactive control system.
+ *
+ * Imported after every legacy page bundle so repeated historical button
+ * declarations converge on one mini-program-safe box model. Page-specific
+ * layout may still define width, but text alignment and control metrics come
+ * from the semantic groups below.
+ */
+
+button,
+.phone-shell button {
+	display: flex;
+	box-sizing: border-box;
+	min-width: 0;
+	min-height: var(--control-height-small);
+	margin: 0;
+	padding: 0 var(--control-padding-default);
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: center;
+	gap: var(--control-icon-gap);
+	border: 0;
+	border-radius: var(--control-radius-default);
+	font-family: var(--font-family-base);
+	font-size: var(--control-font-default);
+	font-weight: var(--control-font-weight);
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+button::after,
+.phone-shell button::after {
+	border: 0;
+}
+
+button > text,
+button > view,
+.phone-shell button > text,
+.phone-shell button > view {
+	flex: 0 0 auto;
+	line-height: 1.2;
+}
+
+button[disabled],
+.phone-shell button[disabled],
+.phone-shell button.is-disabled {
+	pointer-events: none;
+	opacity: 0.55;
+}
+
+button:active,
+.phone-shell button:active {
+	transform: none;
+	opacity: 0.86;
+}
+
+/* Primary and bottom-fixed actions. */
+.phone-shell .primary-button,
+.phone-shell .buy-button,
+.phone-shell .login-submit,
+.phone-shell .recovery-submit,
+.phone-shell .partner-primary,
+.phone-shell .phase-primary,
+.phone-shell .account-primary,
+.phone-shell .withdraw-fixed,
+.phone-shell .invite-button,
+.phone-shell .single-action button,
+.phone-shell .invite-actions button:first-child,
+.phone-shell .submit-bar button,
+.phone-shell .cart-total button,
+.phone-shell .catalog-cart-total button,
+.phone-shell .exchange-submit button,
+.phone-shell .service-ticket-form button,
+.phone-shell .store-service-bar button.green,
+.phone-shell .gift-body > button,
+.phone-shell .catalog-detail-actions > button {
+	height: var(--control-height-large);
+	min-height: var(--control-height-large);
+	padding: 0 var(--control-padding-default);
+	border: 1rpx solid #07543b;
+	border-radius: var(--control-radius-default);
+	background: #07543b;
+	box-shadow: none;
+	color: #fff;
+	font-size: var(--control-font-emphasis);
+	font-weight: var(--control-font-weight-emphasis);
+	line-height: 1.2;
+}
+
+.phone-shell .primary-button[disabled],
+.phone-shell .buy-button[disabled],
+.phone-shell .login-submit[disabled],
+.phone-shell .recovery-submit[disabled],
+.phone-shell .partner-primary[disabled],
+.phone-shell .phase-primary[disabled],
+.phone-shell .account-primary[disabled],
+.phone-shell .withdraw-fixed[disabled],
+.phone-shell .invite-button[disabled],
+.phone-shell .single-action button[disabled],
+.phone-shell .invite-actions button[disabled],
+.phone-shell .submit-bar button[disabled],
+.phone-shell .cart-total button[disabled],
+.phone-shell .catalog-cart-total button[disabled],
+.phone-shell .exchange-submit button[disabled],
+.phone-shell .service-ticket-form button[disabled],
+.phone-shell .gift-body > button[disabled],
+.phone-shell .catalog-detail-actions > button[disabled] {
+	border-color: #cbd4ce;
+	background: #dfe4df;
+	box-shadow: none;
+	color: #7e8981;
+	opacity: 1;
+}
+
+/* Secondary, outline and WeChat login actions. */
+.phone-shell .outline-button,
+.phone-shell .wechat-button,
+.phone-shell .login-wechat,
+.phone-shell .cart-button,
+.phone-shell .partner-secondary,
+.phone-shell .store-service-bar button:not(.green),
+.phone-shell .double-action button:first-child,
+.phone-shell .phase-confirm button:first-child {
+	height: var(--control-height-large);
+	min-height: var(--control-height-large);
+	padding: 0 var(--control-padding-default);
+	border: 1rpx solid #568173;
+	border-radius: var(--control-radius-default);
+	background: #fff;
+	color: #07543b;
+	font-size: var(--control-font-default);
+	font-weight: var(--control-font-weight);
+	line-height: 1.2;
+}
+
+.phone-shell .login-wechat {
+	width: 100%;
+	gap: var(--control-icon-gap);
+}
+
+.phone-shell .login-wechat .tea-icon,
+.phone-shell .login-wechat image {
+	flex: 0 0 auto;
+}
+
+/*
+ * Pending-order action pair shared by the order list and order detail page.
+ * Both actions intentionally use the exact same box metrics; visual hierarchy
+ * is expressed only through border/background/text color.
+ */
+.phone-shell .order-payment-actions {
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	align-items: center;
+	gap: 18rpx;
+}
+
+.phone-shell .order-payment-actions > .order-payment-action {
+	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 0;
+	height: var(--control-height-large);
+	min-height: var(--control-height-large);
+	margin: 0;
+	padding: 0 var(--control-padding-default);
+	align-items: center;
+	justify-content: center;
+	border: 1rpx solid #07543b;
+	border-radius: var(--control-radius-default);
+	font-family: var(--font-family-base);
+	font-size: var(--control-font-default);
+	font-weight: var(--control-font-weight-emphasis);
+	line-height: 1.2;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.phone-shell .order-payment-actions > .order-payment-action--secondary {
+	background: #fff;
+	box-shadow: none;
+	color: #07543b;
+}
+
+.phone-shell .order-payment-actions > .order-payment-action--primary {
+	background: #07543b;
+	box-shadow: 0 8rpx 18rpx rgba(7, 84, 59, 0.16);
+	color: #fff;
+}
+
+.phone-shell .order-payment-actions > .order-payment-action[disabled] {
+	border-color: #cbd4ce;
+	background: #dfe4df;
+	box-shadow: none;
+	color: #7e8981;
+	opacity: 1;
+}
+
+/* Empty, error and retry actions. */
+.phone-shell .commercial-empty button,
+.phone-shell .category-empty button,
+.phone-shell .cart-empty button,
+.phone-shell .catalog-state button,
+.phone-shell .catalog-inline-empty button,
+.phone-shell .account-state button,
+.phone-shell .account-empty-card button,
+.phone-shell .phase-state button,
+.phone-shell .page-state button,
+.phone-shell .state button,
+.phone-shell .ui-order-empty__button {
+	width: auto;
+	min-width: var(--control-min-width-empty);
+	height: var(--control-height-medium);
+	min-height: var(--control-height-medium);
+	padding: 0 var(--control-padding-default);
+	border: 1rpx solid #07543b;
+	border-radius: var(--control-radius-default);
+	background: #fff;
+	color: #07543b;
+	font-size: var(--control-font-default);
+	font-weight: var(--control-font-weight);
+	line-height: 1.2;
+}
+
+/* SKU, price-filter and task chips. */
+.phone-shell .catalog-spec-grid button {
+	width: 100%;
+	min-width: 0;
+	height: var(--control-height-medium);
+	min-height: var(--control-height-medium);
+	padding: 0 var(--control-padding-compact);
+	border: 1rpx solid #d9cdbb;
+	border-radius: var(--control-radius-small);
+	background: #fff;
+	color: #1b2a22;
+	font-size: var(--control-font-small);
+	font-weight: var(--control-font-weight);
+	line-height: 1.2;
+}
+
+.phone-shell .catalog-spec-grid button.active {
+	border-color: #07543b;
+	background: #f3f8f5;
+	color: #07543b;
+	font-weight: var(--control-font-weight-emphasis);
+	box-shadow: inset 0 0 0 1rpx #07543b;
+}
+
+.phone-shell .catalog-spec-grid button[disabled] {
+	border-color: #e0ddd6;
+	background: #f2f1ed;
+	box-shadow: none;
+	color: #a1a49f;
+}
+
+.phone-shell .filter-panel button,
+.phone-shell .catalog-price-filter button,
+.phone-shell .phase-tier-card > button {
+	min-width: var(--control-min-width-compact);
+	height: var(--control-height-small);
+	min-height: var(--control-height-small);
+	padding: 0 var(--control-padding-compact);
+	border: 1rpx solid #ded8cb;
+	border-radius: var(--control-radius-small);
+	background: #fff;
+	font-size: var(--control-font-small);
+	line-height: 1.2;
+}
+
+/* Compact icon/quantity actions keep a square hit target. */
+.phone-shell .stepper button,
+.phone-shell .catalog-stepper button,
+.phone-shell .phase-qty button {
+	width: var(--control-height-compact);
+	min-width: var(--control-height-compact);
+	height: var(--control-height-compact);
+	min-height: var(--control-height-compact);
+	padding: 0;
+	border: 1rpx solid #ddd3c3;
+	border-radius: var(--control-radius-small);
+	background: #fff;
+	font-size: var(--control-font-emphasis);
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+/* List-card and history compact actions. */
+.phone-shell .favorite-item > view:last-child button,
+.phone-shell .history-actions button,
+.phone-shell .real-coupon button,
+.phone-shell .mine-profile-card button,
+.phone-shell .address-manage > view:last-child button,
+.phone-shell .carrier button,
+.phone-shell .timeline button {
+	width: auto;
+	min-width: var(--control-min-width-compact);
+	height: var(--control-height-small);
+	min-height: var(--control-height-small);
+	padding: 0 var(--control-padding-compact);
+	border-radius: var(--control-radius-small);
+	font-size: var(--control-font-small);
+	line-height: 1.2;
+}
+
+/* Dialog confirmation pair. */
+.phone-shell .phase-confirm button,
+.phone-shell .action-sheet > button,
+.phone-shell .protocol-sheet > button {
+	height: var(--control-height-large);
+	min-height: var(--control-height-large);
+	padding: 0 var(--control-padding-default);
+	border-radius: var(--control-radius-default);
+	font-size: var(--control-font-default);
+	line-height: 1.2;
+}
+
+/* Text-only actions must not inherit a filled-button minimum size. */
+.phone-shell .phase-task-row button,
+.phone-shell .sms-code-button,
+.phone-shell .recovery-field button {
+	width: auto;
+	min-width: 0;
+	height: var(--control-height-small);
+	min-height: var(--control-height-small);
+	padding: 0 var(--control-padding-compact);
+	border-radius: 0;
+	background: transparent;
+	font-size: var(--control-font-small);
+	line-height: 1.2;
+}
+
+/* Tab controls share centring and selected-state weight without forced width. */
+.auth-tabs > view,
+.filter-tabs > text,
+.order-tabs > text,
+.phase-tabs > text,
+.account-tabs > text,
+.partner-tab,
+.record-tabs > text,
+.coupon-tabs > text {
+	display: flex;
+	box-sizing: border-box;
+	min-width: 0;
+	align-items: center;
+	justify-content: center;
+	font-weight: 400;
+	line-height: 1.2;
+	white-space: nowrap;
+}
+
+.auth-tabs > view.active,
+.filter-tabs > text.active,
+.order-tabs > text.active,
+.phase-tabs > text.active,
+.account-tabs > text.active,
+.partner-tab.active,
+.record-tabs > text.active,
+.coupon-tabs > text.active {
+	font-weight: var(--control-font-weight-emphasis);
+}
+
+@media (max-width: 360px) {
+	.phone-shell .catalog-spec-grid button,
+	.phone-shell .filter-panel button,
+	.phone-shell .catalog-price-filter button {
+		padding-right: 10rpx;
+		padding-left: 10rpx;
+	}
+}

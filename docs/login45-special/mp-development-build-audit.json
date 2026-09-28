@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-08-29T15:21:12.833Z",
+  "mode": "development",
+  "directory": "C:\\Users\\Administrator\\Desktop\\茶叶\\分销茶叶商城\\dist\\build\\mp-weixin",
+  "fileCount": 203,
+  "bytes": 1047698,
+  "expectedApi": "http://127.0.0.1:18083/mall",
+  "expectedApiPresent": true,
+  "apiMatches": [
+    "http://127.0.0.1:18083/mall",
+    "http://www.w3.org/2000/svg",
+    "https://chaye.oksja.cn",
+    "https://chaye.oksja.cn/api${e}",
+    "https://uniapp.dcloud.net.cn/tutorial/run/mp-log.html",
+    "https://vuejs.org/error-reference/#runtime-${n}"
+  ],
+  "forbiddenLocalAddresses": [],
+  "staticImagesFolderIgnored": false,
+  "images": {
+    "longjing-dark-v2.webp": {
+      "exists": true,
+      "sourceBytes": 93466,
+      "packagedBytes": 93466,
+      "sourceSha256": "18db71b90c18b0b7d1512f4c05cb6108a604fcb65811cec8c7cbd335bc06a6a3",
+      "packagedSha256": "18db71b90c18b0b7d1512f4c05cb6108a604fcb65811cec8c7cbd335bc06a6a3",
+      "byteIdentical": true
+    },
+    "longjing-hero-v2.webp": {
+      "exists": true,
+      "sourceBytes": 91744,
+      "packagedBytes": 91744,
+      "sourceSha256": "cc952c910bc00d5013d0b99e69eee0c785557cef515b677a1034c9db3cdd8b73",
+      "packagedSha256": "cc952c910bc00d5013d0b99e69eee0c785557cef515b677a1034c9db3cdd8b73",
+      "byteIdentical": true
+    },
+    "login-art-v2.webp": {
+      "exists": true,
+      "sourceBytes": 52244,
+      "packagedBytes": 52244,
+      "sourceSha256": "42734d22d6a44047ab07c13885148a5886a299ff935ca73ba07015511a3885f3",
+      "packagedSha256": "42734d22d6a44047ab07c13885148a5886a299ff935ca73ba07015511a3885f3",
+      "byteIdentical": true
+    }
+  }
+}

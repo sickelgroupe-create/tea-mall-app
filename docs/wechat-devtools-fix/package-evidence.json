@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-08-29T21:16:00+08:00",
+  "buildCommand": "npm run build:mp-weixin",
+  "buildStatus": "passed",
+  "buildDirectory": "dist/build/mp-weixin",
+  "uploadDirectory": "dist/upload/mp-weixin-ready",
+  "uploadFileCount": 367,
+  "uploadBytes": 1744468,
+  "mainPackageMiB": 1.664,
+  "packOptionsIgnore": {
+    "manifest": [],
+    "build": [],
+    "upload": [],
+    "devtoolsDirectory": []
+  },
+  "releaseApi": {
+    "containsHttpsMallApi": true,
+    "containsLocalhostMallApi": false
+  },
+  "requiredImages": [
+    {
+      "name": "longjing-dark-v2.webp",
+      "bytes": 93466,
+      "sha256": "18DB71B90C18B0B7D1512F4C05CB6108A604FCB65811CEC8C7CBD335BC06A6A3",
+      "sourceBuildUploadBytesIdentical": true
+    },
+    {
+      "name": "longjing-hero-v2.webp",
+      "bytes": 91744,
+      "sha256": "CC952C910BC00D5013D0B99E69EEE0C785557CEF515B677A1034C9DB3CDD8B73",
+      "sourceBuildUploadBytesIdentical": true
+    },
+    {
+      "name": "login-art-v2.webp",
+      "bytes": 52244,
+      "sha256": "42734D22D6A44047AB07C13885148A5886A299FF935CA73BA07015511A3885F3",
+      "sourceBuildUploadBytesIdentical": true
+    }
+  ],
+  "originalImagesModified": false,
+  "productionDeployed": false,
+  "productionDatabaseConnected": false
+}

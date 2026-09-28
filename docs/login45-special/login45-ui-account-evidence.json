@@ -1,0 +1,71 @@
+{
+  "environment": {
+    "api": "http://127.0.0.1:18083/mall",
+    "mysql": "127.0.0.1:33308/chaye_full_regression_v2",
+    "redis": "127.0.0.1:6379/db7",
+    "productionConnected": false
+  },
+  "temporaryAccount": {
+    "customerId": 105,
+    "phoneMasked": "139****9991"
+  },
+  "checks": [
+    {
+      "label": "游客读取协议",
+      "httpStatus": 200,
+      "businessCode": 200
+    },
+    {
+      "label": "游客访问偏好被拒绝",
+      "httpStatus": 401,
+      "businessCode": 401
+    },
+    {
+      "label": "游客访问优惠券被拒绝",
+      "httpStatus": 401,
+      "businessCode": 401
+    },
+    {
+      "label": "创建隔离游客会话",
+      "httpStatus": 200,
+      "businessCode": 200
+    },
+    {
+      "label": "UI账号密码登录",
+      "httpStatus": 200,
+      "businessCode": 200
+    },
+    {
+      "label": "登录后读取偏好",
+      "httpStatus": 200,
+      "businessCode": 200
+    },
+    {
+      "label": "登录后读取优惠券",
+      "httpStatus": 200,
+      "businessCode": 200
+    },
+    {
+      "label": "退出登录",
+      "httpStatus": 200,
+      "businessCode": 200
+    },
+    {
+      "label": "退出后旧Token访问偏好被拒绝",
+      "httpStatus": 401,
+      "businessCode": 401
+    },
+    {
+      "label": "退出后旧Token访问优惠券被拒绝",
+      "httpStatus": 401,
+      "businessCode": 401
+    }
+  ],
+  "cleanup": {
+    "customerId": 105,
+    "customerRows": 0,
+    "phoneRows": 0,
+    "loginAttemptRows": 0
+  },
+  "finishedAt": "2026-08-29T23:11:04.409781+08:00"
+}

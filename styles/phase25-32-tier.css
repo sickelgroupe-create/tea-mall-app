@@ -1,0 +1,81 @@
+.phase-tier-page {
+	padding-top: 8.4rpx;
+}
+
+.phase-tier-summary {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 11.7rpx 3.3rpx 16.7rpx;
+	color: #746e65;
+	font-size: 18.4rpx;
+}
+
+.phase-tier-summary > text:first-child {
+	color: #183b2d;
+	font-family: SimSun, STSong, serif;
+	font-size: 23.4rpx;
+}
+
+.phase-tier-page .phase-tier-list {
+	gap: 0;
+	margin-top: 0;
+	border-top: 1px solid #e7dfd2;
+	background: #fff;
+}
+
+.phase-tier-page .phase-tier-card {
+	grid-template-columns: 107.1rpx minmax(0, 1fr) 120.5rpx;
+	align-items: center;
+	gap: 16.7rpx;
+	min-height: 167.4rpx;
+	padding: 16.7rpx 6.7rpx;
+	border: 0;
+	border-bottom: 1px solid #e7dfd2;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.phase-tier-page .phase-tier-card > .phase-tier-threshold {
+	grid-column: auto;
+	color: #07533b;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 40.2rpx;
+	line-height: 1;
+}
+
+.phase-tier-page .phase-tier-card > .phase-tier-threshold > text {
+	margin-left: 3.3rpx;
+	font-family:
+		PingFang SC,
+		"Microsoft YaHei",
+		sans-serif;
+	font-size: 18.4rpx;
+}
+
+.phase-tier-page .phase-tier-card > view {
+	gap: 6.7rpx;
+}
+
+.phase-tier-page .phase-tier-card > view > text:first-child {
+	font-size: 23.4rpx;
+	white-space: nowrap;
+}
+
+.phase-tier-page .phase-tier-card > view > text:last-child {
+	font-size: 16.7rpx;
+}
+
+.phase-tier-page .phase-tier-card > button {
+	grid-row: auto;
+	width: 103.8rpx;
+	height: 46.9rpx;
+	border-radius: 23.4rpx;
+	line-height: 46.9rpx;
+	white-space: nowrap;
+}
+
+.phase-tier-page .phase-tier-collection {
+	min-height: 520rpx;
+	margin-top: 23.4rpx;
+}

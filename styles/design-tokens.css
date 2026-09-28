@@ -1,0 +1,139 @@
+/*
+ * 茶叶商城全局设计令牌
+ *
+ * 命名保持平台无关，供 H5 与微信小程序共同使用。
+ * 数值来源和确定程度见 docs/UI_DESIGN_SYSTEM.md。
+ */
+page {
+	/* Typography */
+	--font-family-base:
+		"PingFang SC", "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
+	--font-size-caption: 22rpx;
+	--font-size-body: 25.1rpx;
+	--font-size-body-lg: 28.5rpx;
+	--font-size-title: 32rpx;
+	--font-size-page-title: 35.2rpx;
+	--font-size-display: 46.9rpx;
+	--line-height-caption: 30.1rpx;
+	--line-height-body: 36.8rpx;
+	--line-height-body-lg: 40.2rpx;
+	--line-height-title: 43.5rpx;
+	--line-height-page-title: 46.9rpx;
+	--line-height-display: 60.3rpx;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+
+	/* Color */
+	--color-primary: #205b38;
+	--color-primary-hover: #18492d;
+	--color-primary-soft: #edf4ee;
+	--color-primary-muted: #dfece2;
+	--color-text-primary: #18201b;
+	--color-text-secondary: #667069;
+	--color-text-tertiary: #8b918c;
+	--color-text-disabled: #b1b6b2;
+	--color-text-inverse: #ffffff;
+	--color-background: #f6f4ee;
+	--color-surface: #ffffff;
+	--color-surface-muted: #f8f7f3;
+	--color-border: #e5e3dc;
+	--color-border-strong: #d4d8d3;
+	--color-price: #dd501d;
+	--color-warning: #c65b2d;
+	--color-warning-soft: #fff3e9;
+	--color-success: #2e7146;
+	--color-success-soft: #edf7f0;
+	--color-error: #c84435;
+	--color-error-soft: #fff0ed;
+	--color-mask: rgba(24, 32, 27, 0.42);
+
+	/* Spacing: 6.7rpx base scale */
+	--spacing-2xs: 6.7rpx;
+	--spacing-xs: 13.4rpx;
+	--spacing-sm: 20.1rpx;
+	--spacing-md: 26.8rpx;
+	--spacing-lg: 40.2rpx;
+	--spacing-xl: 53.6rpx;
+	--spacing-2xl: 67rpx;
+	--page-padding: 26.8rpx;
+	--section-gap: 26.8rpx;
+	--content-max-width: 1975.4rpx;
+
+	/* Radius */
+	--radius-xs: 10rpx;
+	--radius-sm: 13.4rpx;
+	--radius-md: 20.1rpx;
+	--radius-lg: 23.4rpx;
+	--radius-xl: 33.5rpx;
+	--radius-round: 1672.4rpx;
+
+	/* Border and shadow */
+	--border-width: 1px;
+	--shadow-card: 0 1px 3.3rpx rgba(24, 32, 27, 0.04);
+	--shadow-floating: 0 20.1rpx 53.6rpx rgba(24, 32, 27, 0.12);
+
+	/* Component dimensions */
+	--button-height-sm: 53.6rpx;
+	--button-height-md: 67rpx;
+	--button-height-lg: 80.4rpx;
+	--field-height: 80.4rpx;
+	--list-item-min-height: 107.1rpx;
+	--top-bar-height: 93.8rpx;
+	--bottom-nav-height: 107.1rpx;
+	--icon-size-sm: 33.5rpx;
+	--icon-size-md: 40.2rpx;
+	--icon-size-lg: 46.9rpx;
+
+	/*
+	 * Interactive control scale.
+	 * The design source is 750rpx wide and the mini-program canvas is 750rpx,
+	 * therefore 1 design px = 1.674rpx. Controls use rpx so that their visual
+	 * proportions remain stable across supported device widths.
+	 */
+	--control-height-compact: 56rpx;
+	--control-height-small: 62rpx;
+	--control-height-medium: 70rpx;
+	--control-height-large: 76rpx;
+	--control-height-bottom: 78rpx;
+	--control-min-width-compact: 104rpx;
+	--control-min-width-default: 156rpx;
+	--control-min-width-empty: 188rpx;
+	--control-padding-compact: 16rpx;
+	--control-padding-default: 28rpx;
+	--control-font-compact: 22rpx;
+	--control-font-small: 24rpx;
+	--control-font-default: 26rpx;
+	--control-font-emphasis: 28rpx;
+	--control-font-weight: 500;
+	--control-font-weight-emphasis: 600;
+	--control-icon-size: 34rpx;
+	--control-icon-gap: 12rpx;
+	--control-radius-small: 9rpx;
+	--control-radius-default: 12rpx;
+	--control-radius-round: 999rpx;
+
+	/* Unified storefront number system, derived from the home product price. */
+	--money-font-family: Georgia, "Times New Roman", serif;
+	--money-color: #a84e24;
+	--money-font-weight: 600;
+	--money-card-size: 27rpx;
+	--money-body-size: 25rpx;
+	--money-emphasis-size: 34rpx;
+	--money-symbol-ratio: 0.78em;
+	--money-decimal-ratio: 0.78em;
+	--fixed-action-height: 104rpx;
+	--fixed-action-gap: 18rpx;
+	/* Native tab-bar offsets are not additional device safe-area padding. */
+	--bottom-safe-space: env(safe-area-inset-bottom, 0px);
+
+	/* Layering */
+	--z-sticky: 30;
+	--z-navigation: 40;
+	--z-overlay: 80;
+	--z-modal: 90;
+
+	/* Motion: only interaction feedback and loading states */
+	--motion-fast: 120ms;
+	--motion-base: 180ms;
+}

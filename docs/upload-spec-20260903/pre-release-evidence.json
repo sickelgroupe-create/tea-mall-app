@@ -1,0 +1,2919 @@
+{
+  "checkedAt": "2026-09-03T08:30:07.964Z",
+  "changes": [
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\茶叶\\若依\\若依\\RuoYi-Vue\\ruoyi-admin\\src\\main\\java\\com\\ruoyi\\web\\controller\\mall\\MallPartnerContentController.java",
+      "beforeSha256": "f367197ee5b69ddfbb037612583f3cb9200421237f814475301bac39cba7f822",
+      "afterSha256": "e22470b09714421583ca8bb47443298a2a5ef201274dc6d514327e144dc0dedc"
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\茶叶\\分销茶叶商城\\pages\\aftersale-apply\\aftersale-apply.vue",
+      "beforeSha256": "59d93187e8648311198a6016e2c6eb4e4d54cedd2a5b9933fa1444eb64d32353",
+      "afterSha256": "06bb0dadd82a997709284d083c1ea3c9ba830ece542df141a39425595f7a79f0"
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\茶叶\\分销茶叶商城\\pages\\aftersale-detail\\aftersale-detail.vue",
+      "beforeSha256": "5072cdf5f5f94638ddce15a469d5766dcf7b08ba66021e1def581f055c879d8f",
+      "afterSha256": "0d5dff06635b29bdfed654889d93da3cb8786b366baf2158a23f9d327a22e8b4"
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\茶叶\\分销茶叶商城\\shared\\product-label.js",
+      "beforeSha256": null,
+      "afterSha256": "950c5ca1f010566b2905d41f100f0119301269db7e92031530ac77073395be42"
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\茶叶\\若依\\若依\\RuoYi-Vue\\ruoyi-admin\\src\\test\\java\\com\\ruoyi\\web\\service\\mall\\MallImageUploadContractTest.java",
+      "beforeSha256": null,
+      "afterSha256": "d6fd3aa4acf2f8aa3c65a5414f06c7a218e2b1e58f451a2c7c7a9148cecc9708"
+    },
+    {
+      "file": "C:\\Users\\Administrator\\Desktop\\茶叶\\分销茶叶商城\\scripts\\test-upload-spec.cjs",
+      "beforeSha256": null,
+      "afterSha256": "b572ebf9318b7d965b3d5f6c0504701fa9db57cec3d90741b41d68ce3696c3ec"
+    }
+  ],
+  "javaTests": [
+    {
+      "file": "TEST-com.ruoyi.web.service.mall.MallAftersaleStateMachineTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-com.ruoyi.web.service.mall.MallExchangeCenterContractTest.xml",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-com.ruoyi.web.service.mall.MallHtmlSanitizerTest.xml",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-com.ruoyi.web.service.mall.MallImageUploadContractTest.xml",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-com.ruoyi.web.service.mall.MallOrderStateMachineTest.xml",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-com.ruoyi.web.service.mall.MallSmsAuthServiceTest.xml",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-com.ruoyi.web.service.mall.MallSupportContactServiceTest.xml",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "file": "TEST-com.ruoyi.web.service.mall.MallTestPaymentPropertiesTest.xml",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "artifacts": [
+    {
+      "label": "H5",
+      "directory": "C:\\Users\\Administrator\\Desktop\\茶叶\\分销茶叶商城\\dist\\build\\h5",
+      "fileCount": 143,
+      "manifestSha256": "06493193b6b242be557618c413fbbb28757cd970ccba4760b24d437e70835171",
+      "files": [
+        {
+          "path": "assets/aftersale-apply-CpFqZqTl.css",
+          "sha256": "4990938b19ef664f42f0a3d2f00bbd1e0bd06abfb9f5dbd803d0cbd286d470ae",
+          "bytes": 4338
+        },
+        {
+          "path": "assets/aftersale-detail-jA9LT5YF.css",
+          "sha256": "5b20246972021addf772acc33f425190a249eb5b8bd09c0c5ce1ca0173ba389d",
+          "bytes": 4338
+        },
+        {
+          "path": "assets/biluochun-uZNBpZVg.jpg",
+          "sha256": "cc4d0878870db1b8042cb8872fa2af920028bc9a77fffb84829f2d079970ac3a",
+          "bytes": 58895
+        },
+        {
+          "path": "assets/blacktea-red-BkSfjkCV.jpg",
+          "sha256": "af86f861f021b057a00e9c415b15151d94db828c067bfa9fd06b8c927e8f564f",
+          "bytes": 60743
+        },
+        {
+          "path": "assets/BottomNav-BLDX_bRW.css",
+          "sha256": "212bef626b44afa72cbbbce4b68b98d186f5b34418cde7348c4fa5118fe724b3",
+          "bytes": 1527
+        },
+        {
+          "path": "assets/BottomNav.VseNztWE.js",
+          "sha256": "679dd9b1df67542f36b567c52d5694d007548f7693c6608d73a46d3703702aca",
+          "bytes": 1254
+        },
+        {
+          "path": "assets/cancel-order-DegAA1Jy.css",
+          "sha256": "3fc3b4515b402fe875bbbd0842c683ccd1e2bba1843a7f9263cb1b2e8a9e0ef2",
+          "bytes": 4338
+        },
+        {
+          "path": "assets/category--oPyUJyN.css",
+          "sha256": "bbc2501d49c12e506cfff932281c080f09b309d719440d2868dfe97f58518631",
+          "bytes": 402
+        },
+        {
+          "path": "assets/confirm-B7l8ELo4.css",
+          "sha256": "fa1256870cc718f64c7523f6fd98cf66853aabad28d49be3f62380e5499f874d",
+          "bytes": 1183
+        },
+        {
+          "path": "assets/exchange-center-igbiQTOp.css",
+          "sha256": "f6cf765cf6edf9ee4f182f1bb9bbac7a6fb4e750acbfb014eef0362e164b4f10",
+          "bytes": 2248
+        },
+        {
+          "path": "assets/exchange-detail-DVzSMUIe.css",
+          "sha256": "325cdd474db7261d381edd4b9dfc59089c37efd4e2cf9370dae285b4c847c427",
+          "bytes": 264
+        },
+        {
+          "path": "assets/favicon-CbBnswAH.ico",
+          "sha256": "1d78f9c8ae7ee0a4757da7fcb1b14b6308601f484cd32b0a8864600202dbcda7",
+          "bytes": 747
+        },
+        {
+          "path": "assets/index-BRkRCC7b.css",
+          "sha256": "176cb64f5b2f732fe8388641d1a608c2a8b434076f1afcb209068dae48d331e2",
+          "bytes": 255787
+        },
+        {
+          "path": "assets/index-CIgLDmRK.css",
+          "sha256": "0c92706e87812ea9954468cb8aab5d67b4a4acbec65b2736ae8b95a135bde83f",
+          "bytes": 951
+        },
+        {
+          "path": "assets/index-ZzOvJ01E.js",
+          "sha256": "baeba736038e110709192e9d39b9c80a2b87d07e12e295b8842149afe02b0208",
+          "bytes": 321117
+        },
+        {
+          "path": "assets/InvitationClub-DHyBNT_e.css",
+          "sha256": "f80560e191eaef7004456d5c0161cc4e034d11897049ac59ef382ba2e8658668",
+          "bytes": 2121
+        },
+        {
+          "path": "assets/InvitationClub.DjCzVrws.js",
+          "sha256": "ff3ddee9b7ce1b4bda5c335c7de056b1720ba722d1b388fe91692c7a54b58be3",
+          "bytes": 1955
+        },
+        {
+          "path": "assets/invite-gift-D7_4QWIc.css",
+          "sha256": "2fff9f70166a1358827d3a1df057e98bf6e7912f073e555b4f8e19cd4b8fd0d9",
+          "bytes": 2101
+        },
+        {
+          "path": "assets/invite-MEADSTOy.css",
+          "sha256": "a0f22a4b9374153f26111cfd954399eb83ba502634ef041c0b547695b8ee8a1a",
+          "bytes": 1801
+        },
+        {
+          "path": "assets/invite-poster-v2-Bg8rU_jX.webp",
+          "sha256": "da7b46ccbb59d6f89af819acccbfb949919442c12fc003f03bf451e8a562a105",
+          "bytes": 79798
+        },
+        {
+          "path": "assets/invite-records-DjM0vsV4.css",
+          "sha256": "eff2c5c31e0509301eac644cb5c0b8d91bdfcd43ab6c22ae5b5ec9882da8df03",
+          "bytes": 1181
+        },
+        {
+          "path": "assets/invite-rewards-Fr3fu_vg.css",
+          "sha256": "86afdda077e104bf473e15a814485fb04017a4d0b084739678da1cba22be4d53",
+          "bytes": 1631
+        },
+        {
+          "path": "assets/login-art-v2-DhJgdSdD.webp",
+          "sha256": "42734d22d6a44047ab07c13885148a5886a299ff935ca73ba07015511a3885f3",
+          "bytes": 52244
+        },
+        {
+          "path": "assets/login-C58hKqJ6.css",
+          "sha256": "c07fa6e91602ef98ab474e982a6daf08bd2361cb585564255a774466db703d85",
+          "bytes": 8971
+        },
+        {
+          "path": "assets/longjing-dark-Dusubxhm.jpg",
+          "sha256": "f0c021094bda881b1207439dcc2d0f7755462f76f2918abcb69811a73666be55",
+          "bytes": 64918
+        },
+        {
+          "path": "assets/longjing-dark-v2-DJX00D1G.webp",
+          "sha256": "18db71b90c18b0b7d1512f4c05cb6108a604fcb65811cec8c7cbd335bc06a6a3",
+          "bytes": 93466
+        },
+        {
+          "path": "assets/longjing-hero-v2-BTUH6r2D.webp",
+          "sha256": "cc952c910bc00d5013d0b99e69eee0c785557cef515b677a1034c9db3cdd8b73",
+          "bytes": 91744
+        },
+        {
+          "path": "assets/longjing-pale-bR_ckwSo.jpg",
+          "sha256": "272e4edeeb3aed1ce210cf81fcd2735a64fc6a697e06a0da7554562177569d3d",
+          "bytes": 55222
+        },
+        {
+          "path": "assets/mall-page-C3GAq_X3.css",
+          "sha256": "be2bfbf649f10786e01980f0e7cd9fa4d82e4bb4cc2c391e05097b44821b5868",
+          "bytes": 1732
+        },
+        {
+          "path": "assets/mall-page.Cd-rS7FA.js",
+          "sha256": "0bcacfc8868e7dca568117ed80cdfebe4ebef9b568b77c4f783651afe7ee9144",
+          "bytes": 305981
+        },
+        {
+          "path": "assets/maofeng-pouch-CyXLBxdL.jpg",
+          "sha256": "8543702da5bb3f287766196374eb843427d92bffe54787a03423da0d28d0955c",
+          "bytes": 69052
+        },
+        {
+          "path": "assets/one-click-invite-CXlBzZRA.css",
+          "sha256": "377687270131ce3746913335361e286454cd3086d3d9b09db31c8f30ebd3f568",
+          "bytes": 1939
+        },
+        {
+          "path": "assets/OrderCollection-5urzksSA.css",
+          "sha256": "7e637971f0d323f4de264216153824b632d4e50710611bc547420b1f1f19cdb5",
+          "bytes": 1230
+        },
+        {
+          "path": "assets/OrderCollection.CQwpjckh.js",
+          "sha256": "54bd63d12cb83a46e2657f2d89b3d9845b0da1148ad24a64dbdfb22996235705",
+          "bytes": 1590
+        },
+        {
+          "path": "assets/pages-addresses-addresses.DrwAdv94.js",
+          "sha256": "3c40387bf0ab3c96901ac5accaa3221cd1affdc99f657d78ca739d1dbcc8dbc8",
+          "bytes": 4779
+        },
+        {
+          "path": "assets/pages-aftersale-apply-aftersale-apply.CUC1fsA2.js",
+          "sha256": "c6ceca7e4dbca5a84d465339fc5aedb3deab5ebd97df2bb7ad68ed22cef23c78",
+          "bytes": 7587
+        },
+        {
+          "path": "assets/pages-aftersale-detail-aftersale-detail.ChxCRJbf.js",
+          "sha256": "02a9aa8300684fdddfdb2d0a6bea165460f95ced5bb3c9dc1efb4616de91d838",
+          "bytes": 5891
+        },
+        {
+          "path": "assets/pages-cancel-order-cancel-order.Du0Zp2me.js",
+          "sha256": "81f3ec0090551f5efd5c65a2161ea02553c010d854cff0a763d34a7c31294726",
+          "bytes": 3621
+        },
+        {
+          "path": "assets/pages-cart-cart.CY63oRQ3.js",
+          "sha256": "62eaeea18902542afbc423326ad3f2166a098004898316b1c29ed7372003b37d",
+          "bytes": 4645
+        },
+        {
+          "path": "assets/pages-category-category.CL65jz-t.js",
+          "sha256": "ba1c924e861cceb4f3aee0f3f723f7e161834d8bf595174f7c8cec562fc96b6d",
+          "bytes": 5472
+        },
+        {
+          "path": "assets/pages-commission-center-commission-center.CeqsRxVK.js",
+          "sha256": "262f12219ab18be902f45bc925cfde0a3ac524f7723a7144f4587f48d3801adf",
+          "bytes": 4639
+        },
+        {
+          "path": "assets/pages-commission-details-commission-details.CnqXmmhK.js",
+          "sha256": "b774a777997f6d5b1fc34cdddc6e3e264a41c12779069d1ee8c5c0ada0ed4268",
+          "bytes": 5054
+        },
+        {
+          "path": "assets/pages-community-community.DacBXucT.js",
+          "sha256": "e5cf6702144583e7d0a4fc89120cc46e7a379b0b04df5fce3c4f35485ea316f8",
+          "bytes": 7288
+        },
+        {
+          "path": "assets/pages-confirm-confirm.Cpyp6ext.js",
+          "sha256": "274f603e63efb484dd950e2b8011f1749ca28576bef28db52a115914847a8d78",
+          "bytes": 9740
+        },
+        {
+          "path": "assets/pages-coupons-coupons.C0QRE-PX.js",
+          "sha256": "222da4cfdef2340f648ab0357aa61513964b60bb27fd00a329451f803787d8db",
+          "bytes": 4190
+        },
+        {
+          "path": "assets/pages-exchange-center-exchange-center.XOTsMoZ2.js",
+          "sha256": "405dd7a77f40849d99293d3624d02bd11729486ef44158a29e1efc8794ce822d",
+          "bytes": 4443
+        },
+        {
+          "path": "assets/pages-exchange-detail-exchange-detail.DbRuMqk2.js",
+          "sha256": "d1d0576a58a7821516df51a00123e1de1881eb7baa598d8853100b817a5ecc2e",
+          "bytes": 4750
+        },
+        {
+          "path": "assets/pages-favorites-favorites.CZmEqSkd.js",
+          "sha256": "71e34f135e27310b46c855abaf19bbdf34d953fd8d49dde18fac5962403b88b9",
+          "bytes": 4317
+        },
+        {
+          "path": "assets/pages-history-history.DpvwiR8D.js",
+          "sha256": "a39062659a5517bd3c54dd5ad696948cd8ff35a0319ede1a8fbfaf091be548a7",
+          "bytes": 4690
+        },
+        {
+          "path": "assets/pages-home-topic-home-topic.DDTAtHrE.js",
+          "sha256": "e3c8e7caf4d05e55ffff5e7e108f5a17e280e3e9a6ccbaf7dcc1eb58375b4969",
+          "bytes": 3390
+        },
+        {
+          "path": "assets/pages-index-index.BtbREQSA.js",
+          "sha256": "51dc40e20c5209345707e1ae1e5f3e3572a0321b081563daa59282a60e7d7100",
+          "bytes": 5765
+        },
+        {
+          "path": "assets/pages-invite-gift-invite-gift.Dx4YG0xx.js",
+          "sha256": "8500c206a36449d374519fa7985e2bf1fd07dc5ccdaf06dbecd1d7cfa0941677",
+          "bytes": 3846
+        },
+        {
+          "path": "assets/pages-invite-invite.DuK_m5gF.js",
+          "sha256": "bf024876beddbfaa8e507fde2c7df3e836e75c5107ef70d5fa79153544c5d129",
+          "bytes": 4074
+        },
+        {
+          "path": "assets/pages-invite-records-invite-records.ChOwChTM.js",
+          "sha256": "a397beb5a204cce0495747898680eb67015c532e54bd683c56a74db0717cb79a",
+          "bytes": 2974
+        },
+        {
+          "path": "assets/pages-invite-rewards-invite-rewards.XFo7xO0l.js",
+          "sha256": "5e7034df460c72046a6fc7df6e8a0e386a030827e8659104f2e3c233aa1f97e0",
+          "bytes": 3158
+        },
+        {
+          "path": "assets/pages-login-login.NEsXBLMO.js",
+          "sha256": "83ef6af289da6018d8c7e62756496e97f6cf5f6906d6858a4abc3bbfaab1edce",
+          "bytes": 16040
+        },
+        {
+          "path": "assets/pages-logistics-logistics.CR1vCx0b.js",
+          "sha256": "9126f39e0846b5f6a2747bd7e819061f0344a1ee36447ade54ab2306cbf47d07",
+          "bytes": 6422
+        },
+        {
+          "path": "assets/pages-mine-mine.Ks4fTgFB.js",
+          "sha256": "52c9316ed75071389752bd94978908e7a57835515101280b6d1a34c256a4153b",
+          "bytes": 6049
+        },
+        {
+          "path": "assets/pages-my-exchanges-my-exchanges.BXlbSFu-.js",
+          "sha256": "904c47a95833e15e82a1d821161289557b9a93213208f8fa089ac5e20d807102",
+          "bytes": 5146
+        },
+        {
+          "path": "assets/pages-notifications-notifications.D_wQ1hdf.js",
+          "sha256": "f80b661eaeae1cf8b44f65de8599797d2b7895eca4cdf135ee10c2a564bce97c",
+          "bytes": 3077
+        },
+        {
+          "path": "assets/pages-one-click-invite-one-click-invite.EcqVwY7l.js",
+          "sha256": "569d13c1c04f02e9d110e61db51c25ee9a41aadb52b855323e20f72b5ede6cf6",
+          "bytes": 3292
+        },
+        {
+          "path": "assets/pages-order-detail-order-detail.DFJsn4A7.js",
+          "sha256": "78723d9ff1a701648ed10000c4c3b17c60c4d7645d75fecd2956bf1b9a4add71",
+          "bytes": 10601
+        },
+        {
+          "path": "assets/pages-orders-orders.D1FWypcM.js",
+          "sha256": "872eca7716c4837a810c9a5207c65e1ce10a3e65aa7bf43aab9e0cfbc1f7734e",
+          "bytes": 6401
+        },
+        {
+          "path": "assets/pages-partner-apply-partner-apply.CXGkcWNJ.js",
+          "sha256": "7b99a21af24a9e849dc2f099d52af0333f53b681dc45a8f6cb1b474d721d4aa4",
+          "bytes": 5051
+        },
+        {
+          "path": "assets/pages-partner-customer-orders-partner-customer-orders.C6cAJWir.js",
+          "sha256": "2fc799bdc582c8df4b7e48e81118adf82c20881f30e29423ca9d899764f66544",
+          "bytes": 2821
+        },
+        {
+          "path": "assets/pages-partner-customers-partner-customers.D9oyGgCn.js",
+          "sha256": "aa2ff27938bc072d1c556b50da20e9516d3385621b893f94975b9b83f442cc01",
+          "bytes": 3525
+        },
+        {
+          "path": "assets/pages-partner-intro-partner-intro.BpPJLEzP.js",
+          "sha256": "4d3a2b0b5c7c5eac5d16bb872ca50d1cfe0e5ac8dec46bd551ae09cad7539050",
+          "bytes": 3040
+        },
+        {
+          "path": "assets/pages-partner-status-partner-status.Cs-JyOPo.js",
+          "sha256": "329174f6d3baf88aa0bc5a30d766dbed6bda6f7733d61e0cc80c9f507ce40cf4",
+          "bytes": 4240
+        },
+        {
+          "path": "assets/pages-partner-workbench-partner-workbench.BNfhKh5C.js",
+          "sha256": "4ee0c6a964b7dd71144c012dc1ff02a1e4c7c8e0f785f8a84355f08e5587ce7b",
+          "bytes": 4597
+        },
+        {
+          "path": "assets/pages-pay-failure-pay-failure.DNroF0kw.js",
+          "sha256": "02975aa49ccbf4c060f720c5870e908fe2c6ae67afb6f9b32b57d3e2177300e6",
+          "bytes": 2716
+        },
+        {
+          "path": "assets/pages-pay-success-pay-success.CWgLQzVF.js",
+          "sha256": "b9495b181b316de3af819950867b670a197b5739e3abed62c5b3408dd0c6fdce",
+          "bytes": 4805
+        },
+        {
+          "path": "assets/pages-points-center-points-center.B1fft0yJ.js",
+          "sha256": "92f18eccfefbf1d18fee587819523dd78bdee4c8f0d8e031fda0cbc03aae4181",
+          "bytes": 3715
+        },
+        {
+          "path": "assets/pages-points-detail-points-detail.BpltJT3A.js",
+          "sha256": "0ee1dc19cfdc0394ee09928e7d22b6911a699e987553a62d913c7556a3e1766a",
+          "bytes": 2429
+        },
+        {
+          "path": "assets/pages-points-mall-points-mall.BXNd4TE0.js",
+          "sha256": "275f14b8d901b4997a4b16fb3bf6946af5d0ac628e4ea140b4e21bc4319d51d7",
+          "bytes": 2619
+        },
+        {
+          "path": "assets/pages-points-reward-details-points-reward-details.Cncmx5lf.js",
+          "sha256": "74e626d799c6d1747aefd6b1539cda55cd3f737f241ddeef6e74eb8494642bce",
+          "bytes": 2594
+        },
+        {
+          "path": "assets/pages-product-detail-product-detail.DTTJFcOI.js",
+          "sha256": "160eee96794824d11f80132a09cb261584bd54305b23790f40bcdc47bb511074",
+          "bytes": 6861
+        },
+        {
+          "path": "assets/pages-product-list-product-list.DNqrcB_l.js",
+          "sha256": "1e2e09c850cbbd8584b1a7f7bc0250263d775cfc370af4461c400f60a919807b",
+          "bytes": 3839
+        },
+        {
+          "path": "assets/pages-return-logistics-return-logistics.C68u0Z3y.js",
+          "sha256": "602f49d38c9810122a14b0f4f9484159607e032de20ef353e96356e0f1fdbb21",
+          "bytes": 2174
+        },
+        {
+          "path": "assets/pages-reward-detail-reward-detail.DHP3O43t.js",
+          "sha256": "fe71fefe969317ebd6612461cee70be98c6dbd5dec19714e6f96db26a9e794a7",
+          "bytes": 4671
+        },
+        {
+          "path": "assets/pages-search-search.BJrkG5QX.js",
+          "sha256": "a550f6d2c2619285be18b6ad13ef54d6bd85e3124806f862bf1a0f382957ca0c",
+          "bytes": 4558
+        },
+        {
+          "path": "assets/pages-service-ticket-detail-service-ticket-detail.C513O8Q0.js",
+          "sha256": "ba6cc314cf4f7aa7c1de04aef3ef7d44c27398ee9774b5c68eb320728d7dcf3a",
+          "bytes": 3265
+        },
+        {
+          "path": "assets/pages-settings-settings.BDVryLWl.js",
+          "sha256": "4e6e873cfc500b5e6b636c8fccf177dc9e34e06f08c7287f8e9b0510da10547e",
+          "bytes": 16226
+        },
+        {
+          "path": "assets/pages-share-share.CHWkidg8.js",
+          "sha256": "7e2d09e69e0267649f194883a6b8e4c74dad090ef9dc4c916cfb9da8cf45c69c",
+          "bytes": 6409
+        },
+        {
+          "path": "assets/pages-store-store.BlHQxPKN.js",
+          "sha256": "0e39ec2928af05ca3fb6fdf2652a1243cd58a67c161f5e53d3e0c364d05b638e",
+          "bytes": 4082
+        },
+        {
+          "path": "assets/pages-tea-friend-detail-tea-friend-detail.uUndMK72.js",
+          "sha256": "b9471ee45e107c517fbe2892fa202aad01ae735064c49ca3a55f8697bd83109e",
+          "bytes": 3583
+        },
+        {
+          "path": "assets/pages-tea-friend-orders-tea-friend-orders.D6gknoqM.js",
+          "sha256": "7409e3ca17181ca5589dc56ff8a4c418ef3e76c5eedab7f240e8d6e05e13cb7f",
+          "bytes": 2933
+        },
+        {
+          "path": "assets/pages-tea-friends-tea-friends.NyOOzVdw.js",
+          "sha256": "adbfac53ce7cf60aff7633b6dfade85770d693fe969c2ecd26fcdcf3ab09277d",
+          "bytes": 3133
+        },
+        {
+          "path": "assets/pages-tea-sales-tea-sales.CyearQKv.js",
+          "sha256": "f99b7631f9accc17f1b99100088c6398473733d44b058f7e549ce6d8ab2c6991",
+          "bytes": 5138
+        },
+        {
+          "path": "assets/pages-tea-science-tea-science.BFYwEaeO.js",
+          "sha256": "fed850878e3ef054a291bc5352925c054d7cc9423dd7effd570371ee7809f95e",
+          "bytes": 3201
+        },
+        {
+          "path": "assets/pages-tier-reward-detail-tier-reward-detail.CO5p--Bm.js",
+          "sha256": "1ac683b88cc87361164b2f6b3824766f56c72309f063b67e06fed97579c272f2",
+          "bytes": 2431
+        },
+        {
+          "path": "assets/pages-tier-rewards-tier-rewards.BQSV0SmA.js",
+          "sha256": "d46991533441b7de9d19e3ded0a250f68a791acd46424a7e4db3efa9f811ca78",
+          "bytes": 2414
+        },
+        {
+          "path": "assets/pages-withdraw-withdraw.DXOLoF5v.js",
+          "sha256": "4585eb9ded6b79dcfd8b0085ab313fc81e688d62d1611e0cdfc1ba80243ff2b1",
+          "bytes": 6394
+        },
+        {
+          "path": "assets/pay-failure-C9o3Or6X.css",
+          "sha256": "cda9976dda372716e5c0b85b19a21e0b663634dbcc316244ca398e37c7c1d6af",
+          "bytes": 1846
+        },
+        {
+          "path": "assets/pay-success-DTZjAwl-.css",
+          "sha256": "6f86e45cc3d2ab8b2003697e14f344284c479af182c75ec5e0acf7a10202b1b7",
+          "bytes": 2181
+        },
+        {
+          "path": "assets/phase33-40.6-iHBO-Z.js",
+          "sha256": "14b279b21616d045bddfed2f13f47b45e21915df4056911fd93fbd3c01a6ca59",
+          "bytes": 911
+        },
+        {
+          "path": "assets/phase41-48.BdCQtBv-.js",
+          "sha256": "b4c3890a85818d145f628e0d70c7b74d62f66912b37840c6dbb7aefb03dfb2b8",
+          "bytes": 1077
+        },
+        {
+          "path": "assets/PointsCollection.OSEMYMZo.js",
+          "sha256": "f0c453b2ada346abdc129b1cce53f64d211a55f514814ffd782c662fcda26e94",
+          "bytes": 1558
+        },
+        {
+          "path": "assets/product-label.BjANocIp.js",
+          "sha256": "b5c42e72c9683031aa0994d0f5ace4038598f14a2d5b383f75919cc786e6532f",
+          "bytes": 515
+        },
+        {
+          "path": "assets/ProductTile-DDo8cBcb.css",
+          "sha256": "6c010061cf9c46c4674d01a0eb70ba3964f5ef5dab7c1b1e69ff7b93a5919aca",
+          "bytes": 1631
+        },
+        {
+          "path": "assets/ProductTile.B8P_2O-c.js",
+          "sha256": "6ba05c125d03670d14a46c6e5f8ab7781b068fe86e9336a71e00be98b091bb03",
+          "bytes": 1827
+        },
+        {
+          "path": "assets/qr-code.BTfy_aVH.js",
+          "sha256": "19b06c7ca3e426d82567b41aecd2a6e1803f0ea603c69968aff181347dd16de1",
+          "bytes": 24076
+        },
+        {
+          "path": "assets/return-logistics-D93Yd2oI.css",
+          "sha256": "c19151f07395f025e2e22495dcbc08a7b8d54108a645eede928f0f6183737d7e",
+          "bytes": 4338
+        },
+        {
+          "path": "assets/ReviewSheet-GEHwSGAg.css",
+          "sha256": "5a897bc38a3cec1c9f51f988a1b057830aa2ca0e7d673af97c5e0a23fbc80dd0",
+          "bytes": 1707
+        },
+        {
+          "path": "assets/ReviewSheet.DbfrO2lB.js",
+          "sha256": "9994e832aafbf4b8a656b8313a78d4b33c13c554ea6010c07ef87bd676b07cee",
+          "bytes": 2609
+        },
+        {
+          "path": "assets/service-ticket-detail-Cbx-Zebn.css",
+          "sha256": "839d494d61605d4348d0529c3a57e94faa7ddaaf9e73c5dd208850b1e5ce855a",
+          "bytes": 1032
+        },
+        {
+          "path": "assets/settings-JrwDBwnb.css",
+          "sha256": "d1db4873fd0ee46e7bceaee2fbdd1b6886bc19768408661fcec68d5d443b4db4",
+          "bytes": 562
+        },
+        {
+          "path": "assets/share-Bx_Ugk7J.css",
+          "sha256": "a6a60ac9ff70d1fddd6626146ee8d115f3bc5624ac9964209ae3bb1d2fec1aff",
+          "bytes": 1542
+        },
+        {
+          "path": "assets/tea-friend-detail-BAjgspvZ.css",
+          "sha256": "38ed50e560d7e48cd57955cf293c58f36fb97d3a017264e36bb48cf57324219c",
+          "bytes": 2746
+        },
+        {
+          "path": "assets/tea-friend-orders-ZTEer-1a.css",
+          "sha256": "93b588d11ee2b2ba4b5b3095a5f6d0e17736af19e8ace069a540d3ce263a5e21",
+          "bytes": 1517
+        },
+        {
+          "path": "assets/tea-friends-BhDi2aW1.css",
+          "sha256": "b9824e98617adcabeabfc1f37b194ee1f92cb2a0a0f00b06618b9fd0976f2511",
+          "bytes": 1910
+        },
+        {
+          "path": "assets/tea-gift-v2-CV27D0zl.webp",
+          "sha256": "0cee24f97865677dcf0627a346660607645f262d842d0b85100d53a54f3e8344",
+          "bytes": 109522
+        },
+        {
+          "path": "assets/tea-science-DXVIeEBe.css",
+          "sha256": "83e51698fbec5e227a93477fe999f6f3c5a53f0a3097c33aac0ca3d0295ebcb1",
+          "bytes": 1468
+        },
+        {
+          "path": "assets/TopBar-B6FcQhaP.css",
+          "sha256": "e548c91c44edabfb3668d8dfc33af6fe14ae8fd434dd7c6a2697ea59d1c7b72f",
+          "bytes": 958
+        },
+        {
+          "path": "assets/TopBar.ClIktWy_.js",
+          "sha256": "7349bf307fb196353669811e397d152bd32a3fccb31fabb0694444e9a23a961e",
+          "bytes": 1144
+        },
+        {
+          "path": "assets/uni.ad06b0e1.css",
+          "sha256": "ad06b0e1763e49f8917628cc291d7a37b74faa8f1b6a2667bf2e5eb47520576d",
+          "bytes": 23221
+        },
+        {
+          "path": "assets/yixing-pot-BeNvZshA.jpg",
+          "sha256": "381731ed5351d460e09a091e11cd2b81baffaa8eb01e1815ad95af1c1f49ce8f",
+          "bytes": 60194
+        },
+        {
+          "path": "index.html",
+          "sha256": "520c96da36541bbdefd2f2a2739e4907758638363cd9f17631de898c4cca5dbe",
+          "bytes": 873
+        },
+        {
+          "path": "static/images/biluochun.jpg",
+          "sha256": "cc4d0878870db1b8042cb8872fa2af920028bc9a77fffb84829f2d079970ac3a",
+          "bytes": 58895
+        },
+        {
+          "path": "static/images/blacktea-orange.jpg",
+          "sha256": "974bc6489b70137832d9fb31beeccb032da718c3fbc11a8509131ad72a480e38",
+          "bytes": 63321
+        },
+        {
+          "path": "static/images/blacktea-red.jpg",
+          "sha256": "af86f861f021b057a00e9c415b15151d94db828c067bfa9fd06b8c927e8f564f",
+          "bytes": 60743
+        },
+        {
+          "path": "static/images/canvas-tote.jpg",
+          "sha256": "12abaa12568784a2cec71002fdace6e0879eda83ec871c944eaf081c4e32d04e",
+          "bytes": 60539
+        },
+        {
+          "path": "static/images/invite-poster-v2.png",
+          "sha256": "a9b76d70380fbe4abb066687db766d580f6788de5e09e3bf4345a3c538b13dd2",
+          "bytes": 2008375
+        },
+        {
+          "path": "static/images/invite-poster-v2.webp",
+          "sha256": "da7b46ccbb59d6f89af819acccbfb949919442c12fc003f03bf451e8a562a105",
+          "bytes": 79798
+        },
+        {
+          "path": "static/images/login-art-v2.png",
+          "sha256": "6bea51812096b15d3612ee29fd11f483067c69f8d88af48fd9cb504046d9d902",
+          "bytes": 1867197
+        },
+        {
+          "path": "static/images/login-art-v2.webp",
+          "sha256": "42734d22d6a44047ab07c13885148a5886a299ff935ca73ba07015511a3885f3",
+          "bytes": 52244
+        },
+        {
+          "path": "static/images/longjing-dark-v2.png",
+          "sha256": "bf3dbbb41aa42ce4b6214e92fa40f13868378b0c248672e326352cd601416a01",
+          "bytes": 2189488
+        },
+        {
+          "path": "static/images/longjing-dark-v2.webp",
+          "sha256": "18db71b90c18b0b7d1512f4c05cb6108a604fcb65811cec8c7cbd335bc06a6a3",
+          "bytes": 93466
+        },
+        {
+          "path": "static/images/longjing-dark.jpg",
+          "sha256": "f0c021094bda881b1207439dcc2d0f7755462f76f2918abcb69811a73666be55",
+          "bytes": 64918
+        },
+        {
+          "path": "static/images/longjing-hero-v2.png",
+          "sha256": "17a1adcc47c8beca4e84696012c6f3574df3a22cc858ee83d0582374eef77485",
+          "bytes": 2145327
+        },
+        {
+          "path": "static/images/longjing-hero-v2.webp",
+          "sha256": "cc952c910bc00d5013d0b99e69eee0c785557cef515b677a1034c9db3cdd8b73",
+          "bytes": 91744
+        },
+        {
+          "path": "static/images/longjing-pale.jpg",
+          "sha256": "272e4edeeb3aed1ce210cf81fcd2735a64fc6a697e06a0da7554562177569d3d",
+          "bytes": 55222
+        },
+        {
+          "path": "static/images/maofeng-pouch.jpg",
+          "sha256": "8543702da5bb3f287766196374eb843427d92bffe54787a03423da0d28d0955c",
+          "bytes": 69052
+        },
+        {
+          "path": "static/images/oolong-category-v1.webp",
+          "sha256": "632be2905e71ccc8a36d893026fccf73e96d05f3cbb8c7fb8ea0a8113078e6c6",
+          "bytes": 33522
+        },
+        {
+          "path": "static/images/porcelain-cup.jpg",
+          "sha256": "73ac6fcd94c5858ed0cf348f73abdf53622d5694a3670262ee2ef2a28e3a2990",
+          "bytes": 50237
+        },
+        {
+          "path": "static/images/puer-category-v1.webp",
+          "sha256": "55bd60be0c0c618582166ac2c744c7582b78620d5b45ee2fd07bc2571aed25da",
+          "bytes": 89758
+        },
+        {
+          "path": "static/images/tea-garden-hero.png",
+          "sha256": "97765ea305e0076d2f93b7a82f1653f09d9bac0b1bbbb0d7ba11ea1505a03bd6",
+          "bytes": 2020855
+        },
+        {
+          "path": "static/images/tea-gift-v2.png",
+          "sha256": "f20d5ee484c3fe98422cadab17dd4e80a3c449029e1e6e14a9d6588c70d47f08",
+          "bytes": 2551177
+        },
+        {
+          "path": "static/images/tea-gift-v2.webp",
+          "sha256": "0cee24f97865677dcf0627a346660607645f262d842d0b85100d53a54f3e8344",
+          "bytes": 109522
+        },
+        {
+          "path": "static/images/tea-gift.jpg",
+          "sha256": "b9ef1c29b4f659d2c3d69d551554a90991a35d8ee58dcf9070533a8badfddea3",
+          "bytes": 63067
+        },
+        {
+          "path": "static/images/travel-set.jpg",
+          "sha256": "60f86178e5c9c43b1c86063bbe7610b0153bf58248812caccb8f294a3c747286",
+          "bytes": 80428
+        },
+        {
+          "path": "static/images/white-tea-category-v1.webp",
+          "sha256": "545aabbe360b1c9c8d63cced61adb3b9646dff05ac9f34d03a6897fe25519938",
+          "bytes": 33210
+        },
+        {
+          "path": "static/images/wood-tray.jpg",
+          "sha256": "707edcdc1620610eaebc3277fbffe779942e15e578c5aad21b0e31d14b40a7c4",
+          "bytes": 78656
+        },
+        {
+          "path": "static/images/yixing-pot.jpg",
+          "sha256": "381731ed5351d460e09a091e11cd2b81baffaa8eb01e1815ad95af1c1f49ce8f",
+          "bytes": 60194
+        }
+      ]
+    },
+    {
+      "label": "MP",
+      "directory": "C:\\Users\\Administrator\\Desktop\\茶叶\\分销茶叶商城\\dist\\upload\\mp-weixin-ready",
+      "fileCount": 417,
+      "manifestSha256": "1005f2344c773f77f23df1f99ff5c621a8a45f4b633c99b348c0277407e6b278",
+      "files": [
+        {
+          "path": "app.js",
+          "sha256": "44a2a92201053becae96114bf98df38af312056f9c8d07ea4cd8739631a9f972",
+          "bytes": 149
+        },
+        {
+          "path": "app.json",
+          "sha256": "9dc632aeeb1070e62940bc84d618d9016edf5c8b2827c9e5db7ddb9fb2650df8",
+          "bytes": 2557
+        },
+        {
+          "path": "app.wxss",
+          "sha256": "7004e733836311365a1de4b4e25dc64415be1f35b82160e5f5232ae19bb39164",
+          "bytes": 237399
+        },
+        {
+          "path": "assets/back.2f8f5a60.png",
+          "sha256": "2f8f5a6042ffcc1db42e1792b0ef573b5607463aef1d1624c4477f1e7fb6679a",
+          "bytes": 267
+        },
+        {
+          "path": "assets/back.6a206ba0.png",
+          "sha256": "6a206ba0dbdeafdea8730d8f85437d7635de3588d6d67d337a76b61202443637",
+          "bytes": 318
+        },
+        {
+          "path": "assets/back.88a1b671.png",
+          "sha256": "88a1b67125ba91a6629144e770a974201084744b99bd2df8646f801ac5a11884",
+          "bytes": 310
+        },
+        {
+          "path": "assets/back.9b66ee06.png",
+          "sha256": "9b66ee0629cffae636ffddc77b2f3ab1a93453d59878a93adfb6bc9514dd4a59",
+          "bytes": 311
+        },
+        {
+          "path": "assets/bell.663cdede.png",
+          "sha256": "663cdede06ac30289e8cc998f8c44532c50933a9d95b6131a84ba4d6865cb7ec",
+          "bytes": 1153
+        },
+        {
+          "path": "assets/bell.aab9d4af.png",
+          "sha256": "aab9d4afa5e46f759e7f1c535d1ab6a3514e698ccf19db312032afe0aff3ad58",
+          "bytes": 928
+        },
+        {
+          "path": "assets/bell.aaf40996.png",
+          "sha256": "aaf4099620c6baab8ba8b308396e922cdd9bb0d983884f4059f969c940c5f8be",
+          "bytes": 1158
+        },
+        {
+          "path": "assets/bell.ed5dd7f5.png",
+          "sha256": "ed5dd7f578c6f02bb47be7d14305e000f319d4474e9eac7f0f7c8587865e9850",
+          "bytes": 1179
+        },
+        {
+          "path": "assets/biluochun.cc4d0878.jpg",
+          "sha256": "cc4d0878870db1b8042cb8872fa2af920028bc9a77fffb84829f2d079970ac3a",
+          "bytes": 58895
+        },
+        {
+          "path": "assets/blacktea-red.af86f861.jpg",
+          "sha256": "af86f861f021b057a00e9c415b15151d94db828c067bfa9fd06b8c927e8f564f",
+          "bytes": 60743
+        },
+        {
+          "path": "assets/cart.3fb622fc.png",
+          "sha256": "3fb622fce4d397f092563907ef6101870a600f304f0fcd924862f9f2258d0470",
+          "bytes": 950
+        },
+        {
+          "path": "assets/cart.81c41a08.png",
+          "sha256": "81c41a0825d6e9ab01eda13cec45b5b9510d99aba4a7fe51b68e3f4c184b9127",
+          "bytes": 969
+        },
+        {
+          "path": "assets/cart.acebcb08.png",
+          "sha256": "acebcb0866f29f107d62ab02bc2525c12a2b2380f2879999b94072aa4be7ad29",
+          "bytes": 766
+        },
+        {
+          "path": "assets/cart.ec8ec055.png",
+          "sha256": "ec8ec0551637014e7d6a22d2c94523ab512c9addf7a151ec0f23b7ec6ea72a3e",
+          "bytes": 949
+        },
+        {
+          "path": "assets/category.0c896bbe.png",
+          "sha256": "0c896bbecde99479d1d2c235df23c34c6e7bbac4826c9cf592a9836cb9d930cb",
+          "bytes": 497
+        },
+        {
+          "path": "assets/category.aeb42b63.png",
+          "sha256": "aeb42b639d9cf51e1904ba8aebfb5cb4268e7f63b7e40d04b9418e24e8de1cb0",
+          "bytes": 496
+        },
+        {
+          "path": "assets/category.d48bf34c.png",
+          "sha256": "d48bf34cfe82a78c388dcdc04af19bc7bdd1ef3f6aeac7edd3c78c717fcfb9c6",
+          "bytes": 424
+        },
+        {
+          "path": "assets/category.dd5c33fe.png",
+          "sha256": "dd5c33fe36eb8b4a9238e065e25486fbc98a3c086a03803ae05de35b52e32c95",
+          "bytes": 510
+        },
+        {
+          "path": "assets/check.2edf3ab7.png",
+          "sha256": "2edf3ab7e72ebd8bf274b02b2f14cd4a3d5acdbe365fd9f88c5ff30fc4c7fd3d",
+          "bytes": 393
+        },
+        {
+          "path": "assets/check.4417e28c.png",
+          "sha256": "4417e28c7e5638d5def46db89cecdc7051e8c849cc77ceaeee89084010ce2c5a",
+          "bytes": 382
+        },
+        {
+          "path": "assets/check.9a442ad2.png",
+          "sha256": "9a442ad273cc7e2aa8467db37c6d626a50abe3ad39ce0645854e30dc868cf81c",
+          "bytes": 383
+        },
+        {
+          "path": "assets/check.eb4105d8.png",
+          "sha256": "eb4105d8f0753d5969495360982ed4021d881fb45f153e6cb5cf490191cd50aa",
+          "bytes": 343
+        },
+        {
+          "path": "assets/chevronDown.5955e343.png",
+          "sha256": "5955e343a9f879cdfebd77c66e020a14433ed9afd73367b9cf1744469d0eb5cd",
+          "bytes": 349
+        },
+        {
+          "path": "assets/chevronDown.5ab8fa16.png",
+          "sha256": "5ab8fa167b458904fc4b6157d140ad4e5ac40bcc644a58dce30bfa640a53e900",
+          "bytes": 342
+        },
+        {
+          "path": "assets/chevronDown.9931add7.png",
+          "sha256": "9931add704c0b641ebf1abadf4433736a7b4439c36cc63ec1af9c9916d8a7d14",
+          "bytes": 302
+        },
+        {
+          "path": "assets/chevronDown.ec6507ae.png",
+          "sha256": "ec6507ae891017cdababb1aacc086ad12a4821faef80f849b782ce9b6177e903",
+          "bytes": 341
+        },
+        {
+          "path": "assets/chevronRight.2303b1a2.png",
+          "sha256": "2303b1a2075f0aa6c49358fe4f7b03f49817824394682d1084b8a18ac6fee450",
+          "bytes": 322
+        },
+        {
+          "path": "assets/chevronRight.61328997.png",
+          "sha256": "61328997dc0741217c78efa299a8bc4fd83b3819005576dc2bf54aaffca0fff4",
+          "bytes": 313
+        },
+        {
+          "path": "assets/chevronRight.895cfad7.png",
+          "sha256": "895cfad770ed04a44527f46ab89c54b201f585377dd44186f2fe0dc3ee1ac497",
+          "bytes": 267
+        },
+        {
+          "path": "assets/chevronRight.b51b7610.png",
+          "sha256": "b51b76105bc0daa3140f298ae1e880a724dba62fe2e500e676f5c37816741786",
+          "bytes": 311
+        },
+        {
+          "path": "assets/clipboard.58afdc0d.png",
+          "sha256": "58afdc0d92bf3f91ff8e743b40be75fc4a28be07b63aa105a92977bd34539f84",
+          "bytes": 631
+        },
+        {
+          "path": "assets/clipboard.929c8643.png",
+          "sha256": "929c8643e2eb6f34e33ae47c1d7b68976213960c8e02fb050f72e6548b58226a",
+          "bytes": 539
+        },
+        {
+          "path": "assets/clipboard.9ce9de28.png",
+          "sha256": "9ce9de282994b2b4e9275f3842e1b81745d42cb4bb388dd1a8ecfa1522410a3c",
+          "bytes": 644
+        },
+        {
+          "path": "assets/clipboard.de599cff.png",
+          "sha256": "de599cffdd075cb2bdac2d2169e46bbff423f20a8fb27ad892127d5f6e5a93bb",
+          "bytes": 649
+        },
+        {
+          "path": "assets/clock.11f17a6a.png",
+          "sha256": "11f17a6af62d584d74a8c6173aa748fc2f8e1cd37d5ab573371a975fdfd1e3ae",
+          "bytes": 1461
+        },
+        {
+          "path": "assets/clock.3d58d356.png",
+          "sha256": "3d58d356d9e1dbced647ed014b0c280eed995df142f91f1f1b94ff21df3f110b",
+          "bytes": 1467
+        },
+        {
+          "path": "assets/clock.d9e27f35.png",
+          "sha256": "d9e27f353f5db55361a87d1a72920c18b66618f76666086869f98b2faac828b0",
+          "bytes": 1473
+        },
+        {
+          "path": "assets/clock.dde0d779.png",
+          "sha256": "dde0d779db392d6d61e270e279227f02065bc14b3033a0ba2b96fe484cf994e1",
+          "bytes": 1176
+        },
+        {
+          "path": "assets/coin.106d77a4.png",
+          "sha256": "106d77a476f081c9373e4c26199b771ffef4265bb14e6b58199743378362b404",
+          "bytes": 1704
+        },
+        {
+          "path": "assets/coin.88098ebb.png",
+          "sha256": "88098ebbefe774a2145b747f82d95b60e79523f5df3e1b3f9fa0e76bd93e6a0f",
+          "bytes": 1728
+        },
+        {
+          "path": "assets/coin.ba1ea3c1.png",
+          "sha256": "ba1ea3c1510eff934c7f792799b3a0f9da2abdd348550e6a2765643573469fc0",
+          "bytes": 1372
+        },
+        {
+          "path": "assets/coin.fe60369f.png",
+          "sha256": "fe60369fd9f4bd4308371deced7e48bf5da15ce666b7786ca92e38ebc482ff44",
+          "bytes": 1705
+        },
+        {
+          "path": "assets/download.0f87149c.png",
+          "sha256": "0f87149c611405a7612fe1b9b7d1fbe3ce9dbd3ff228c326678805f4135de3d4",
+          "bytes": 530
+        },
+        {
+          "path": "assets/download.70c660b8.png",
+          "sha256": "70c660b8ca540eea57ed78a4ed890072911e8a6dc858cc76e45137ef48e48e75",
+          "bytes": 453
+        },
+        {
+          "path": "assets/download.7e80b481.png",
+          "sha256": "7e80b481e60ea101577f8be7e61c52185c12d86dd4b6d739545a77550dc5da94",
+          "bytes": 545
+        },
+        {
+          "path": "assets/download.e8a6d7c6.png",
+          "sha256": "e8a6d7c699841896485d6f16cbcd2feb41b3305b447393223494107b727a2827",
+          "bytes": 536
+        },
+        {
+          "path": "assets/filter.494304ac.png",
+          "sha256": "494304acfb276bda80df821d13cbafec04056ca6a801520d7a2e1e3b8f5fb7b7",
+          "bytes": 729
+        },
+        {
+          "path": "assets/filter.8d628bf2.png",
+          "sha256": "8d628bf2a33e099012ade244825bd067dbb22ccaac409d987816906f3c8db7a6",
+          "bytes": 744
+        },
+        {
+          "path": "assets/filter.c2114699.png",
+          "sha256": "c2114699a1d3f4a30b4c5d0e2aa25a7764f08759b1bf7736588b5abf4f86a524",
+          "bytes": 609
+        },
+        {
+          "path": "assets/filter.cd1b5588.png",
+          "sha256": "cd1b5588e2197b9d7bd9425723baeae248a5a2b9479dc08f1f4d8f8b6896d284",
+          "bytes": 734
+        },
+        {
+          "path": "assets/gift.3236684b.png",
+          "sha256": "3236684b3cb7f2a19916118dfdb82eeacdb89fe2cb9671e1ef045c4a4d1c9866",
+          "bytes": 1061
+        },
+        {
+          "path": "assets/gift.3fd3ea08.png",
+          "sha256": "3fd3ea08a4cedf06ba78bae1ef3ce2b65478bb090c3a57d5ca9dc79031fbffd3",
+          "bytes": 1097
+        },
+        {
+          "path": "assets/gift.8a96d92b.png",
+          "sha256": "8a96d92b9a341763993b0f432e83c3e0b66ca5af13f42782d388414a1f4faa1d",
+          "bytes": 855
+        },
+        {
+          "path": "assets/gift.ac177e57.png",
+          "sha256": "ac177e5740fbf0507dfd0fb5a44e6428e433e739263b37af582c0016980320d4",
+          "bytes": 1085
+        },
+        {
+          "path": "assets/headset.5a7c12bc.png",
+          "sha256": "5a7c12bc19fb07ac1ba3a6cbb34bcd7c377616d0b286176022d73ce010654d68",
+          "bytes": 953
+        },
+        {
+          "path": "assets/headset.70d4d6ee.png",
+          "sha256": "70d4d6ee7753aebe82d5f195c46bb7283bab8eddd6821f338d0916df1642d8ff",
+          "bytes": 1212
+        },
+        {
+          "path": "assets/headset.a3a9ba93.png",
+          "sha256": "a3a9ba937b8d2029096f42da474c078a8459bfe377948f935de32405ff82ef5d",
+          "bytes": 1202
+        },
+        {
+          "path": "assets/headset.c8f20934.png",
+          "sha256": "c8f20934f41f7ce14403c7279a3aa9835a5292a262ea32fd130888b60e043e9b",
+          "bytes": 1220
+        },
+        {
+          "path": "assets/heart.2d422b68.png",
+          "sha256": "2d422b68a9b93fa4745d1142cc8eb33c41f18b4588ede9b5acf0fbcd10321ba3",
+          "bytes": 1271
+        },
+        {
+          "path": "assets/heart.42d43fa2.png",
+          "sha256": "42d43fa2eef1e3356433d25f468743ac3af631562eda10f7fd5619d345b5a7a5",
+          "bytes": 1568
+        },
+        {
+          "path": "assets/heart.602783bc.png",
+          "sha256": "602783bce19ef025cf0ee59483ddbb7b8f76ff88dfa07925f9dfee16b7926970",
+          "bytes": 1603
+        },
+        {
+          "path": "assets/heart.dbe633b8.png",
+          "sha256": "dbe633b80218a97b6f522c0c1ac4cbb1ac6ad9cbfa6a53dd9a43e7e9bef4d2be",
+          "bytes": 1569
+        },
+        {
+          "path": "assets/help.21b53eb8.png",
+          "sha256": "21b53eb887e2ddd4f0f4673b280ec78a27f0ab8ed1bc042f586a45c2a71179d5",
+          "bytes": 1726
+        },
+        {
+          "path": "assets/help.26d4eb68.png",
+          "sha256": "26d4eb6893cb29aa0dcc59a80c8abee1c6090ec3e5467f51138c98e95cde25b6",
+          "bytes": 1750
+        },
+        {
+          "path": "assets/help.708a1ba6.png",
+          "sha256": "708a1ba6c0b5684df422f6de4ce086763918bd01e4129f6d7b5e67d01e211e72",
+          "bytes": 1732
+        },
+        {
+          "path": "assets/help.9608a59c.png",
+          "sha256": "9608a59ca2447bf71976c1c39e37be8ee0b6550692ab94dcbf0d14bce1f27dc6",
+          "bytes": 1393
+        },
+        {
+          "path": "assets/home.04e0198e.png",
+          "sha256": "04e0198e1e77a97c4f97e09ddb5737255d20e2400a04447d9132d48aeba1d0a3",
+          "bytes": 747
+        },
+        {
+          "path": "assets/home.1d78f9c8.png",
+          "sha256": "1d78f9c8ae7ee0a4757da7fcb1b14b6308601f484cd32b0a8864600202dbcda7",
+          "bytes": 747
+        },
+        {
+          "path": "assets/home.9046f4ad.png",
+          "sha256": "9046f4ad65de0eb8102d8238f5ad3a66094f4653901279452163a287fd760b1f",
+          "bytes": 749
+        },
+        {
+          "path": "assets/home.daa361c5.png",
+          "sha256": "daa361c50d0fb540d2aba24645d612d3f93d8bdfa4246441d82295ac7edde0e2",
+          "bytes": 606
+        },
+        {
+          "path": "assets/info.8dc7aeb7.png",
+          "sha256": "8dc7aeb7d94ebfad57e68d6bcfc3558347cc253531172963df58cdd2ec8ffc06",
+          "bytes": 1450
+        },
+        {
+          "path": "assets/info.996fee82.png",
+          "sha256": "996fee82ca81d234158b0b5e7c7415a41ef94e490d54bcd69244ccc855e81ca7",
+          "bytes": 1438
+        },
+        {
+          "path": "assets/info.c35c186a.png",
+          "sha256": "c35c186a6272dd98bac2ee3c2f2707a55e8bac60d361bbcf24a5b3144496b5c3",
+          "bytes": 1441
+        },
+        {
+          "path": "assets/info.d52b66bc.png",
+          "sha256": "d52b66bc8785ef5ab425fc2ffd7d08ddee52a1497046a2094b60aa62a590dc48",
+          "bytes": 1164
+        },
+        {
+          "path": "assets/invite-poster-v2.da7b46cc.webp",
+          "sha256": "da7b46ccbb59d6f89af819acccbfb949919442c12fc003f03bf451e8a562a105",
+          "bytes": 79798
+        },
+        {
+          "path": "assets/link.11a1b356.png",
+          "sha256": "11a1b3561bc9f4292dee9e49b85f85ca53ae156e22f72d58b47a1ad8ad3f56b6",
+          "bytes": 1127
+        },
+        {
+          "path": "assets/link.308f7b07.png",
+          "sha256": "308f7b07b7ba1f4de2fb37bf43c15ab389ad9e4ef07a5f508c3f9aaece7e2dab",
+          "bytes": 1378
+        },
+        {
+          "path": "assets/link.67e2fb95.png",
+          "sha256": "67e2fb953ac6d4aa0e59cfa10c568e3d3e619dd01781efd794525917598af1d4",
+          "bytes": 1401
+        },
+        {
+          "path": "assets/link.753d19f3.png",
+          "sha256": "753d19f302f99692fea04cd70244611713044cdf102c72328d2b8ef3457e9b64",
+          "bytes": 1406
+        },
+        {
+          "path": "assets/location.11ecf1ab.png",
+          "sha256": "11ecf1ab78828bc6c78896bbf995fe6593603879af56dc4f8db92a60dd0e74ac",
+          "bytes": 1789
+        },
+        {
+          "path": "assets/location.3d1e6be8.png",
+          "sha256": "3d1e6be8a10ad11bf93686524063ec7ba03e1b09d564dd9d169a6b266c21d1c0",
+          "bytes": 1443
+        },
+        {
+          "path": "assets/location.5a2df933.png",
+          "sha256": "5a2df933ce967349d0716acfd7dfad2a220cba8caf230fea1eca4123ca480961",
+          "bytes": 1779
+        },
+        {
+          "path": "assets/location.a584909a.png",
+          "sha256": "a584909ac2682ccb710f8adb67623f6e2c893dac9f53ea3b26b39b106b0bcc2e",
+          "bytes": 1801
+        },
+        {
+          "path": "assets/lock.361d3a83.png",
+          "sha256": "361d3a836eb9f4cb2a103fe2cab3b6596d9df25ff80883e56776f9b903e78351",
+          "bytes": 657
+        },
+        {
+          "path": "assets/lock.a1251f29.png",
+          "sha256": "a1251f29a1afb9087264cfb11786ed07393544d8f0706b5fb847e2ad1631a9d8",
+          "bytes": 820
+        },
+        {
+          "path": "assets/lock.c96674e4.png",
+          "sha256": "c96674e4ee5b84c74494bc5590608b849615a48e7851580e4f7bf70c35357da1",
+          "bytes": 822
+        },
+        {
+          "path": "assets/lock.e12f4def.png",
+          "sha256": "e12f4def1829c473d30dfc64215cca3d980af3514f00f9cef1517623960488fc",
+          "bytes": 797
+        },
+        {
+          "path": "assets/login-art-v2.42734d22.webp",
+          "sha256": "42734d22d6a44047ab07c13885148a5886a299ff935ca73ba07015511a3885f3",
+          "bytes": 52244
+        },
+        {
+          "path": "assets/longjing-dark-v2.18db71b9.webp",
+          "sha256": "18db71b90c18b0b7d1512f4c05cb6108a604fcb65811cec8c7cbd335bc06a6a3",
+          "bytes": 93466
+        },
+        {
+          "path": "assets/longjing-dark.f0c02109.jpg",
+          "sha256": "f0c021094bda881b1207439dcc2d0f7755462f76f2918abcb69811a73666be55",
+          "bytes": 64918
+        },
+        {
+          "path": "assets/longjing-hero-v2.cc952c91.webp",
+          "sha256": "cc952c910bc00d5013d0b99e69eee0c785557cef515b677a1034c9db3cdd8b73",
+          "bytes": 91744
+        },
+        {
+          "path": "assets/longjing-pale.272e4ede.jpg",
+          "sha256": "272e4edeeb3aed1ce210cf81fcd2735a64fc6a697e06a0da7554562177569d3d",
+          "bytes": 55222
+        },
+        {
+          "path": "assets/maofeng-pouch.8543702d.jpg",
+          "sha256": "8543702da5bb3f287766196374eb843427d92bffe54787a03423da0d28d0955c",
+          "bytes": 69052
+        },
+        {
+          "path": "assets/more.1add286f.png",
+          "sha256": "1add286f6adb93efb3695c2c592d4188a91ee3522a4a19a280385b5b7ab9092a",
+          "bytes": 199
+        },
+        {
+          "path": "assets/more.2b04548a.png",
+          "sha256": "2b04548a95c45e57083d81aff3292150f2dbd0d7f1f24ed9e006295bb1b273ad",
+          "bytes": 198
+        },
+        {
+          "path": "assets/more.8b5fb392.png",
+          "sha256": "8b5fb3929543dc4e3069b197198a3ce1b6f29655e71debd18f5333592c2eb47d",
+          "bytes": 203
+        },
+        {
+          "path": "assets/more.96529f00.png",
+          "sha256": "96529f00c7ce5753ee3db256657682db397fd9a2e53ebb02e8e16fec65a13538",
+          "bytes": 169
+        },
+        {
+          "path": "assets/package.07fab979.png",
+          "sha256": "07fab979c1b5449ff85bb8708be65fcce7c5bc1fdf54564ac8f4a67c7eae8ff3",
+          "bytes": 1081
+        },
+        {
+          "path": "assets/package.649eff8a.png",
+          "sha256": "649eff8a910ace2da8f9911712ed71f75b972ef7497d5f8d9053c67aecd5ff78",
+          "bytes": 1069
+        },
+        {
+          "path": "assets/package.b2c46ad1.png",
+          "sha256": "b2c46ad147bec9a1b409bc1bd1c9b38f7d536ebe554965545032c23e1a8157f0",
+          "bytes": 1073
+        },
+        {
+          "path": "assets/package.fb4259e5.png",
+          "sha256": "fb4259e556ac37f3ab4b28e56ec9825f0294f9dfb649ea6ecac701a5ea2ff56e",
+          "bytes": 877
+        },
+        {
+          "path": "assets/phone.9ca6fdd4.png",
+          "sha256": "9ca6fdd4c1a094db34c985ab3188078bac5637c595566aaeb2778bcf1136514a",
+          "bytes": 489
+        },
+        {
+          "path": "assets/phone.a33f0aed.png",
+          "sha256": "a33f0aedc59acae14e55a186fe48b89d9f656f7684ef64e56016077253a96801",
+          "bytes": 587
+        },
+        {
+          "path": "assets/phone.ac01418d.png",
+          "sha256": "ac01418db7273efd77cd59de784fcb28862955b55c6b43215f665ad494c5692f",
+          "bytes": 582
+        },
+        {
+          "path": "assets/phone.f678c8ef.png",
+          "sha256": "f678c8efcb8d3550ecb66ef0e2aaf4b8bf7d5892cca8ea4e77dfe3ce4828dbd8",
+          "bytes": 592
+        },
+        {
+          "path": "assets/points.7044956b.png",
+          "sha256": "7044956ba5c22967e48b600c3dddeb850debdc0086ea24c272bc0e3b7040aebe",
+          "bytes": 1862
+        },
+        {
+          "path": "assets/points.aa15cfa5.png",
+          "sha256": "aa15cfa553f7311f8747589d594447b486cecd4aceef1c86e698b10f03d0b847",
+          "bytes": 1527
+        },
+        {
+          "path": "assets/points.d516abe6.png",
+          "sha256": "d516abe643ee3fcf4ccf4cd301ea62d7a484eae00c6d337068f01dc92a420661",
+          "bytes": 1899
+        },
+        {
+          "path": "assets/points.ecce16c3.png",
+          "sha256": "ecce16c312f3b32430e252552f11bc1b21eae1ec1d01034ffc65b8f149ef8798",
+          "bytes": 1916
+        },
+        {
+          "path": "assets/refresh.05c238ed.png",
+          "sha256": "05c238ed47fb180130f2cb1d6bdcf5b9f878decc18bd5b2d14dfa1c854e6fe31",
+          "bytes": 1256
+        },
+        {
+          "path": "assets/refresh.1cdd5954.png",
+          "sha256": "1cdd5954e0198ad2b8605dca45d1252a403e2e2ffb02414f80474434caef4076",
+          "bytes": 995
+        },
+        {
+          "path": "assets/refresh.6638a280.png",
+          "sha256": "6638a280fbd343170af3aeed6239521616efd596f61f5dc92e14ff14dc135095",
+          "bytes": 1278
+        },
+        {
+          "path": "assets/refresh.db2ba3b9.png",
+          "sha256": "db2ba3b986ff3c412b20d4e638b678b8f01a98b2e05c0b0b0934e18c3408dbb9",
+          "bytes": 1263
+        },
+        {
+          "path": "assets/search.25510389.png",
+          "sha256": "255103897e57899a38f6c400274d79ec10da74f314185800bd05da5c079cad75",
+          "bytes": 1094
+        },
+        {
+          "path": "assets/search.8d0fb426.png",
+          "sha256": "8d0fb4265ea629f8c16813ae5871abfe39d0c6d21a50b9de05e77f011f761926",
+          "bytes": 1396
+        },
+        {
+          "path": "assets/search.b7e1a848.png",
+          "sha256": "b7e1a84859ceaedc55542b99eb266682a86a2b08d7227c6637a2c38a9bea0b63",
+          "bytes": 1381
+        },
+        {
+          "path": "assets/search.fc9603ab.png",
+          "sha256": "fc9603aba7bf9d9e6e33740e1a6dc6a5ceeea28a7b6074121d4ecbe73fa7d4ed",
+          "bytes": 1373
+        },
+        {
+          "path": "assets/service.066d6994.png",
+          "sha256": "066d69949c0b957b964478635bccb82cbbb5e694ebbac5c4d8ac16f548799b20",
+          "bytes": 526
+        },
+        {
+          "path": "assets/service.59b0d9dc.png",
+          "sha256": "59b0d9dcb8ecd192649e4c1e01de09d12ddf7edf26b86af101ded6732d31d8c6",
+          "bytes": 509
+        },
+        {
+          "path": "assets/service.99f53177.png",
+          "sha256": "99f53177e1c3091c6aaa617cce2478a35d1b747d3cab2a6cfbf17fd469103d8b",
+          "bytes": 516
+        },
+        {
+          "path": "assets/service.f91f1b8d.png",
+          "sha256": "f91f1b8d63ce8c1282c811f92f844ed02fbd3310d87d668e43f69826f5bfe812",
+          "bytes": 440
+        },
+        {
+          "path": "assets/settings.0cfe2d75.png",
+          "sha256": "0cfe2d757006c079d5315eb2c895358eccf4369d538c268c52e213f338cacfcd",
+          "bytes": 1551
+        },
+        {
+          "path": "assets/settings.6dbca34c.png",
+          "sha256": "6dbca34cfcc32d4e157a9b49ca0f57000503431b0b62fbdefe47bb4710cd2239",
+          "bytes": 1974
+        },
+        {
+          "path": "assets/settings.b00b5a67.png",
+          "sha256": "b00b5a6786fe0ab5fd9fe3bb990350f0ef01ab4162807eafc3972c83e54768cf",
+          "bytes": 1963
+        },
+        {
+          "path": "assets/settings.cea57f08.png",
+          "sha256": "cea57f080e80cab0b135f4ae728514b2109e1b4f16a19b5c0d217dcb65f9109b",
+          "bytes": 1954
+        },
+        {
+          "path": "assets/share.450010f9.png",
+          "sha256": "450010f920c274caeb16cd74c13563b17570fc0ba67bd0490d79ca0d2664eb8b",
+          "bytes": 525
+        },
+        {
+          "path": "assets/share.aafea481.png",
+          "sha256": "aafea4815b1af92da797060f6ae911c9df07e92fbdf14e6291eafa1a42ae0e2d",
+          "bytes": 631
+        },
+        {
+          "path": "assets/share.e4f1de29.png",
+          "sha256": "e4f1de29e10f778eaa4c040608c0025f137e56cd788382f348f71e8b9b7c868d",
+          "bytes": 623
+        },
+        {
+          "path": "assets/share.e514156a.png",
+          "sha256": "e514156a9cf6a81f4e92656d2811de1ee9d4f8253e788466aff3aebc64772a49",
+          "bytes": 613
+        },
+        {
+          "path": "assets/shield.4be8a5c2.png",
+          "sha256": "4be8a5c23498767d2e46cf47c815a80b418900e2be38c2b4b5010155dd6b9d09",
+          "bytes": 1344
+        },
+        {
+          "path": "assets/shield.608f7b28.png",
+          "sha256": "608f7b28c0c6af4a3a001e59a2d65c43fd8702f7afec7f9019e852cf5871cf29",
+          "bytes": 1345
+        },
+        {
+          "path": "assets/shield.c6aff2a5.png",
+          "sha256": "c6aff2a5d92d1da5de26b6b4187e0b42003e7454291a918a078b73c4a04d9f01",
+          "bytes": 1089
+        },
+        {
+          "path": "assets/shield.e79da24e.png",
+          "sha256": "e79da24e4bf42cdd3cbde2962a7afdc84b238d25fe0135325fafb5625c5bac59",
+          "bytes": 1372
+        },
+        {
+          "path": "assets/star.0abe4da6.png",
+          "sha256": "0abe4da66e718a8ff594392d3575a1fbb502b686aa7169ad37435c2a72f93fd1",
+          "bytes": 1446
+        },
+        {
+          "path": "assets/star.1811b34d.png",
+          "sha256": "1811b34d3c026c784393c9f0fd6652fddfafb7a4eee746e615475f9139e96753",
+          "bytes": 1157
+        },
+        {
+          "path": "assets/star.2293b24b.png",
+          "sha256": "2293b24b37e463acc98c54ad34147f0a31a210824a0b914a37a9bbf79bf08e1c",
+          "bytes": 1459
+        },
+        {
+          "path": "assets/star.561addd0.png",
+          "sha256": "561addd0ad3068d56619baaf1bb42cb7beddee3a8faa5e72c63ac26fa6d08daa",
+          "bytes": 1473
+        },
+        {
+          "path": "assets/store.0ee2193d.png",
+          "sha256": "0ee2193da8d8ebcaf89a886303d8ce8edd9dabb2e09f0c3752739d22ca948ccf",
+          "bytes": 966
+        },
+        {
+          "path": "assets/store.6d006017.png",
+          "sha256": "6d0060173fe057cfd1318f8af8751af8beaa405750a787822f04f35a0c266713",
+          "bytes": 982
+        },
+        {
+          "path": "assets/store.902f7f4c.png",
+          "sha256": "902f7f4cddb2d83d83bd4e69b8044e1b1a196d129abdfa9931b85356b0c1828b",
+          "bytes": 762
+        },
+        {
+          "path": "assets/store.f02639e7.png",
+          "sha256": "f02639e7a325e0dc07740ced004a39ec5f07c60a0d111ad9f897fc7da1e14705",
+          "bytes": 961
+        },
+        {
+          "path": "assets/tea-gift-v2.0cee24f9.webp",
+          "sha256": "0cee24f97865677dcf0627a346660607645f262d842d0b85100d53a54f3e8344",
+          "bytes": 109522
+        },
+        {
+          "path": "assets/ticket.1ad1cb35.png",
+          "sha256": "1ad1cb35dc6947f5bc3e2cb62acc8d831f36aea0c28a24869686396d59d0d897",
+          "bytes": 738
+        },
+        {
+          "path": "assets/ticket.8de6a9ac.png",
+          "sha256": "8de6a9ac9f910d96091eed5df60fbb09cc2391f9d2c607bea56ce3c9a7a4d535",
+          "bytes": 579
+        },
+        {
+          "path": "assets/ticket.b9ce2a74.png",
+          "sha256": "b9ce2a74ea0d1381d32d144c1382f987eaec283945a42279d418a0a659bab20c",
+          "bytes": 723
+        },
+        {
+          "path": "assets/ticket.e2212061.png",
+          "sha256": "e2212061cd1dca87ff93901ca9b11eae59300051b1abcca640fa44a00c065d39",
+          "bytes": 725
+        },
+        {
+          "path": "assets/truck.04768aa3.png",
+          "sha256": "04768aa371426c8a2a11f01089f9c8f67a453834d252a237f20e91511dea101d",
+          "bytes": 956
+        },
+        {
+          "path": "assets/truck.4617b883.png",
+          "sha256": "4617b883185aa240da30fbeccc5b2a2cddb7cc190b07c37c7754955663cb5ffb",
+          "bytes": 739
+        },
+        {
+          "path": "assets/truck.5ac088ca.png",
+          "sha256": "5ac088ca1191d3cc3f3f58340f327dda3fa888ee900994ccb1d082280ebfe29d",
+          "bytes": 941
+        },
+        {
+          "path": "assets/truck.8f3ddcc1.png",
+          "sha256": "8f3ddcc1adb5887bf0678fdc97cc1d0e354baa994fc0afad74145755f9180ad6",
+          "bytes": 934
+        },
+        {
+          "path": "assets/user.492ff10b.png",
+          "sha256": "492ff10b3fc0d49f8bb68528fafd6004466a0345fc56a565b8d5349d964f6032",
+          "bytes": 1270
+        },
+        {
+          "path": "assets/user.78168a4f.png",
+          "sha256": "78168a4f87fb43c09af54ea98b6d5fa1a60e63384fb3a04a78165b2b14e2b4f5",
+          "bytes": 1005
+        },
+        {
+          "path": "assets/user.80e8bfcb.png",
+          "sha256": "80e8bfcb5eccc22091085df8df552ef1c218abd22d03f5d58a7c7ee8b3ac18cd",
+          "bytes": 1296
+        },
+        {
+          "path": "assets/user.d7fa12a6.png",
+          "sha256": "d7fa12a6eb1e1e3a5b080ee82d1e4be7bede88468312b70b2fc77442891db1a2",
+          "bytes": 1274
+        },
+        {
+          "path": "assets/users.0dfef9ef.png",
+          "sha256": "0dfef9ef9c4506e752060cb824657145b8cdf93a4a37fe19227c40ece98ef74b",
+          "bytes": 1398
+        },
+        {
+          "path": "assets/users.180d1423.png",
+          "sha256": "180d1423707fa76f6a4d447faaba8d6282f7df2408c70acfe7eb8b2174e1d2c7",
+          "bytes": 1360
+        },
+        {
+          "path": "assets/users.8f61f7d7.png",
+          "sha256": "8f61f7d7dfa7b9c757606117af8f74b1e6a73b94e8196e049b71c0747dd541d5",
+          "bytes": 1391
+        },
+        {
+          "path": "assets/users.a7829b6c.png",
+          "sha256": "a7829b6c2eb260aae9b8eaa9997eb37d95076604d74ac0d11109630de1a9cf69",
+          "bytes": 1119
+        },
+        {
+          "path": "assets/wallet.0e575f24.png",
+          "sha256": "0e575f244abe13320e56dd100309ed87f206861ee343a5e93268754a45fb6992",
+          "bytes": 826
+        },
+        {
+          "path": "assets/wallet.0ffcd71d.png",
+          "sha256": "0ffcd71d5f9047db2be08950a453d6d95325e29bd28d4a6907e25f753a37d911",
+          "bytes": 801
+        },
+        {
+          "path": "assets/wallet.4065656a.png",
+          "sha256": "4065656a70dce5998660966829f1fb0f41bf4034b1bf4e07034a406fe3747a50",
+          "bytes": 629
+        },
+        {
+          "path": "assets/wallet.a8fab6b9.png",
+          "sha256": "a8fab6b91fd7a91641b3c8e07d46caf75792895d242d50be751ede83db19006c",
+          "bytes": 814
+        },
+        {
+          "path": "assets/wechat.23ccec59.png",
+          "sha256": "23ccec59e9c66d8aab5ef8f21174713527059832cabfe873dd519564a40db852",
+          "bytes": 1930
+        },
+        {
+          "path": "assets/wechat.3c2e40c3.png",
+          "sha256": "3c2e40c3c6ff409dded7802d7ff159990826c2806f471bdf471bfde1c661630a",
+          "bytes": 1937
+        },
+        {
+          "path": "assets/wechat.69aa4e28.png",
+          "sha256": "69aa4e28c9bd6faa48e127e1469ff1cde647de4b0cb63cbce67c44ff0ee76615",
+          "bytes": 1564
+        },
+        {
+          "path": "assets/wechat.c033424d.png",
+          "sha256": "c033424d2ba042394ab7f83a72c5dc3f33a01e5fca6d2ead2a6c4d2c91f1cd2d",
+          "bytes": 1958
+        },
+        {
+          "path": "assets/wifi.0bdbbcde.png",
+          "sha256": "0bdbbcde87cdadef94c3d8db9d1b56a6f97057a1f06683ae8f96485c7a3a9713",
+          "bytes": 922
+        },
+        {
+          "path": "assets/wifi.646550d2.png",
+          "sha256": "646550d219cb9a8e6dc43b0936cc6ffe1c112ea62703f40d239b48c44423fcf3",
+          "bytes": 899
+        },
+        {
+          "path": "assets/wifi.db6cbe07.png",
+          "sha256": "db6cbe07c7785061bc0b71d21902260aec3b895eb082dada8ce5f429b8ee61d1",
+          "bytes": 903
+        },
+        {
+          "path": "assets/wifi.f0d1fc9f.png",
+          "sha256": "f0d1fc9f9c949cfbec82699714827452f645adb689f98c0e8047a95660eb71d0",
+          "bytes": 713
+        },
+        {
+          "path": "assets/yixing-pot.381731ed.jpg",
+          "sha256": "381731ed5351d460e09a091e11cd2b81baffaa8eb01e1815ad95af1c1f49ce8f",
+          "bytes": 60194
+        },
+        {
+          "path": "common/assets.js",
+          "sha256": "1d684862f8933264480a6da60a8a8ead9455f71920e88ed2418676e9f0af254c",
+          "bytes": 8689
+        },
+        {
+          "path": "common/vendor.js",
+          "sha256": "4f17bc7e3ed23d0893d6e134a6fd471ab8c629c843805a75616531309e019d86",
+          "bytes": 184173
+        },
+        {
+          "path": "components/BottomNav.js",
+          "sha256": "55549b37c5e0a010511cbae72de247f6f60093dec76dbcfd0f0e71d82e28f478",
+          "bytes": 913
+        },
+        {
+          "path": "components/BottomNav.json",
+          "sha256": "d6ebff3d3bc54d5c37309ae2ae1bc7811c8222290ec6e320e6e1fd55dc9424a1",
+          "bytes": 79
+        },
+        {
+          "path": "components/BottomNav.wxml",
+          "sha256": "1ad9bb6b8462c54e9da5c0fcd3aaeb0cfaa8b566b7021f7bdbb735683e8cc9d2",
+          "bytes": 478
+        },
+        {
+          "path": "components/BottomNav.wxss",
+          "sha256": "cb0872ef1a2dbd213fb9bf4499c974e3901c9c917c01515f218b09b1cb679697",
+          "bytes": 1476
+        },
+        {
+          "path": "components/InvitationClub.js",
+          "sha256": "fb510da7695dbc01bda90d5f0003d7b53eed85b66edd2a63a09a8b7fba419541",
+          "bytes": 1299
+        },
+        {
+          "path": "components/InvitationClub.json",
+          "sha256": "d6ebff3d3bc54d5c37309ae2ae1bc7811c8222290ec6e320e6e1fd55dc9424a1",
+          "bytes": 79
+        },
+        {
+          "path": "components/InvitationClub.wxml",
+          "sha256": "54df94b1234c56a9f09118b4403d16b2ee030a720a6e2663028b94713d3a6cb6",
+          "bytes": 1049
+        },
+        {
+          "path": "components/InvitationClub.wxss",
+          "sha256": "3693380f5df90d5ce41d2810b4dc8c8b7dbf1993bee0304935e34cbadd0467b7",
+          "bytes": 2025
+        },
+        {
+          "path": "components/MallPrice.js",
+          "sha256": "4ab4c01473bb0715dff4710006038e5a5c6d300d0f4d58e22cfe0963b9d47b9a",
+          "bytes": 964
+        },
+        {
+          "path": "components/MallPrice.json",
+          "sha256": "6e72dadc3680e796aee6cd518838aed27738a42c14bf6b1e9a9067044115c815",
+          "bytes": 48
+        },
+        {
+          "path": "components/MallPrice.wxml",
+          "sha256": "ab7960e7f6f62f3a4184b7b464f7a7fe468ce59c33abc5b3e45f388eb22ce669",
+          "bytes": 421
+        },
+        {
+          "path": "components/MallPrice.wxss",
+          "sha256": "c6b60581595176ad859f015e693871e78a298886e4596d4120f62edf5a9a70ab",
+          "bytes": 1013
+        },
+        {
+          "path": "components/OrderCollection.js",
+          "sha256": "37220b1a683bce4d4740e15a36b2edcec3b298f19ee7ec74289ff2f110072596",
+          "bytes": 1019
+        },
+        {
+          "path": "components/OrderCollection.json",
+          "sha256": "6e72dadc3680e796aee6cd518838aed27738a42c14bf6b1e9a9067044115c815",
+          "bytes": 48
+        },
+        {
+          "path": "components/OrderCollection.wxml",
+          "sha256": "94b2f0fe115b642fcdd8fdfb0c5c9a91da150788891bacbcd5dad1867572254e",
+          "bytes": 653
+        },
+        {
+          "path": "components/OrderCollection.wxss",
+          "sha256": "14bb73674a4e9deb6d7199ecbcf87ac62cf14e0a4bffa4021581d7f31a4e28c2",
+          "bytes": 1179
+        },
+        {
+          "path": "components/PointsCollection.js",
+          "sha256": "6b663c5e43c5a31f0b58c3e0ff77fbe3aadd8a06f96e1df810abd1604e0d597f",
+          "bytes": 1051
+        },
+        {
+          "path": "components/PointsCollection.json",
+          "sha256": "6e72dadc3680e796aee6cd518838aed27738a42c14bf6b1e9a9067044115c815",
+          "bytes": 48
+        },
+        {
+          "path": "components/PointsCollection.wxml",
+          "sha256": "c8fe52f7cea74aa3c814f8f308860ef68cf1313d5672b2df7c08575d2b367bd8",
+          "bytes": 321
+        },
+        {
+          "path": "components/ProductTile.js",
+          "sha256": "b8a8b2219a9bd36d00b41767826c695bf7963280827dccb27c76c17af18cf5f1",
+          "bytes": 1300
+        },
+        {
+          "path": "components/ProductTile.json",
+          "sha256": "6e72dadc3680e796aee6cd518838aed27738a42c14bf6b1e9a9067044115c815",
+          "bytes": 48
+        },
+        {
+          "path": "components/ProductTile.wxml",
+          "sha256": "55206aad4450e6500ef3d0aa9b9e4d98ec8f66f622228bf917b169ebcdc2dded",
+          "bytes": 834
+        },
+        {
+          "path": "components/ProductTile.wxss",
+          "sha256": "0a2bdcf1de989b36c71c86d5ec0456611c1dce5b2500d0354fe5479b6ba38fa1",
+          "bytes": 1611
+        },
+        {
+          "path": "components/ReviewSheet.js",
+          "sha256": "ac3e30589ea5bf8d48ba02f37ded9d3ea1076984dd511b6cd38f9fc3f4ac4175",
+          "bytes": 1652
+        },
+        {
+          "path": "components/ReviewSheet.json",
+          "sha256": "6e72dadc3680e796aee6cd518838aed27738a42c14bf6b1e9a9067044115c815",
+          "bytes": 48
+        },
+        {
+          "path": "components/ReviewSheet.wxml",
+          "sha256": "54463b1f82edeab51df1ca79aeafcc1c306df2a7b51a7915f0e2e5d90e5664cc",
+          "bytes": 1116
+        },
+        {
+          "path": "components/ReviewSheet.wxss",
+          "sha256": "f72826074ee50acc41155115168419134c7f96e21ab087e1198bc59f38325ede",
+          "bytes": 1626
+        },
+        {
+          "path": "components/StatusBar.js",
+          "sha256": "c049f21c7e5e5da107fe809ffb0adf237b1f9cead8bef22cd74835cea7957ea4",
+          "bytes": 700
+        },
+        {
+          "path": "components/StatusBar.json",
+          "sha256": "6e72dadc3680e796aee6cd518838aed27738a42c14bf6b1e9a9067044115c815",
+          "bytes": 48
+        },
+        {
+          "path": "components/StatusBar.wxml",
+          "sha256": "35f8a950916baae83399d33dd14c679db179d6f70f31a18c21ef470180d586f7",
+          "bytes": 62
+        },
+        {
+          "path": "components/StatusBar.wxss",
+          "sha256": "c5fb394fb97aba43fa84c27eb5fb69e95a46273ba45cd559a0d69ae6f7e8c041",
+          "bytes": 1454
+        },
+        {
+          "path": "components/SupportPhone.js",
+          "sha256": "0c52cb5b14b4f4c418fd7059138af792b9d13eb0cce1d1115229fa65bf55f7b2",
+          "bytes": 1069
+        },
+        {
+          "path": "components/SupportPhone.json",
+          "sha256": "6e72dadc3680e796aee6cd518838aed27738a42c14bf6b1e9a9067044115c815",
+          "bytes": 48
+        },
+        {
+          "path": "components/SupportPhone.wxml",
+          "sha256": "b702b76739810cc73cbab11cddb408e61770b8c3beb23aaef1e96d7663acd114",
+          "bytes": 644
+        },
+        {
+          "path": "components/SupportPhone.wxss",
+          "sha256": "2acb2dde75f4d4427150992eddef2e0b81aa20b216a17cdf70bf3c9d37143574",
+          "bytes": 539
+        },
+        {
+          "path": "components/TeaIcon.js",
+          "sha256": "2d84a398d2efa9968b0c608b9e698ce8d57e430d22b742ab8a7aa8a9c2d73a71",
+          "bytes": 4726
+        },
+        {
+          "path": "components/TeaIcon.json",
+          "sha256": "6e72dadc3680e796aee6cd518838aed27738a42c14bf6b1e9a9067044115c815",
+          "bytes": 48
+        },
+        {
+          "path": "components/TeaIcon.wxml",
+          "sha256": "d993fb6b5657eba7f35cb10811cac46d6a1f38526517522719d1efa2958551df",
+          "bytes": 156
+        },
+        {
+          "path": "components/TeaIcon.wxss",
+          "sha256": "87b1b50989414e237bb92f6e52ffb55672fe59edc7f22521797b5bae8a3ceb2a",
+          "bytes": 224
+        },
+        {
+          "path": "components/TopBar.js",
+          "sha256": "feea9a4e4c097029232108fda5efeace1105818253ca257df27b73332d1af1b2",
+          "bytes": 788
+        },
+        {
+          "path": "components/TopBar.json",
+          "sha256": "d6ebff3d3bc54d5c37309ae2ae1bc7811c8222290ec6e320e6e1fd55dc9424a1",
+          "bytes": 79
+        },
+        {
+          "path": "components/TopBar.wxml",
+          "sha256": "4a832d01c71e82d89432130384273dfce0454c3e01ba5886cd41c684c14000e8",
+          "bytes": 467
+        },
+        {
+          "path": "components/TopBar.wxss",
+          "sha256": "2ae1724fc5dce12ac6a66022b188ffc7ac18e3e06c317a0e53b2c647ca6f7bcf",
+          "bytes": 951
+        },
+        {
+          "path": "pages/addresses/addresses.js",
+          "sha256": "fc3287fe93754279be75012ceec08f85ff38d48806dceab0de8cd7feaa98b3c8",
+          "bytes": 2354
+        },
+        {
+          "path": "pages/addresses/addresses.json",
+          "sha256": "9ae270c33aa4718346227a1ddd06f104ba2650fb7861ae727fbce94949717537",
+          "bytes": 298
+        },
+        {
+          "path": "pages/addresses/addresses.wxml",
+          "sha256": "bc846dffdf2c84522326204f543392cfb4b982c0960bdbe7c4946e181aedc43a",
+          "bytes": 2217
+        },
+        {
+          "path": "pages/aftersale-apply/aftersale-apply.js",
+          "sha256": "62f2e5a5066e6f7c65f83827e8294f3ba05f081531e2bd2f362cec8441890119",
+          "bytes": 5163
+        },
+        {
+          "path": "pages/aftersale-apply/aftersale-apply.json",
+          "sha256": "954ebfaeac5e28947c351b5d0cf37c22c668739d349b563677e534f5789e583c",
+          "bytes": 194
+        },
+        {
+          "path": "pages/aftersale-apply/aftersale-apply.wxml",
+          "sha256": "5c84a85a4c5c6c2abb94e18074eab090dc0ec78538894e8fc7a2da578f427215",
+          "bytes": 2987
+        },
+        {
+          "path": "pages/aftersale-apply/aftersale-apply.wxss",
+          "sha256": "c8e2ef9658c004d7b33676133705c13687a8d3dccee83b8cdd38f14b87f2314e",
+          "bytes": 4081
+        },
+        {
+          "path": "pages/aftersale-detail/aftersale-detail.js",
+          "sha256": "009fd8829bdc515bc76add0438eba2949202556e919efbdc16c289ef7b9b8204",
+          "bytes": 3344
+        },
+        {
+          "path": "pages/aftersale-detail/aftersale-detail.json",
+          "sha256": "76b5ee3744824aa4c54a3d81f857b80c314e3fa02478c832feb3c28b317eff2b",
+          "bytes": 194
+        },
+        {
+          "path": "pages/aftersale-detail/aftersale-detail.wxml",
+          "sha256": "941ac39fedb3f131002b0f9e746faaa910ab7f64a0164ac50e8bfb9957d949ca",
+          "bytes": 3116
+        },
+        {
+          "path": "pages/aftersale-detail/aftersale-detail.wxss",
+          "sha256": "9edb128114288d805f4f82ec456b7a108a538c1b9265bc428fe687d19527230c",
+          "bytes": 4081
+        },
+        {
+          "path": "pages/cancel-order/cancel-order.js",
+          "sha256": "8b85b1260603dbc453e28ac9025baa91b962ec0d1e4f4ba150b11555a0682622",
+          "bytes": 1841
+        },
+        {
+          "path": "pages/cancel-order/cancel-order.json",
+          "sha256": "6a4414804a9c7b4c939cd841e7e3be410d027c58c31d4da6c72e6f2b3774ae4c",
+          "bytes": 242
+        },
+        {
+          "path": "pages/cancel-order/cancel-order.wxml",
+          "sha256": "782b0ba9c9f43ecd116b74cbdb458eb58ff4fcabc59b90bcf8443f960d6e4937",
+          "bytes": 2238
+        },
+        {
+          "path": "pages/cancel-order/cancel-order.wxss",
+          "sha256": "4937f3a66e40df64da8c7d7dff7ea3ed1ffdd358c6d153cf6ba314ba0b1a2a78",
+          "bytes": 4081
+        },
+        {
+          "path": "pages/cart/cart.js",
+          "sha256": "971d9d922f62203ed8018d59ddcbd78e9f6cdce4c283dc73f57a56b0d450150b",
+          "bytes": 2104
+        },
+        {
+          "path": "pages/cart/cart.json",
+          "sha256": "e233b68ddbc75e8db4c1235c32a0bde4244c5db73715487262db8679b16e1f43",
+          "bytes": 283
+        },
+        {
+          "path": "pages/cart/cart.wxml",
+          "sha256": "24576d65b46dabf5fa2270ea38f802926c4f84b7413ff039c68841a0aa1b93a0",
+          "bytes": 2616
+        },
+        {
+          "path": "pages/category/category.js",
+          "sha256": "5f3f4808000b18e283ed18f39786458c111bde2892bcba59a91cad2aed06b1b5",
+          "bytes": 2633
+        },
+        {
+          "path": "pages/category/category.json",
+          "sha256": "81ea7b373bf7406aa1f146e7ea1b95d3703c7543ade3c0d9943103dbb7eeddbb",
+          "bytes": 280
+        },
+        {
+          "path": "pages/category/category.wxml",
+          "sha256": "b3a8b94515f1045021e351a05a39966d0ececaf5b3b05bdfd4a420d484a63cf3",
+          "bytes": 3439
+        },
+        {
+          "path": "pages/category/category.wxss",
+          "sha256": "a66557e1a042e0db7d0a1fba982559ce7a05825447a6529e862726244851e0cd",
+          "bytes": 373
+        },
+        {
+          "path": "pages/commission-center/commission-center.js",
+          "sha256": "238d82bcc9214a3ab69ee3a3dc307c0cc29b58bd9e9faca6c386546905b3d8e3",
+          "bytes": 1915
+        },
+        {
+          "path": "pages/commission-center/commission-center.json",
+          "sha256": "65cf8a533f9eaac24741519bd5673c93ab1bc9bf2fc9ee817e317a902932a810",
+          "bytes": 295
+        },
+        {
+          "path": "pages/commission-center/commission-center.wxml",
+          "sha256": "5cd1c419a43b280b03906872327d83d0c501833f7ad8ffccd75f6841c040e987",
+          "bytes": 2613
+        },
+        {
+          "path": "pages/commission-details/commission-details.js",
+          "sha256": "8766cce6aa11965987e6ea2ce8fa1885220a047a42b26e983232b4cc53c9abe6",
+          "bytes": 2226
+        },
+        {
+          "path": "pages/commission-details/commission-details.json",
+          "sha256": "f20511d50389489b3782c8133128427981a4e054bbaa1af8e12d8c41b0c43319",
+          "bytes": 247
+        },
+        {
+          "path": "pages/commission-details/commission-details.wxml",
+          "sha256": "74ce01d9c9b69262cdcffdc97b200937cce6ba04a2eee0e7750a3833a12a0f3f",
+          "bytes": 2683
+        },
+        {
+          "path": "pages/community/community.js",
+          "sha256": "41336a7da8e7ece834a2cbb194c3468cb85b99e27bc536061cb27ca334f7d182",
+          "bytes": 4270
+        },
+        {
+          "path": "pages/community/community.json",
+          "sha256": "ba3c8aad6bddde4e0c9ac94105a459ae98d21a38f733993f622f7f17ee0d71e7",
+          "bytes": 239
+        },
+        {
+          "path": "pages/community/community.wxml",
+          "sha256": "51761d5f34aa4a52676969d683dfef743dd2165ba583091fdddc55112c5ae2fe",
+          "bytes": 2982
+        },
+        {
+          "path": "pages/confirm/confirm.js",
+          "sha256": "a4afa75e57ce934154942c245a954f5899311fbeacc6bb8f6ddf828be8fc4b9c",
+          "bytes": 4580
+        },
+        {
+          "path": "pages/confirm/confirm.json",
+          "sha256": "33e66f9d2ac5c187e6af1f0d5642b6ed998fdad87676ba073459bdc8ca1585b5",
+          "bytes": 298
+        },
+        {
+          "path": "pages/confirm/confirm.wxml",
+          "sha256": "ed69979fe8da76cd520e3b0dd6f7a69ef583d51506085ceb4f2af1c2f0a54fa3",
+          "bytes": 7191
+        },
+        {
+          "path": "pages/confirm/confirm.wxss",
+          "sha256": "c458e5a990fb262427389e5f60eafc58a5ab61fe51c19a864844482763316a92",
+          "bytes": 1133
+        },
+        {
+          "path": "pages/coupons/coupons.js",
+          "sha256": "e9b6f4c6fb3f47a3aa0404858133a7c57b2d0508d1b407187ab4cac71096a29b",
+          "bytes": 2302
+        },
+        {
+          "path": "pages/coupons/coupons.json",
+          "sha256": "e4f88c0a502b8b79b3bfd6a1ab4ca07b5c339f4c04d04ef4372b3e018e04270e",
+          "bytes": 283
+        },
+        {
+          "path": "pages/coupons/coupons.wxml",
+          "sha256": "cedbaf2fc13a0f9e14d01064cc8cf78e39d7330b4c991150642c079f8cefa642",
+          "bytes": 1956
+        },
+        {
+          "path": "pages/exchange-center/exchange-center.js",
+          "sha256": "27f857043c3d6660b77e8e489d668da699d41985bc427ead9f26bceff1939790",
+          "bytes": 1928
+        },
+        {
+          "path": "pages/exchange-center/exchange-center.json",
+          "sha256": "6bf56527339235b511473eefe8c5ef6c451eeab6bcdd01759648c35932f87763",
+          "bytes": 194
+        },
+        {
+          "path": "pages/exchange-center/exchange-center.wxml",
+          "sha256": "bde74c82355495985bff766fc34dd25cf3586d028dc45de9365548030ac71cac",
+          "bytes": 2767
+        },
+        {
+          "path": "pages/exchange-center/exchange-center.wxss",
+          "sha256": "0a757035353c27af0eb91ede6bd8dab67e69ca2f40d2994837bbbbf35398a5b8",
+          "bytes": 2113
+        },
+        {
+          "path": "pages/exchange-detail/exchange-detail.js",
+          "sha256": "633c36613cee27cf6b606cd00ee9fb8a223bf31ece892ed9a591eac622192487",
+          "bytes": 2367
+        },
+        {
+          "path": "pages/exchange-detail/exchange-detail.json",
+          "sha256": "90bff158551fc505cca18e7493b6665ee42056037e54627ac2cb4639a0b12b43",
+          "bytes": 300
+        },
+        {
+          "path": "pages/exchange-detail/exchange-detail.wxml",
+          "sha256": "5485194ac0e64ee6281f83e75478f8d9bb3ff116890b6fa13fe4f45b3e088547",
+          "bytes": 3170
+        },
+        {
+          "path": "pages/exchange-detail/exchange-detail.wxss",
+          "sha256": "1321bc2f5fe57e793f20e5b7383fdf6b152d179449b1ad90c70af83bb77f2593",
+          "bytes": 260
+        },
+        {
+          "path": "pages/favorites/favorites.js",
+          "sha256": "72804180b266a49059176102152218bd8c4ce171d94e5e71fa6b907635271886",
+          "bytes": 2335
+        },
+        {
+          "path": "pages/favorites/favorites.json",
+          "sha256": "ec4a7ed32c8084d0a5fe802fc97ce0ee1b4ead644b948aefcc0bcaa3e8f061be",
+          "bytes": 346
+        },
+        {
+          "path": "pages/favorites/favorites.wxml",
+          "sha256": "789754244d9f7a9a13ff59515df9b92a80fa623abc07f08c9e5276097214aeca",
+          "bytes": 2230
+        },
+        {
+          "path": "pages/history/history.js",
+          "sha256": "e7b498fb3f291d605b838ea7d79eb63f5e71c210529706cae0498b2a6f805ace",
+          "bytes": 2865
+        },
+        {
+          "path": "pages/history/history.json",
+          "sha256": "27e4c0a9c16a91aa509c655d2fdb7b7388558c5502d14dea6bf3aad0455c976e",
+          "bytes": 238
+        },
+        {
+          "path": "pages/history/history.wxml",
+          "sha256": "781c9806bf79f3a4a8c5528bb3ec9e5307584575612057fd622eee159963a08c",
+          "bytes": 1937
+        },
+        {
+          "path": "pages/home-topic/home-topic.js",
+          "sha256": "9e3577015089d196fcfc846250642fe868bae293459ac6402d91810f66af9ceb",
+          "bytes": 1506
+        },
+        {
+          "path": "pages/home-topic/home-topic.json",
+          "sha256": "6a96a4a64eb98c7f70f4fd9b5ec354a4857343edb03e83e13cf13078a429b54d",
+          "bytes": 242
+        },
+        {
+          "path": "pages/home-topic/home-topic.wxml",
+          "sha256": "ab09ce995ebfffb83857175399c6a082a484e62901eb86962398d3d33510edba",
+          "bytes": 1690
+        },
+        {
+          "path": "pages/index/index.js",
+          "sha256": "f9c7833c2823421a87e79b1e7ef6a0abf8dc92a2e71400a1a4f66c932b9b74f8",
+          "bytes": 3286
+        },
+        {
+          "path": "pages/index/index.json",
+          "sha256": "763c1f706c73daad981221e6682bd8ecbbd6364869460987dd4578ba0c63d2a8",
+          "bytes": 200
+        },
+        {
+          "path": "pages/index/index.wxml",
+          "sha256": "010e95ca763a0df835c5eb0863661ba0e95d20be557c32324bcfe9206d237df6",
+          "bytes": 3293
+        },
+        {
+          "path": "pages/index/index.wxss",
+          "sha256": "4ba6820d3ddbb8d41adcaea43f07b5562f4188212b676bb3e0632aaccb7688f7",
+          "bytes": 907
+        },
+        {
+          "path": "pages/invite-gift/invite-gift.js",
+          "sha256": "8fbd92b1f86cda1bb69a0d28b540559804b7521fdc6a61b4388bec4d6e1740b5",
+          "bytes": 2436
+        },
+        {
+          "path": "pages/invite-gift/invite-gift.json",
+          "sha256": "676b96ef105aec5b984b58b65eed2082d81a28a054f256a4604b98fc01c9f70c",
+          "bytes": 296
+        },
+        {
+          "path": "pages/invite-gift/invite-gift.wxml",
+          "sha256": "c1c360d5200d82b06145bc45acbef8dcc44d7948c38c9f2cd41b56cc163d0b7c",
+          "bytes": 2197
+        },
+        {
+          "path": "pages/invite-gift/invite-gift.wxss",
+          "sha256": "0d26e413de9a031dab7c36d50ac5336e9df5c02b1fcd081dc14c66f68690f790",
+          "bytes": 1941
+        },
+        {
+          "path": "pages/invite-records/invite-records.js",
+          "sha256": "b0b76923aaa639d07922f8b2d2e7c3485ad25cd313edf6bf27e523100e4a8fda",
+          "bytes": 1902
+        },
+        {
+          "path": "pages/invite-records/invite-records.json",
+          "sha256": "8429fbf1b166394d4322441bc1994f3b3239a538072fc823a7099f19f99fc42d",
+          "bytes": 344
+        },
+        {
+          "path": "pages/invite-records/invite-records.wxml",
+          "sha256": "d323e35e4fba8046a0cce33319bfe24591045c3926a14f9680b6c559a1f833b6",
+          "bytes": 1749
+        },
+        {
+          "path": "pages/invite-records/invite-records.wxss",
+          "sha256": "7b5419d000ba0e143adc76cd83b8bec6706cd65b8b7f0ed5ddaec3522159d79e",
+          "bytes": 1116
+        },
+        {
+          "path": "pages/invite-rewards/invite-rewards.js",
+          "sha256": "92064b8311f011d9a0c2fb37cb8336264962ae6a80a57c3df04f63cfa41ccee4",
+          "bytes": 1634
+        },
+        {
+          "path": "pages/invite-rewards/invite-rewards.json",
+          "sha256": "d8cc0b6ed8449fdae2258c8afd734aca5301ef44ba16092d1c845aa55a6dd40f",
+          "bytes": 194
+        },
+        {
+          "path": "pages/invite-rewards/invite-rewards.wxml",
+          "sha256": "af5c5d2bccbdfb83c635e5513179bd36d520da027b2715b0dd55d032bbaa4028",
+          "bytes": 1819
+        },
+        {
+          "path": "pages/invite-rewards/invite-rewards.wxss",
+          "sha256": "052860a9ab703e3d49954a062086ab86d1d6bf6a5ea011a3c8265c65286488c4",
+          "bytes": 1501
+        },
+        {
+          "path": "pages/invite/invite.js",
+          "sha256": "e7d6c778388bf2428019c16df114495350e3d97d20e5bd086bb01e316b30b697",
+          "bytes": 2608
+        },
+        {
+          "path": "pages/invite/invite.json",
+          "sha256": "d578e24856116e3508cb35b7a027d8accdf0a0a9714ce65510b2ab24584bbb1f",
+          "bytes": 344
+        },
+        {
+          "path": "pages/invite/invite.wxml",
+          "sha256": "ab7b9bda91a13498b208091b62694117fcacf4cb42f9abb1c951aa2c20c5ab62",
+          "bytes": 2231
+        },
+        {
+          "path": "pages/invite/invite.wxss",
+          "sha256": "46999192a7a2fb9676876bc4e4d6625884687061ae96fe7cf9f587a92ead1550",
+          "bytes": 1690
+        },
+        {
+          "path": "pages/login/login.js",
+          "sha256": "495dd00c3215f9bf7d93f8640b91fae98dfe4c318d682ba3a6b07ea67b07c7c9",
+          "bytes": 9731
+        },
+        {
+          "path": "pages/login/login.json",
+          "sha256": "f469475b8abbc182306b722b51c955297c81b8ebfa5e598dc74ba148d607360c",
+          "bytes": 190
+        },
+        {
+          "path": "pages/login/login.wxml",
+          "sha256": "75ba6953a3ae513b980fb74d5477ed4f3501f1ec2519e3d83ed8f4719f28bf31",
+          "bytes": 9070
+        },
+        {
+          "path": "pages/login/login.wxss",
+          "sha256": "5cb9cc019d61ec92ee651c268828292cf8125d26270c932406e1c94af28edf2a",
+          "bytes": 8435
+        },
+        {
+          "path": "pages/logistics/logistics.js",
+          "sha256": "6f7bee54e7058dcb226221e56eb354ab196de91fb7edce0078f57b95e6668379",
+          "bytes": 3490
+        },
+        {
+          "path": "pages/logistics/logistics.json",
+          "sha256": "764f102cb2934c6eaba41ab2dbc4a47c88ef22ab75cc82367383afab6d8d6c74",
+          "bytes": 301
+        },
+        {
+          "path": "pages/logistics/logistics.wxml",
+          "sha256": "346c3915149ad492980a1357c43f1cbc002b6ee68043e0b1794dddee37d66040",
+          "bytes": 2839
+        },
+        {
+          "path": "pages/mine/mine.js",
+          "sha256": "74ae64d94ba00995498d5278ebb36c69f6ee58bb23a5c2659d548f6db24d0f31",
+          "bytes": 2933
+        },
+        {
+          "path": "pages/mine/mine.json",
+          "sha256": "2b4912d1476bd783e91f64b133857235033ef335310ea0a2795b69df8abf54dc",
+          "bytes": 280
+        },
+        {
+          "path": "pages/mine/mine.wxml",
+          "sha256": "e37e7bf8e9654224d4e54c214609a54e98993ef2cdf21db0741b1c4de13ff137",
+          "bytes": 3212
+        },
+        {
+          "path": "pages/my-exchanges/my-exchanges.js",
+          "sha256": "6dc4866d64aed35f100fcdf23fc59fddaae036301c17710933bbce2a55bcee42",
+          "bytes": 3068
+        },
+        {
+          "path": "pages/my-exchanges/my-exchanges.json",
+          "sha256": "7ae9f8271f4521e2390a954e1922d2e720f2081ec8e95d14e6db04ddd2ba847e",
+          "bytes": 304
+        },
+        {
+          "path": "pages/my-exchanges/my-exchanges.wxml",
+          "sha256": "9177670774a3abd9c6025511ef33a041ee9cf758434a5e06622e058e71366d88",
+          "bytes": 2065
+        },
+        {
+          "path": "pages/notifications/notifications.js",
+          "sha256": "c5bccb1e57d50792628b14ea0ecf3b7c67f04075e0918691df08a0d4733cc5c0",
+          "bytes": 1503
+        },
+        {
+          "path": "pages/notifications/notifications.json",
+          "sha256": "62557565275ae69f83e13400648d1482103cef505dc9edb4c17dc0d6cf5bc46e",
+          "bytes": 346
+        },
+        {
+          "path": "pages/notifications/notifications.wxml",
+          "sha256": "359b98737472e8dc2e58e4af846a6fce1b878f1ec45211187c8693d36a7ca01b",
+          "bytes": 1869
+        },
+        {
+          "path": "pages/one-click-invite/one-click-invite.js",
+          "sha256": "b671f0505ae65bdd78a58e9b21dbc76f555809f4d236d6ab842541da0fafa2e8",
+          "bytes": 1950
+        },
+        {
+          "path": "pages/one-click-invite/one-click-invite.json",
+          "sha256": "0d6e2445455d9bb52afdee42cc338b098e00c25b1bf5e8a71818c44965c06b08",
+          "bytes": 300
+        },
+        {
+          "path": "pages/one-click-invite/one-click-invite.wxml",
+          "sha256": "4373e463fb5220ec07806df8eb2a2d1a1d764e4e410b974aab534f69b51135d7",
+          "bytes": 1744
+        },
+        {
+          "path": "pages/one-click-invite/one-click-invite.wxss",
+          "sha256": "a795ac746d1c9f95843db669f78526830023ce4b11218f95c6ef045736c311c3",
+          "bytes": 1820
+        },
+        {
+          "path": "pages/order-detail/order-detail.js",
+          "sha256": "818df7361e81ca7bd370abc25f0dd5e85455177dfd5d2e03fa4c84dc25d55d69",
+          "bytes": 5628
+        },
+        {
+          "path": "pages/order-detail/order-detail.json",
+          "sha256": "c57ec41fa8b4940625f5b9e0e0324650b0c3a8e3305a93f76809e8a7c1326296",
+          "bytes": 350
+        },
+        {
+          "path": "pages/order-detail/order-detail.wxml",
+          "sha256": "455f8c9856e5ab28183595dba582597e3e738964b224b4f8f4dbaa59e576b3c4",
+          "bytes": 5099
+        },
+        {
+          "path": "pages/orders/orders.js",
+          "sha256": "d314f5e4439472cd47264398337b339bf2e8a7da8171ddd461e0b236717bc8b0",
+          "bytes": 3518
+        },
+        {
+          "path": "pages/orders/orders.json",
+          "sha256": "ea5e4d5501df58ed41b753d13c02a16d3cdaf79eb7f543c9b9b46349f12a9034",
+          "bytes": 350
+        },
+        {
+          "path": "pages/orders/orders.wxml",
+          "sha256": "966c8eb8ef5686029a14b4a6ab3a5126e21b22042963767599a5957ea951aa9b",
+          "bytes": 3264
+        },
+        {
+          "path": "pages/partner-apply/partner-apply.js",
+          "sha256": "377ff803a6636b7ff6b082a871c00ce7a06b06e916c930710954bba4aaa3c53f",
+          "bytes": 2675
+        },
+        {
+          "path": "pages/partner-apply/partner-apply.json",
+          "sha256": "d458893003567d092bb70ae9a9e70bf8afbc4862689bc3212b4d38cf94127c88",
+          "bytes": 197
+        },
+        {
+          "path": "pages/partner-apply/partner-apply.wxml",
+          "sha256": "c2b1457c42ac91c6ff5f0afd2274c17536db29ad615cfa3506cb550ea0b95116",
+          "bytes": 1650
+        },
+        {
+          "path": "pages/partner-customer-orders/partner-customer-orders.js",
+          "sha256": "467bf70c6182debcdf5c727f506ef291d4d2a433936ba6a4565eff0faa1439bb",
+          "bytes": 1395
+        },
+        {
+          "path": "pages/partner-customer-orders/partner-customer-orders.json",
+          "sha256": "21d97bb0433538b692e459427450d0431e3d6a723945e260880113e05785e9d0",
+          "bytes": 200
+        },
+        {
+          "path": "pages/partner-customer-orders/partner-customer-orders.wxml",
+          "sha256": "aa14b1df836c8da880d4ae5ff1386a994b9f45271a0336299143849311e445fc",
+          "bytes": 1322
+        },
+        {
+          "path": "pages/partner-customers/partner-customers.js",
+          "sha256": "9d1e30ddaf4a3c063f41443877bc6e985ed317c3bedf99e93b4a4c65c7778921",
+          "bytes": 1839
+        },
+        {
+          "path": "pages/partner-customers/partner-customers.json",
+          "sha256": "b7358d02e75e6c051177c3563edace868eaeea0e4b23174e4599d6f7bab480d7",
+          "bytes": 242
+        },
+        {
+          "path": "pages/partner-customers/partner-customers.wxml",
+          "sha256": "0181879e8d05f1e48469ca1b3a315dd4c466509dba0274fa62f3526c76920bfe",
+          "bytes": 1677
+        },
+        {
+          "path": "pages/partner-intro/partner-intro.js",
+          "sha256": "e9e66201fdd5fe97a01e98030361ab7979568c1cfb6f6c7493279cb9de1bbf96",
+          "bytes": 1445
+        },
+        {
+          "path": "pages/partner-intro/partner-intro.json",
+          "sha256": "28cf6b7c27f77924ed6dae1dbe059ad4a302027ae2a34d4e7dc012bb76052970",
+          "bytes": 197
+        },
+        {
+          "path": "pages/partner-intro/partner-intro.wxml",
+          "sha256": "0b87403d3c5d59da1383d5bf509585cb80ca00746d48c912ddbea1cc84bd8c87",
+          "bytes": 1286
+        },
+        {
+          "path": "pages/partner-status/partner-status.js",
+          "sha256": "2667496edfca02b8732ff1a0192569b4478e6022f2c146c2a2550066d6164485",
+          "bytes": 2775
+        },
+        {
+          "path": "pages/partner-status/partner-status.json",
+          "sha256": "4e02c16fd7cd1eb7e5f671ff2d5a986f7da2d001ffec8b7a9a363ae9e029b60b",
+          "bytes": 194
+        },
+        {
+          "path": "pages/partner-status/partner-status.wxml",
+          "sha256": "9bf4e84cf0516bb2cba083281a21c838797eae7a1eceab6dad237ef0427bb6ee",
+          "bytes": 1522
+        },
+        {
+          "path": "pages/partner-workbench/partner-workbench.js",
+          "sha256": "21b47280c3246f34db0f87c3de57a6a95bebe15330b08d3b22d18bf2aeb2dcea",
+          "bytes": 1598
+        },
+        {
+          "path": "pages/partner-workbench/partner-workbench.json",
+          "sha256": "0793c3812ec2c6b60a412811ccc97ff9f4fc038f20e3957aaaba94fc1d59a8a3",
+          "bytes": 248
+        },
+        {
+          "path": "pages/partner-workbench/partner-workbench.wxml",
+          "sha256": "f0220e6280ad1374d3a5ecb0c4defd33d90a17ba7915d7bc3ec4325989482382",
+          "bytes": 2466
+        },
+        {
+          "path": "pages/pay-failure/pay-failure.js",
+          "sha256": "7ffe5b16b3431dccd04bf34df229782b79487015278bb9425ccae98a610eedf2",
+          "bytes": 1038
+        },
+        {
+          "path": "pages/pay-failure/pay-failure.json",
+          "sha256": "cb52ab745c3ca5143094f6aabff733b99a61ae2ce3c27dcc8c81f17061d0a33c",
+          "bytes": 241
+        },
+        {
+          "path": "pages/pay-failure/pay-failure.wxml",
+          "sha256": "f345dd11ab3d833f2c840d629ccccea5121df1ae434c6ffdfa478ca06e2aaaa0",
+          "bytes": 2133
+        },
+        {
+          "path": "pages/pay-failure/pay-failure.wxss",
+          "sha256": "80c24891ae4d4574e9327616a01a525825050c6ff4461145e30ee2b04025fbe2",
+          "bytes": 1757
+        },
+        {
+          "path": "pages/pay-success/pay-success.js",
+          "sha256": "af1725c825503db8234658028c5caa6274a16322a6c00a1835ccab1de9bddb9f",
+          "bytes": 2254
+        },
+        {
+          "path": "pages/pay-success/pay-success.json",
+          "sha256": "e55e2438039bf8dda25933008045c8c5209159c5e29570620e942f0cd63e3ec4",
+          "bytes": 238
+        },
+        {
+          "path": "pages/pay-success/pay-success.wxml",
+          "sha256": "791acff2dedd47ee49fd27d04641eeef022d71c76fd3b9500981b512275c7904",
+          "bytes": 3541
+        },
+        {
+          "path": "pages/pay-success/pay-success.wxss",
+          "sha256": "922b89ad15a7b065416addcca500f321c27fe2dbd15e9318ac76127704c3791c",
+          "bytes": 2056
+        },
+        {
+          "path": "pages/points-center/points-center.js",
+          "sha256": "c0b68a870248e5ab146274aca33450f6d746645998f1f34d558521bdf79a2e73",
+          "bytes": 2058
+        },
+        {
+          "path": "pages/points-center/points-center.json",
+          "sha256": "9e25210d02bb6caf036592a5b6c26d55cf8ec7f663012ebb7a830bd5862674ce",
+          "bytes": 348
+        },
+        {
+          "path": "pages/points-center/points-center.wxml",
+          "sha256": "7642a03fcef656668c9f1a0b99f3a9a5b82ad95112be0748184785d64aa3f546",
+          "bytes": 1754
+        },
+        {
+          "path": "pages/points-detail/points-detail.js",
+          "sha256": "b9211a7c1070bc0ce8480341b12ed6cfbf60fce8241f96f11317bf36bf333136",
+          "bytes": 1274
+        },
+        {
+          "path": "pages/points-detail/points-detail.json",
+          "sha256": "0a03f0cfcbdca94493a0fdac5e145929c35b7ec65008560c5ce23834358913b4",
+          "bytes": 300
+        },
+        {
+          "path": "pages/points-detail/points-detail.wxml",
+          "sha256": "34282ae2dc395bc629bd6c32a6b192000455225fa0da228918ce46457cafd83e",
+          "bytes": 1252
+        },
+        {
+          "path": "pages/points-mall/points-mall.js",
+          "sha256": "8f681c922c27f5a9df927b499f8b36a13163c9407ad71a7bdb8351b327f223c1",
+          "bytes": 1330
+        },
+        {
+          "path": "pages/points-mall/points-mall.json",
+          "sha256": "4ddefb9e17781d1d616146f6e03d47a11e4391664c33a9c997ed52cf419b9d6c",
+          "bytes": 304
+        },
+        {
+          "path": "pages/points-mall/points-mall.wxml",
+          "sha256": "18d8a467844b13aeb06478d4e51b9154b5b86642efc0eba5a4d4e5e4bcac75b8",
+          "bytes": 1284
+        },
+        {
+          "path": "pages/points-reward-details/points-reward-details.js",
+          "sha256": "8da29d492c9b89d73bdc9e2318aaf466dab0b6b5f48a843c8a332f82735007dc",
+          "bytes": 1528
+        },
+        {
+          "path": "pages/points-reward-details/points-reward-details.json",
+          "sha256": "18a7ba37f028c6389bd0d6eca0ec2db781b3cf6807f33c088b2f3e4e0a409fda",
+          "bytes": 300
+        },
+        {
+          "path": "pages/points-reward-details/points-reward-details.wxml",
+          "sha256": "b77c6f025384b07fd60ec08ffa84413a72b9a5d84002c8cbafec141f6106401c",
+          "bytes": 1164
+        },
+        {
+          "path": "pages/product-detail/product-detail.js",
+          "sha256": "1f72960de1047605d24974f5b6e708a0d4f0d527143f04fb0c415c7d46ee7396",
+          "bytes": 3156
+        },
+        {
+          "path": "pages/product-detail/product-detail.json",
+          "sha256": "2674d9fdeaf3a283cfacefccb8191722a186134d82512eb0f53f00ae6eee4d9f",
+          "bytes": 238
+        },
+        {
+          "path": "pages/product-detail/product-detail.wxml",
+          "sha256": "813b3b4c77d297e6ea3c952a28e0160b4d15ba856f32f881b2a6e6f1a41b914b",
+          "bytes": 3154
+        },
+        {
+          "path": "pages/product-list/product-list.js",
+          "sha256": "28c1a5096c2fd8bc4506c4dfe586cad11ff7c1af3488f73f56fbb037bd247b84",
+          "bytes": 1917
+        },
+        {
+          "path": "pages/product-list/product-list.json",
+          "sha256": "8aaae21f5026670a33ef2bf16c16820cca7624837ec84358626b4b7770b1bf2b",
+          "bytes": 242
+        },
+        {
+          "path": "pages/product-list/product-list.wxml",
+          "sha256": "850f37526707daf7e18696e5127b4b39abe79e117c8ff4edfb6fa00dab546b20",
+          "bytes": 1859
+        },
+        {
+          "path": "pages/return-logistics/return-logistics.js",
+          "sha256": "9bca5ea188aef106733f02aaf9fa9672aac215fa870eb7b946725b171793ad23",
+          "bytes": 1253
+        },
+        {
+          "path": "pages/return-logistics/return-logistics.json",
+          "sha256": "cfbf49a639fff793f272fda00be5ab6e2955a90dbca8879bd40591bd67cf1088",
+          "bytes": 200
+        },
+        {
+          "path": "pages/return-logistics/return-logistics.wxml",
+          "sha256": "b58cdb260cf1254f4456226a8bb4bd67e19236231a36f9f5d67ee27831a2620c",
+          "bytes": 1113
+        },
+        {
+          "path": "pages/return-logistics/return-logistics.wxss",
+          "sha256": "397b88465c7187be056c3ad4222f64854e70e42f13e153864e5de99d44f6a8e8",
+          "bytes": 4081
+        },
+        {
+          "path": "pages/reward-detail/reward-detail.js",
+          "sha256": "d8829b2c8f9ae90141e1b12b8ebc9cf5b499811b6d917035d4f8539f01ec3e78",
+          "bytes": 1988
+        },
+        {
+          "path": "pages/reward-detail/reward-detail.json",
+          "sha256": "153f362297abfbd6d7cb1f7d0f1a7a970219a7414ae5e9b89f2e4ce66bc40c76",
+          "bytes": 238
+        },
+        {
+          "path": "pages/reward-detail/reward-detail.wxml",
+          "sha256": "e7c42d270611efbd5cf680c9b25e911f3bf96f3fcf5feba2b76cc13436e29029",
+          "bytes": 2753
+        },
+        {
+          "path": "pages/search/search.js",
+          "sha256": "c7e45b2fbe5c6357407affd7a969f4c99552fe4f304ef148c4b7a6ed4b338f20",
+          "bytes": 2261
+        },
+        {
+          "path": "pages/search/search.json",
+          "sha256": "977d82ea7f1c8eafc3011f12973d7131adc60e745309c34c1646fd1664b2d1d7",
+          "bytes": 280
+        },
+        {
+          "path": "pages/search/search.wxml",
+          "sha256": "faf0c5f8b26f9a27b339af2bcb797a76c779699b7ca2b51bfb9e97e05a944971",
+          "bytes": 2441
+        },
+        {
+          "path": "pages/service-ticket-detail/service-ticket-detail.js",
+          "sha256": "c1bf90459082aeb805ea843a1f0bb173c7322cb6faccb9b2ca8050294aed1b48",
+          "bytes": 2052
+        },
+        {
+          "path": "pages/service-ticket-detail/service-ticket-detail.json",
+          "sha256": "95758fff4433b043c89b1e8eb723f27d108e50c1c4d22369486529927a0b90db",
+          "bytes": 200
+        },
+        {
+          "path": "pages/service-ticket-detail/service-ticket-detail.wxml",
+          "sha256": "9798462e7f5bb9004a8797b6bb3746916d021e415ada5c7cef7ecaa3ca56be45",
+          "bytes": 1706
+        },
+        {
+          "path": "pages/service-ticket-detail/service-ticket-detail.wxss",
+          "sha256": "8e618d34a4b448da725681a060e2dd75d00ec3c741de67da214d57511d634de1",
+          "bytes": 960
+        },
+        {
+          "path": "pages/settings/settings.js",
+          "sha256": "64cef6da61afdafde89bdffe5612ebb3e2fc18ce257d5f6cb4c8719f70829050",
+          "bytes": 6446
+        },
+        {
+          "path": "pages/settings/settings.json",
+          "sha256": "d58494537e4459c30ae6788594b92883623a02762bee7fef69e73ec1dfe48686",
+          "bytes": 295
+        },
+        {
+          "path": "pages/settings/settings.wxml",
+          "sha256": "dd71f8334975bb51b793ebaf9189245c89d2dd718b4148af89976f9c80fa4fa3",
+          "bytes": 7428
+        },
+        {
+          "path": "pages/share/share.js",
+          "sha256": "215329ae21913ffd30beee4d2729b56bbd6a6f2d845b9cb4d12f0ffeaec668d8",
+          "bytes": 5273
+        },
+        {
+          "path": "pages/share/share.json",
+          "sha256": "fc3eeca28ae4837415912004d97192dc43826d9e1f258481a87ab2fece8366cd",
+          "bytes": 296
+        },
+        {
+          "path": "pages/share/share.wxml",
+          "sha256": "a0d3f5d2422e800b3c37e955573b8080c8159187f274e61cd1c2b2ca20787f5b",
+          "bytes": 2136
+        },
+        {
+          "path": "pages/share/share.wxss",
+          "sha256": "412ac3ad5877b81b14cb2f9047885632d34afa9de5b6b8f94907b298a363ff76",
+          "bytes": 1448
+        },
+        {
+          "path": "pages/store/store.js",
+          "sha256": "984be7315ccbf5d0f7af68f85fcfdd9ec28c0927af197a98f5dea29d82143d0a",
+          "bytes": 1578
+        },
+        {
+          "path": "pages/store/store.json",
+          "sha256": "c4cf607180a4e6c94686cfb8d078fd0463134ac0f5a90724d78f1b97d592e0f1",
+          "bytes": 242
+        },
+        {
+          "path": "pages/store/store.wxml",
+          "sha256": "9326c360558ada352b14d5b3aab3c471cc286eaf8fe1588da498a9ac10c85591",
+          "bytes": 2127
+        },
+        {
+          "path": "pages/tea-friend-detail/tea-friend-detail.js",
+          "sha256": "bebb294921c65a54e09152c5edd6868c360ca1944dec68f8969d3fe654979ac2",
+          "bytes": 2001
+        },
+        {
+          "path": "pages/tea-friend-detail/tea-friend-detail.json",
+          "sha256": "aa552d107aa5d9e20376a23f6aaf24cb7ec3b336f6fce3adc601152748387c42",
+          "bytes": 296
+        },
+        {
+          "path": "pages/tea-friend-detail/tea-friend-detail.wxml",
+          "sha256": "72eaad2e92827c565cadff730d39e40d4f97de7f4d9d8410a367f95e1d5c251a",
+          "bytes": 2453
+        },
+        {
+          "path": "pages/tea-friend-detail/tea-friend-detail.wxss",
+          "sha256": "2d7f6cbf20bf403d3c624aa2617025caba10f492a0548c08cd5694bac6234371",
+          "bytes": 2548
+        },
+        {
+          "path": "pages/tea-friend-orders/tea-friend-orders.js",
+          "sha256": "b48382cba39e2538a657e0342794f26f14220a31ecbc2f23e71c8d13e985e40f",
+          "bytes": 1918
+        },
+        {
+          "path": "pages/tea-friend-orders/tea-friend-orders.json",
+          "sha256": "75a1a56e0905f7ef6bdf83ac8d547479b1c3b956855c3aa474701d0698c32a47",
+          "bytes": 300
+        },
+        {
+          "path": "pages/tea-friend-orders/tea-friend-orders.wxml",
+          "sha256": "ac36c626b0878af8472853bf84a69aad05cf8b54b5f9e8197395574b94a542cb",
+          "bytes": 1638
+        },
+        {
+          "path": "pages/tea-friend-orders/tea-friend-orders.wxss",
+          "sha256": "4e9f459571f9ea80ea096e0033735eb1b30cf4d361065e692880538a23951aa2",
+          "bytes": 1408
+        },
+        {
+          "path": "pages/tea-friends/tea-friends.js",
+          "sha256": "bf8f0147195a4246f7bf6bf8e770c9a64928e5ca98d95ec4fb2a93e93e498266",
+          "bytes": 2007
+        },
+        {
+          "path": "pages/tea-friends/tea-friends.json",
+          "sha256": "2c4eab8b0b0d35ee0ffdaa66b1448922baf21a9aeb16cafeaa227290f953e2b5",
+          "bytes": 344
+        },
+        {
+          "path": "pages/tea-friends/tea-friends.wxml",
+          "sha256": "74a33e443d7dc0cbeb10ebfae89112349146c1f4a34a25a3b1425cb3a6c20def",
+          "bytes": 1933
+        },
+        {
+          "path": "pages/tea-friends/tea-friends.wxss",
+          "sha256": "af423f016c286f86cfe57f54e42977838d3ac5503a83cc3d2f9e5346d3c9b495",
+          "bytes": 1803
+        },
+        {
+          "path": "pages/tea-sales/tea-sales.js",
+          "sha256": "a0244e4f2e8fbaf6d8dc21ceb4c8ae35c77c09a5a9e4992a4423d1c9fbde0f35",
+          "bytes": 3531
+        },
+        {
+          "path": "pages/tea-sales/tea-sales.json",
+          "sha256": "212be2b94fc4a754162587ba2f394455da05ed9eebd924c1d99e39bf31553f34",
+          "bytes": 194
+        },
+        {
+          "path": "pages/tea-sales/tea-sales.wxml",
+          "sha256": "046af17bc55c8853c19a646b349b13e02f525c98a6936aaabb9f809c21111246",
+          "bytes": 1603
+        },
+        {
+          "path": "pages/tea-science/tea-science.js",
+          "sha256": "379f9424331119c61281b8a752d7557d9fbdd5825a6822a8e2b94efbaa088105",
+          "bytes": 2096
+        },
+        {
+          "path": "pages/tea-science/tea-science.json",
+          "sha256": "db3f59882a1a51fd757164b586e70b7bd52eb13d77e06f199e86738cafb67e54",
+          "bytes": 194
+        },
+        {
+          "path": "pages/tea-science/tea-science.wxml",
+          "sha256": "4dbabe39e2e52d6cac4dd62341f2c800fcddedd35a221709c9a93731c15d3a22",
+          "bytes": 1489
+        },
+        {
+          "path": "pages/tea-science/tea-science.wxss",
+          "sha256": "a708a3784b421fc7fa10c0285d6fe76f8970e35fdcca0adbba1966cb69ca20fa",
+          "bytes": 1362
+        },
+        {
+          "path": "pages/tier-reward-detail/tier-reward-detail.js",
+          "sha256": "e8bea6bef160927b6af6a35606902c9bbb665aa89478c0993c293c3ea16f6e44",
+          "bytes": 1347
+        },
+        {
+          "path": "pages/tier-reward-detail/tier-reward-detail.json",
+          "sha256": "84d589a2d29f91d723e0807318e1bab8264b8a8eae0f1a83f654641dd16c7794",
+          "bytes": 262
+        },
+        {
+          "path": "pages/tier-reward-detail/tier-reward-detail.wxml",
+          "sha256": "fc6d85f9b6c6765929d07f614e5314e7c062d91b99746468d7d8ce03238a954e",
+          "bytes": 970
+        },
+        {
+          "path": "pages/tier-rewards/tier-rewards.js",
+          "sha256": "67bfd7b855cfcdd55b776439f100118ae671f11b61463ed06f21200a5c97823b",
+          "bytes": 1240
+        },
+        {
+          "path": "pages/tier-rewards/tier-rewards.json",
+          "sha256": "98b04574b589a34e0cbcdc4481bf583a77967327eb3d3bf0b9f9a27280c7a256",
+          "bytes": 256
+        },
+        {
+          "path": "pages/tier-rewards/tier-rewards.wxml",
+          "sha256": "0ac16fd6483e4d67a54a1213f86d98df3a1f4c2be8f327a4e923df6882e6fcdd",
+          "bytes": 1118
+        },
+        {
+          "path": "pages/withdraw/withdraw.js",
+          "sha256": "840d95ec53d6b0d3aba1f2fca1c97d46856e32307b030bd21a8053c994a6b254",
+          "bytes": 3216
+        },
+        {
+          "path": "pages/withdraw/withdraw.json",
+          "sha256": "3a9e9d4f1dbae6ed2564e6cf9b26a0a74070d307bf75eae0d941dee4aba5b218",
+          "bytes": 238
+        },
+        {
+          "path": "pages/withdraw/withdraw.wxml",
+          "sha256": "6f68865701607004620c3fec816e1c5dee5a9575739edc40c19a7a13a936b372",
+          "bytes": 2644
+        },
+        {
+          "path": "project.config.json",
+          "sha256": "b725ff88debabeca30c522d4c8cb4788600bd76e22339418088f84ece10cbcce",
+          "bytes": 694
+        }
+      ]
+    },
+    {
+      "label": "JAVA",
+      "file": "C:\\Users\\Administrator\\Desktop\\茶叶\\若依\\若依\\RuoYi-Vue\\ruoyi-admin\\target\\ruoyi-admin.jar",
+      "sha256": "2bf77d6a3f1424b6f5cc0e973c0bd3ea13978950e6b223d1ede08173f27c8896"
+    }
+  ],
+  "deployed": false,
+  "miniProgramUploaded": false,
+  "physicalDeviceVerified": false
+}
